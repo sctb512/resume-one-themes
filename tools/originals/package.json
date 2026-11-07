@@ -1,0 +1,29 @@
+{
+  "name": "resume-one-original-themes",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@formatjs/intl-displaynames": "8.0.1",
+    "@formatjs/intl-getcanonicallocales": "3.3.0",
+    "@formatjs/intl-listformat": "9.0.1",
+    "@formatjs/intl-locale": "5.4.2",
+    "bootstrap32": "npm:bootstrap@3.2.0",
+    "bootstrap336": "npm:bootstrap@3.3.6",
+    "bootstrap337": "npm:bootstrap@3.3.7",
+    "esbuild": "0.27.4",
+    "jsonresume-theme-academic-cv-lite": "0.2.10",
+    "jsonresume-theme-colophon": "0.2.0",
+    "jsonresume-theme-elegant": "1.16.1",
+    "jsonresume-theme-even": "0.27.0",
+    "jsonresume-theme-executive-slate": "1.1.10",
+    "jsonresume-theme-flat": "0.3.7",
+    "jsonresume-theme-kendall": "0.2.0",
+    "jsonresume-theme-lucide": "1.1.0",
+    "jsonresume-theme-macchiato": "1.1.0",
+    "jsonresume-theme-minyma": "0.0.5",
+    "jsonresume-theme-paper-plus-plus": "0.6.0",
+    "jsonresume-theme-pro": "0.2.0",
+    "jsonresume-theme-pumpkin": "1.1.4",
+    "punycode": "2.3.1"
+  }
+}

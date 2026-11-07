@@ -8,6 +8,20 @@
 
 主题文件格式见 [简里主题规范](https://github.com/sctb512/resume-one/blob/main/resume-one-theme-spec-v2.md)。迁移工具与应用代码位于 [resume-one](https://github.com/sctb512/resume-one)。
 
+## 原版 JSON Resume
+
+`originals/index.json` 是简里默认在线源的索引。每个 `.original.theme.json` 保存固定版本的上游 npm 渲染器、模板及可离线使用的样式。主题包用本机简历渲染，由简里提供预览和 PDF。原始项目链接、上游许可声明及随包提供的许可正文见 `originals/notices/`。外部字体、照片和脚本只在随包且可在本机安全渲染时可用。
+
+初始目录包含 Pro、Academic CV Lite、Executive Slate、Colophon、Elegant、Even、Flat (npm)、Kendall、Lucide、Macchiato、Minyma、Paper Plus Plus 和 Pumpkin。目录随本机兼容验收扩展。Flat 固定为 npm 版本，可能与官网目前部署的 Flat 不同。已有 67 套声明式主题继续从 `themes/` 交付。
+
+在仓库根目录重建原版主题包：
+
+```sh
+(cd tools/originals && npm ci --ignore-scripts --no-audit --no-fund && node build.mjs)
+```
+
+`package-lock.json` 固定主题及依赖的完整性摘要。构建只绑定主题自身的静态模板、样式和运行所需接口，旧版的动态文件路径在构建时解析。Academic CV Lite 和 Executive Slate 的服务端模板使用受限的英文月年格式适配。新增主题须用合成简历验证预览和 PDF 后再进入索引。包格式见 [JSON Schema](./spec/json-resume-original-theme-v1.schema.json)。
+
 ## 验证和发布
 
 ```sh
@@ -17,4 +31,4 @@ python3 -m venv .venv
 .venv/bin/python tools/catalog.py --pack dist/Resume-One-Community-Themes.zip
 ```
 
-更新 `themes/` 后运行 `.venv/bin/python tools/catalog.py --write`，一并提交主题包和两份索引。流水线会校验 Schema、许可文件、字体 SHA-256 和索引一致性。推送 `v*` 标签后生成 ZIP、校验文件和索引，并创建 GitHub 预发布。手动运行仅生成流水线制品。
+更新 `themes/` 后运行 `.venv/bin/python tools/catalog.py --write`，一并提交主题包和两份索引。流水线会重新打包原版主题，并校验两类主题的 Schema、许可说明、资源 SHA-256 和索引一致性。推送 `v*` 标签后生成 ZIP、校验文件和索引，并创建 GitHub 预发布。手动运行仅生成流水线制品。

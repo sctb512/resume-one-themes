@@ -2,3 +2,6 @@ dist/
 .venv/
 __pycache__/
 .DS_Store
+
+# Reproducible original theme packaging
+tools/originals/node_modules/

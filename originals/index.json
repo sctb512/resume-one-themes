@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "original-pro",
+      "name": "Pro",
+      "manifest": "pro.original.theme.json",
+      "sha256": "04d93ab27876fe94ec0f54b947a82ab7f5f0c8e1b44d2e322b3b110e484c6a99"
+    },
+    {
+      "id": "original-academic-cv-lite",
+      "name": "Academic CV Lite",
+      "manifest": "academic-cv-lite.original.theme.json",
+      "sha256": "481650b103b8770a8f56c2b0cadcbd87880753a9ea0e61077038b0ecbcd751aa"
+    },
+    {
+      "id": "original-executive-slate",
+      "name": "Executive Slate",
+      "manifest": "executive-slate.original.theme.json",
+      "sha256": "982be1e495b09cfaeb924ef6865a6e06cdf668babf026e6c6547340eb8514fbd"
+    },
+    {
+      "id": "original-colophon",
+      "name": "Colophon",
+      "manifest": "colophon.original.theme.json",
+      "sha256": "6ef17856ac0a6f05f46d8562e1c62f9b2a51c64f71946bafd8b58d7205612b42"
+    },
+    {
+      "id": "original-elegant",
+      "name": "Elegant",
+      "manifest": "elegant.original.theme.json",
+      "sha256": "91a0c631f282e67c1fcf4d95f3d495ad330cca4cf88c11ffd13315db4a0d9369"
+    },
+    {
+      "id": "original-even",
+      "name": "Even",
+      "manifest": "even.original.theme.json",
+      "sha256": "112b4cdd43f46a75319f508da4c348b39a6ffafa4597e02c1748528aac07ae14"
+    },
+    {
+      "id": "original-flat",
+      "name": "Flat (npm)",
+      "manifest": "flat.original.theme.json",
+      "sha256": "be8cff3ba39ca7f0aaa477850fd9f7286d3f0accf58d8010dff854a1ebd984e3"
+    },
+    {
+      "id": "original-kendall",
+      "name": "Kendall",
+      "manifest": "kendall.original.theme.json",
+      "sha256": "1f6fc5faec145a4e216e79712c091aac1f34d55eb6371ba1ad3e29807c2598b0"
+    },
+    {
+      "id": "original-lucide",
+      "name": "Lucide",
+      "manifest": "lucide.original.theme.json",
+      "sha256": "f20b126d47ac8eb6296675443c5750fad5772d666b58ada4cf7a7d76fba8eade"
+    },
+    {
+      "id": "original-macchiato",
+      "name": "Macchiato",
+      "manifest": "macchiato.original.theme.json",
+      "sha256": "4b7726b905caf8e49da71d8beceaddf7aa838d6d1b7729a0910f9a26798d7593"
+    },
+    {
+      "id": "original-minyma",
+      "name": "Minyma",
+      "manifest": "minyma.original.theme.json",
+      "sha256": "c40e8e5cb89120271902d2244730549781f8ec111aefa57f239c3e14210a4314"
+    },
+    {
+      "id": "original-paper-plus-plus",
+      "name": "Paper Plus Plus",
+      "manifest": "paper-plus-plus.original.theme.json",
+      "sha256": "0d26b083a06b8fbc4ea08624e8aa3733a1c7d1fc7ed15dfb7496a9f7134cf5f1"
+    },
+    {
+      "id": "original-pumpkin",
+      "name": "Pumpkin",
+      "manifest": "pumpkin.original.theme.json",
+      "sha256": "85b8a9440514e6232f1fe1d094ed17b0269ad8602dcffc1d5055fe9c980eb4a5"
+    }
+  ]
+}

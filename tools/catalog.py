@@ -1,4 +1,4 @@
-"""Verify declarative packages and produce deterministic catalogs and ZIPs."""
+"""Verify declarative and original theme packages and build release archives."""
 
 import argparse
 import hashlib
@@ -102,7 +102,42 @@ def catalogs():
     }, len(packages), len(online)
 
 
-def pack(output, documents):
+def original_catalog_files():
+    directory = ROOT / "originals"
+    index = directory / "index.json"
+    source = read_json(index)
+    Draft7Validator(read_json(ROOT / "spec/resume-one-theme-source-v1.schema.json")).validate(source)
+    validator = Draft7Validator(read_json(ROOT / "spec/json-resume-original-theme-v1.schema.json"))
+    if not source["themes"] or directory.is_symlink() or (directory / "notices").is_symlink():
+        raise ValueError("Missing or invalid original theme catalog")
+    files = {index}
+    seen_ids = set()
+    for entry in source["themes"]:
+        match = re.fullmatch(r"([a-z0-9-]+)\.original\.theme\.json", entry["manifest"])
+        if not match or entry["id"] in seen_ids:
+            raise ValueError(f"Invalid original theme catalog entry {entry['id']}")
+        seen_ids.add(entry["id"])
+        manifest = directory / entry["manifest"]
+        notice = directory / "notices" / (match[1] + ".txt")
+        if manifest in files or any(path.is_symlink() or not path.is_file() for path in (manifest, notice)):
+            raise ValueError(f"Missing, duplicate or unsafe original package {manifest.name}")
+        if manifest.stat().st_size > 1024 * 1024 or not notice.stat().st_size:
+            raise ValueError(f"Invalid original package size or empty notice {manifest.name}")
+        if hashlib.sha256(manifest.read_bytes()).hexdigest() != entry.get("sha256"):
+            raise ValueError(f"Original theme checksum mismatch for {manifest.name}")
+        original = read_json(manifest)
+        validator.validate(original)
+        if (original["id"], original["name"]) != (entry["id"], entry["name"]):
+            raise ValueError(f"Original theme identity mismatch for {manifest.name}")
+        files.update((manifest, notice))
+    actual = {*directory.glob("*.original.theme.json"), *(directory / "notices").glob("*.txt"), index}
+    if files != actual:
+        raise ValueError("Unindexed original packages or notices")
+    return sorted(files), len(seen_ids)
+
+
+
+def pack(output, documents, originals):
     output.parent.mkdir(parents=True, exist_ok=True)
     # Avoid overwriting an earlier artifact. A fixed timestamp keeps repeated
     # runs with the same inputs reproducible.
@@ -110,6 +145,7 @@ def pack(output, documents):
         files = [ROOT / name for name in documents] + [ROOT / "README.md"]
         files.extend(sorted((ROOT / "spec").glob("*.schema.json")))
         files.extend(path for directory in sorted(THEMES.iterdir()) for path in sorted(directory.iterdir()))
+        files.extend(originals)
         for path in files:
             info = zipfile.ZipInfo(path.relative_to(ROOT).as_posix(), (1980, 1, 1, 0, 0, 0))
             info.create_system = 3
@@ -132,9 +168,10 @@ def main():
             path.write_bytes(content)
         elif path.read_bytes() != content:
             raise ValueError(f"{name} is out of date. Run tools/catalog.py --write.")
+    originals, original_count = original_catalog_files()
     if args.pack:
-        pack(args.pack, documents)
-    print(f"Validated {count} complete packages and {online} online v1 entries.")
+        pack(args.pack, documents, originals)
+    print(f"Validated {count} adapted packages, {online} adapted online entries and {original_count} originals.")
 
 
 if __name__ == "__main__":
