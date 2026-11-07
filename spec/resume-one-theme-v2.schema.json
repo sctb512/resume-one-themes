@@ -1,0 +1,234 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Resume One Declarative Theme Manifest v2 (draft)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["formatVersion", "id", "name", "version", "license", "layout", "colors", "modules"],
+  "properties": {
+    "formatVersion": { "const": 2 },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}$" },
+    "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "description": { "type": "string", "maxLength": 240 },
+    "version": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$" },
+    "license": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "layout": { "enum": ["classic", "rules", "minimal", "modern"] },
+    "colors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["accent", "seal", "paper", "canvas"],
+      "properties": {
+        "accent": { "$ref": "#/definitions/color" },
+        "seal": { "$ref": "#/definitions/color" },
+        "paper": { "$ref": "#/definitions/color" },
+        "canvas": { "$ref": "#/definitions/color" },
+        "ink": { "$ref": "#/definitions/color" },
+        "muted": { "$ref": "#/definitions/color" },
+        "border": { "$ref": "#/definitions/color" },
+        "sidebar": { "$ref": "#/definitions/color" }
+      }
+    },
+    "modules": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "uniqueItems": true,
+      "items": { "$ref": "#/definitions/moduleId" }
+    },
+    "page": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "size": { "enum": ["A4", "Letter"] },
+        "firstLinePosition": {
+          "description": "Position of the first line in each page or flow lane. baseline preserves legacy geometry; line-box treats the top margin as the top of a CSS line box using real font ascent/descent and the requested line height.",
+          "enum": ["baseline", "line-box"],
+          "default": "baseline"
+        },
+        "marginsMm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["top", "right", "bottom", "left"],
+          "properties": {
+            "top": { "$ref": "#/definitions/margin" },
+            "right": { "$ref": "#/definitions/margin" },
+            "bottom": { "$ref": "#/definitions/margin" },
+            "left": { "$ref": "#/definitions/margin" }
+          }
+        },
+        "sectionGapMm": { "type": "number", "minimum": 0, "maximum": 20 },
+        "avoidSplitItems": { "type": "boolean" },
+        "keepHeadingWithFirstItem": { "type": "boolean" }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": { "$ref": "#/definitions/textStyle" },
+        "name": { "$ref": "#/definitions/textStyle" },
+        "sectionTitle": { "$ref": "#/definitions/textStyle" },
+        "itemTitle": { "$ref": "#/definitions/textStyle" },
+        "label": { "$ref": "#/definitions/textStyle" },
+        "summary": { "$ref": "#/definitions/textStyle" },
+        "sideDate": { "$ref": "#/definitions/textStyle" },
+        "meta": { "$ref": "#/definitions/textStyle" }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["preset"],
+      "properties": {
+        "preset": { "enum": ["single-column", "sidebar-left", "sidebar-right", "split-header"] },
+        "moduleOrder": {
+          "description": "Optional presentation order, excluding basics. Missing or empty preserves resume order; unlisted sections follow in resume order within their assigned region.",
+          "type": "array",
+          "maxItems": 11,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["work", "volunteer", "education", "awards", "certificates", "publications", "skills", "languages", "interests", "references", "projects"]
+          }
+        },
+        "sidebarWidthPct": { "type": "number", "minimum": 20, "maximum": 40 },
+        "gapMm": { "type": "number", "minimum": 0, "maximum": 15 },
+        "header": { "enum": ["stacked", "centered", "split"] },
+        "contact": { "enum": ["inline", "stacked", "icons"] },
+        "headerRegion": { "enum": ["page", "main", "sidebar"] },
+        "summaryRegion": { "enum": ["page", "header", "main", "sidebar"] },
+        "contactRegion": { "enum": ["header", "main", "sidebar"] },
+        "sidebarTypographyScale": { "type": "number", "minimum": 0.7, "maximum": 1.2 },
+        "placements": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "work": { "$ref": "#/definitions/region" },
+            "volunteer": { "$ref": "#/definitions/region" },
+            "education": { "$ref": "#/definitions/region" },
+            "awards": { "$ref": "#/definitions/region" },
+            "certificates": { "$ref": "#/definitions/region" },
+            "publications": { "$ref": "#/definitions/region" },
+            "skills": { "$ref": "#/definitions/region" },
+            "languages": { "$ref": "#/definitions/region" },
+            "interests": { "$ref": "#/definitions/region" },
+            "references": { "$ref": "#/definitions/region" },
+            "projects": { "$ref": "#/definitions/region" }
+          }
+        }
+      }
+    },
+    "sections": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "work": { "$ref": "#/definitions/sectionStyle" },
+        "volunteer": { "$ref": "#/definitions/sectionStyle" },
+        "education": { "$ref": "#/definitions/sectionStyle" },
+        "awards": { "$ref": "#/definitions/sectionStyle" },
+        "certificates": { "$ref": "#/definitions/sectionStyle" },
+        "publications": { "$ref": "#/definitions/sectionStyle" },
+        "skills": { "$ref": "#/definitions/sectionStyle" },
+        "languages": { "$ref": "#/definitions/sectionStyle" },
+        "interests": { "$ref": "#/definitions/sectionStyle" },
+        "references": { "$ref": "#/definitions/sectionStyle" },
+        "projects": { "$ref": "#/definitions/sectionStyle" }
+      }
+    },
+    "decorations": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "headerMark": { "enum": ["none", "seal", "line", "band"] },
+        "sectionRule": { "enum": ["none", "hairline", "accent"] },
+        "cornerRadiusMm": { "type": "number", "minimum": 0, "maximum": 5 }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "fonts": {
+          "type": "array",
+          "maxItems": 4,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "path", "sha256", "license"],
+            "properties": {
+              "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]{0,31}$" },
+              "path": { "type": "string", "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9_./-]+\\.(ttf|otf)$" },
+              "sha256": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" },
+              "license": { "type": "string", "minLength": 1, "maxLength": 80 }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "upstreamUrl": { "type": "string", "pattern": "^https://[^\\s]+$", "maxLength": 500 },
+        "upstreamRevision": { "type": "string", "maxLength": 100 },
+        "upstreamAuthor": { "type": "string", "maxLength": 100 },
+        "upstreamLicense": { "type": "string", "maxLength": 80 },
+        "migratedBy": { "type": "string", "maxLength": 100 },
+        "fidelity": { "enum": ["native", "adapted", "inspired"] }
+      }
+    }
+  },
+  "definitions": {
+    "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+    "margin": { "type": "number", "minimum": 3, "maximum": 35 },
+    "moduleId": {
+      "enum": ["basics", "work", "volunteer", "education", "awards", "certificates", "publications", "skills", "languages", "interests", "references", "projects"]
+    },
+    "region": { "enum": ["main", "sidebar"] },
+    "textStyle": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "family": { "type": "string", "pattern": "^(system-sans|system-serif|cjk-sans|cjk-serif|asset:[a-z][a-z0-9-]{0,31})$" },
+        "sizePt": { "type": "number", "minimum": 7, "maximum": 42 },
+        "weight": { "enum": [100, 200, 300, 400, 500, 600, 700, 800, 900] },
+        "fontStyle": { "enum": ["normal", "italic"] },
+        "color": { "$ref": "#/definitions/color" },
+        "lineHeight": { "type": "number", "minimum": 1, "maximum": 2 },
+        "trackingEm": { "type": "number", "minimum": -0.05, "maximum": 0.5 },
+        "textTransform": { "enum": ["none", "uppercase", "lowercase"] }
+      }
+    },
+    "headerPart": {
+      "type": "object", "additionalProperties": false, "required": ["field"],
+      "properties": {
+        "field": { "enum": ["position", "name", "organization", "institution", "studyType", "area", "score", "dateRange", "date", "location", "title", "awarder", "issuer", "publisher", "releaseDate", "level", "language", "fluency", "entity", "type", "roles", "keywords"] },
+        "dateFormat": { "enum": ["raw", "short-en"] },
+        "prefix": { "$ref": "#/definitions/headerLiteral" },
+        "suffix": { "$ref": "#/definitions/headerLiteral" }
+      }
+    },
+    "headerLiteral": { "type": "string", "maxLength": 32, "pattern": "^[^<>\\u0000-\\u001F\\u007F-\\u009F\\u2028\\u2029]*$" },
+    "headerLine": {
+      "type": "object", "additionalProperties": false, "required": ["parts", "role"],
+      "properties": {
+        "parts": { "type": "array", "minItems": 1, "maxItems": 6, "items": { "$ref": "#/definitions/headerPart" } },
+        "role": { "enum": ["itemTitle", "body", "meta", "sideDate"] },
+        "style": { "$ref": "#/definitions/textStyle" },
+        "spaceBeforePt": { "type": "number", "minimum": 0, "maximum": 48 },
+        "spaceAfterPt": { "type": "number", "minimum": 0, "maximum": 48 }
+      }
+    },
+    "sectionStyle": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "minLength": 1, "maxLength": 120, "allOf": [{ "pattern": "\\S" }, { "pattern": "^[^<>\\u0000-\\u001F\\u007F-\\u009F\\u2028\\u2029]+$" }] },
+        "entryHeader": { "type": "array", "minItems": 1, "maxItems": 8, "items": { "$ref": "#/definitions/headerLine" } },
+        "heading": { "enum": ["plain", "line", "accent-line", "filled"] },
+        "headingAlign": { "enum": ["left", "center", "right"] },
+        "items": { "enum": ["stack", "compact", "timeline", "cards", "chips"] },
+        "date": { "enum": ["inline", "left", "right"] }
+      }
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "community-art-deco",
+      "name": "Art Deco",
+      "manifest": "themes/community-art-deco/theme.json",
+      "sha256": "81f742172ed06f0c39291a36d47c4a367221b8a5b81387ac2859e7d15857b070"
+    },
+    {
+      "id": "community-art-school-modern",
+      "name": "Art School Modern",
+      "manifest": "themes/community-art-school-modern/theme.json",
+      "sha256": "a8820bdf1b9b442bf7353a31d567af8ac07f19197aa7acc74c18f646ece59bb2"
+    },
+    {
+      "id": "community-berlin-grid",
+      "name": "Berlin Grid",
+      "manifest": "themes/community-berlin-grid/theme.json",
+      "sha256": "855b20fb12c7aa7188ff6f50237351b06a00d72d931f94290daaed1a267bc0bf"
+    },
+    {
+      "id": "community-clinical-precision",
+      "name": "Clinical Precision",
+      "manifest": "themes/community-clinical-precision/theme.json",
+      "sha256": "c907ba54950233ae78e4c8a018aa47358093a5d78bcd7dfc786c66de039a58e6"
+    },
+    {
+      "id": "community-colophon",
+      "name": "Colophon",
+      "manifest": "themes/community-colophon/theme.json",
+      "sha256": "7d6e886b17c9e976a58c08d8ec4b93dca3b55e443af25266fefa89e914fe224f"
+    },
+    {
+      "id": "community-consultant-polished",
+      "name": "Consultant Polished",
+      "manifest": "themes/community-consultant-polished/theme.json",
+      "sha256": "f75ee85874ba70893364bec0f72350c0a7b6df5943d229eae4164bd39cebc9a9"
+    },
+    {
+      "id": "community-creative-confidence",
+      "name": "Creative Confidence",
+      "manifest": "themes/community-creative-confidence/theme.json",
+      "sha256": "22b7e9e5ce52f72333b98963aa3971a624b5fe6c156fdc917b59427703abfbd6"
+    },
+    {
+      "id": "community-diagonal-accent-bar",
+      "name": "Diagonal Accent Bar",
+      "manifest": "themes/community-diagonal-accent-bar/theme.json",
+      "sha256": "c07fe7dce2e5f512ea9205d460c7b6d7ed120ae22109750ea52fc1bff5dd97e0"
+    },
+    {
+      "id": "community-elegant",
+      "name": "Elegant",
+      "manifest": "themes/community-elegant/theme.json",
+      "sha256": "b38dba738be3afc429c4ee6350e45b3360fc53aa06755ba4d6501abe2e610689"
+    },
+    {
+      "id": "community-field-researcher",
+      "name": "Field Researcher",
+      "manifest": "themes/community-field-researcher/theme.json",
+      "sha256": "3880e04792cb73db53f8dfa827fc0e4a819a4de82badf29ae746af4c0fdb1602"
+    },
+    {
+      "id": "community-government-standard",
+      "name": "Government Standard",
+      "manifest": "themes/community-government-standard/theme.json",
+      "sha256": "c456687b48ed8a76040b47fb52ccb7f8e2a088254a361cfdd813ee6bd544773a"
+    },
+    {
+      "id": "community-industrial-engineer",
+      "name": "Industrial Engineer",
+      "manifest": "themes/community-industrial-engineer/theme.json",
+      "sha256": "377f1fac559a98c40f3e59d113d8bf07ecf7d558c0163b0563f41ac78b9c31ec"
+    },
+    {
+      "id": "community-london-bureau",
+      "name": "London Bureau",
+      "manifest": "themes/community-london-bureau/theme.json",
+      "sha256": "3073a47938cffc1c95ea97b0a62146f9d32a8cc145862008f289ee1fb1f22b7f"
+    },
+    {
+      "id": "community-lucide",
+      "name": "Lucide",
+      "manifest": "themes/community-lucide/theme.json",
+      "sha256": "8831c48e7d8122e7f37bdf6111702e1c9a54efa852621ace70c9baedbbcb7474"
+    },
+    {
+      "id": "community-mid-century-resume",
+      "name": "Mid Century Resume",
+      "manifest": "themes/community-mid-century-resume/theme.json",
+      "sha256": "8bd61757ea91eed81e035b0ccf48a8f553216785d8699665d4ae2ee883258f3d"
+    },
+    {
+      "id": "community-professional",
+      "name": "Professional",
+      "manifest": "themes/community-professional/theme.json",
+      "sha256": "b57f50ae0d7166f35e7247eda835ed39247f049789c99e51a5a88e841f65a7ff"
+    },
+    {
+      "id": "community-reference",
+      "name": "Reference",
+      "manifest": "themes/community-reference/theme.json",
+      "sha256": "437f8b3edf9ad6378f0a8732bd3aa7070c0ea37f99b8b8cf7290b93d830bbc11"
+    },
+    {
+      "id": "community-rickosborne",
+      "name": "Rickosborne",
+      "manifest": "themes/community-rickosborne/theme.json",
+      "sha256": "1b179f879fed80190f35dd58aa8c2bbe54d36f31687b4c1d7a399eee7828035f"
+    },
+    {
+      "id": "community-sidebar",
+      "name": "Sidebar",
+      "manifest": "themes/community-sidebar/theme.json",
+      "sha256": "e120d7ca61b5036d5700ce01536ea60cebebf449603c271522524b9dc6ea8d72"
+    },
+    {
+      "id": "community-stackoverflow",
+      "name": "Stackoverflow",
+      "manifest": "themes/community-stackoverflow/theme.json",
+      "sha256": "10e5d974b4186b868c2f01eef4324fb76155cf52fd5538a88533cfbe22577fb7"
+    },
+    {
+      "id": "community-tailwind",
+      "name": "Tailwind",
+      "manifest": "themes/community-tailwind/theme.json",
+      "sha256": "506f6ed4a0489dc677bd7245e2579a240d789c2547dc0503720f7448d22439f1"
+    },
+    {
+      "id": "community-two-column",
+      "name": "Two Column",
+      "manifest": "themes/community-two-column/theme.json",
+      "sha256": "4b7a10a8801161b4b3bdbb2fb68ac1fa06540590a550a224dc56029f65f9b75b"
+    }
+  ]
+}
