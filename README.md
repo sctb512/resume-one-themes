@@ -31,4 +31,4 @@ python3 -m venv .venv
 .venv/bin/python tools/catalog.py --pack dist/Resume-One-Community-Themes.zip
 ```
 
-更新 `themes/` 后运行 `.venv/bin/python tools/catalog.py --write`，一并提交主题包和两份索引。流水线会重新打包原版主题，并校验两类主题的 Schema、许可说明、资源 SHA-256 和索引一致性。推送 `v*` 标签后生成 ZIP、校验文件和索引，并创建 GitHub 预发布。手动运行仅生成流水线制品。
+更新 `themes/` 后运行 `.venv/bin/python tools/catalog.py --write`，一并提交主题包和两份索引。流水线会重新打包原版主题，并校验两类主题的 Schema、许可说明、资源 SHA-256 和索引一致性。推送 `v*` 标签后生成 ZIP、校验文件和索引，并创建 GitHub 预发布。也可对同一标签手动运行发布；对分支手动运行只生成流水线制品。
