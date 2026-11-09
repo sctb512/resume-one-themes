@@ -4,7 +4,14 @@
 
 从 [Releases](https://github.com/sctb512/resume-one-themes/releases) 下载 ZIP 后，解压并在简里的「管理」中将本地主题目录指向其中的 `themes/`。这批是已做本地排版和导出验收的适配版，逐主题的原版视觉等价仍待核对。
 
-想直接从应用内浏览，可将 `sctb512/resume-one-themes`、`main`、`index.json` 添加为可选在线源。`index.json` 仅列出当前单文件在线协议可加载的主题。完整的 67 套与字体文件在 ZIP 中，`packages.json` 记录全部文件的 SHA-256。使用本地主题包时不依赖在线源。
+新版简里默认提供两个在线来源，都指向此仓库的 `main` 分支：
+
+| 展示名称 | 清单路径 | 内容 |
+| --- | --- | --- |
+| 迁移版社区主题 | `migrated-index.json` | 全部 67 套声明式主题及字体、许可和署名文件 |
+| 原版 JSON Resume | `originals/index.json` | 经本机兼容验收的上游渲染包 |
+
+旧的 `index.json` 继续提供 22 套单文件主题，供旧版应用使用。`packages.json` 记录完整迁移包的文件摘要。下载后可离线使用。
 
 主题文件格式见 [简里主题规范](https://github.com/sctb512/resume-one/blob/main/resume-one-theme-spec-v2.md)。迁移工具与应用代码位于 [resume-one](https://github.com/sctb512/resume-one)。
 
@@ -31,4 +38,4 @@ python3 -m venv .venv
 .venv/bin/python tools/catalog.py --pack dist/Resume-One-Community-Themes.zip
 ```
 
-更新 `themes/` 后运行 `.venv/bin/python tools/catalog.py --write`，一并提交主题包和两份索引。流水线会重新打包原版主题，并校验两类主题的 Schema、许可说明、资源 SHA-256 和索引一致性。推送 `v*` 标签后生成 ZIP、校验文件和索引，并创建 GitHub 预发布。也可对同一标签手动运行发布；对分支手动运行只生成流水线制品。
+更新 `themes/` 后运行 `.venv/bin/python tools/catalog.py --write`，一并提交主题包和相关索引。流水线会重新打包原版主题，并校验两类主题的 Schema、许可说明、资源 SHA-256 和索引一致性。推送 `v*` 标签后生成 ZIP、校验文件和索引，并创建 GitHub 预发布。也可对同一标签手动运行发布；对分支手动运行只生成流水线制品。

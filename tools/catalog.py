@@ -53,6 +53,7 @@ def catalogs():
 
     packages = []
     online = []
+    migrated = []
     for directory in directories:
         if directory.is_symlink() or not directory.is_dir() or not ID.fullmatch(directory.name):
             raise ValueError(f"Invalid package directory {directory.name}")
@@ -94,12 +95,23 @@ def catalogs():
         })
         if not manifest.get("assets"):
             online.append(entry)
+        resources = {name: digest for name, digest in hashes.items() if name != "theme.json" and not name.endswith(".json")}
+        for name in resources:
+            limit = 8 * 1024 * 1024 if name in font_names else 1024 * 1024
+            if (directory / name).stat().st_size > limit:
+                raise ValueError(f"{directory.name}/{name} exceeds the online resource limit")
+        if sum((directory / name).stat().st_size for name in resources) + manifest_path.stat().st_size > 32 * 1024 * 1024:
+            raise ValueError(f"{directory.name} exceeds the online package limit")
+        migrated.append({**entry, "files": resources})
     source = {"version": 1, "themes": online}
     source_schema.validate(source)
+    complete = {"version": 1, "themes": migrated}
+    source_schema.validate(complete)
     return {
         "index.json": serialized(source),
+        "migrated-index.json": serialized(complete),
         "packages.json": serialized({"version": 1, "status": "adapted", "packages": packages}),
-    }, len(packages), len(online)
+    }, len(packages), len(migrated)
 
 
 def original_catalog_files():

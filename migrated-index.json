@@ -1,0 +1,851 @@
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "community-academic-cv-lite",
+      "name": "Academic Cv Lite",
+      "manifest": "themes/community-academic-cv-lite/theme.json",
+      "sha256": "7e5d7caccc4b580c170d66ce83a372539fd1f9e96c1b4460c33bca0b82b2f0dd",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "2edfdee1ee6ed6ef95ed1c5f0f7f1bfb3e020e51e7968a1251096534216bd6c5",
+        "font-0.ttf": "b2224106979e73df827d72b6d2d9e4067a497b147077b78df0c2d9fe566e2e08",
+        "font-1.ttf": "3f7c0ac9486268a85c0aa52d3a38ca962d68f426781246598692cc7d12f6e34f",
+        "font-2.ttf": "f9962428afcb3cf694799a815d8fa6913d8a567ebf24a3b54ce0b9520e9f18c8",
+        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+      }
+    },
+    {
+      "id": "community-architects-portfolio",
+      "name": "Architects Portfolio",
+      "manifest": "themes/community-architects-portfolio/theme.json",
+      "sha256": "e565f4d1f3b1514f7b800d0b523a8261b627d2fd7b8bf86f5c5686d345a249a9",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "eb8b47250942eff564cc70fbda49f1dcf183f4356ed5d9d3ed5c84526bd7e573",
+        "font-0.ttf": "d8992cb24957f1909c216541a1291fb9e27d0e2eaa7faddc6252721189292564",
+        "font-1.ttf": "6a127b3be5a49a80b79c2ae73ae0363bc1ed6d31e5ebefa42507e321aa8794ae",
+        "font-2.ttf": "ef46177ac33ae44864ba417a69469910786f76479fdb91b543d61a3f1aea5361",
+        "font-license-0.txt": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5"
+      }
+    },
+    {
+      "id": "community-art-deco",
+      "name": "Art Deco",
+      "manifest": "themes/community-art-deco/theme.json",
+      "sha256": "81f742172ed06f0c39291a36d47c4a367221b8a5b81387ac2859e7d15857b070",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "7c02e04c2150ad258999ba6367f478e29b9a5b47fec517433599cd9687070188"
+      }
+    },
+    {
+      "id": "community-art-school-modern",
+      "name": "Art School Modern",
+      "manifest": "themes/community-art-school-modern/theme.json",
+      "sha256": "a8820bdf1b9b442bf7353a31d567af8ac07f19197aa7acc74c18f646ece59bb2",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "c69785fff45428bc9780b9610e46236acceeafbb87f11846609327ba7c5c49f5"
+      }
+    },
+    {
+      "id": "community-asymmetric-timeline",
+      "name": "Asymmetric Timeline",
+      "manifest": "themes/community-asymmetric-timeline/theme.json",
+      "sha256": "bbf59936292dbd9eee623fd7626bac065fe737e8d672e8be752b34e1b18fe760",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "3d2f348565a4f5d4765ee92dc8cb7d693f64ff2d5c0337dab52566d2e4b87531",
+        "font-0.ttf": "5e8f6d7a4aa60812a3a5d63d7ecabfb7865ea2ad4a68b4bc617f3b24dbbc93b8",
+        "font-1.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-berlin-grid",
+      "name": "Berlin Grid",
+      "manifest": "themes/community-berlin-grid/theme.json",
+      "sha256": "855b20fb12c7aa7188ff6f50237351b06a00d72d931f94290daaed1a267bc0bf",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "fe6d46b263451e071d9823d42197bfa386960b09c66d48a64dc4b9f0d8708e6c"
+      }
+    },
+    {
+      "id": "community-bold-header-statement",
+      "name": "Bold Header Statement",
+      "manifest": "themes/community-bold-header-statement/theme.json",
+      "sha256": "6a2b2e4d7b8847be9cb08bbbb35312351901cadf77f8481dc87d547b6916f43a",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "7e226e1655c1ad7087f92baa1130fd49d260851384454853d61e0efac65c9530",
+        "font-0.ttf": "0b7eb9500b81cc8074653a70460ac0e236a20a3768d2daa3dd545f94bf695875",
+        "font-1.ttf": "03c1fa13576fb4499ba2403b2da7f5df5d36e2ddd9efb3e65107161e5f8bcc08",
+        "font-2.ttf": "56fa09fce3f948c205fbb33910ea9e07cfa0ca8afe656edcc28ec34e8cb58785",
+        "font-license-0.txt": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+      }
+    },
+    {
+      "id": "community-brutalist",
+      "name": "Brutalist",
+      "manifest": "themes/community-brutalist/theme.json",
+      "sha256": "aced1a7d76719b191dab76fffbe935b6c337d05ce614aa465d46b7691a9e15f1",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "a28262dbb2b59afa8ea49830c304623ee1f68081b80b9f69d4a1302b867907b1",
+        "font-0.ttf": "a9c908a2489e8d47a1046c61b8549e93b80fa5e87162d7f560e45ca8306a49de",
+        "font-1.ttf": "ed35f359c3e09974046003d49f1d07a295041cd80b2222ec95403fed6a17e630",
+        "font-2.ttf": "98d681f04126dec1efd29b6341607f37a41d8faafcb51d289aa6bbf114ed32c6",
+        "font-3.ttf": "8982bf55c34dbf5df2e8df603fab58e92c33b32dda373f5c02ccedb13648173b",
+        "font-license-0.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+        "font-license-1.txt": "5e83794425e5648114d98e70717e75e264a4f46171ceb494cf8d2f35f1362262"
+      }
+    },
+    {
+      "id": "community-californian-warm",
+      "name": "Californian Warm",
+      "manifest": "themes/community-californian-warm/theme.json",
+      "sha256": "d371bbf3dd7ecf48288bb6b684640277e63865c17ccfb361f9042b46354dad01",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "6d137fc5ea5caabcd63ba7747f1a986e3d4c2b4b3e3fb212614f5ca391196b4b",
+        "font-0.ttf": "d8804f9c1ba102d9aaa9241447884c1a675d553ad89dd896ec44cfd4c273f060",
+        "font-1.ttf": "b3f61c99fd86112cd7be1869460671a90fa1fd825072aac0f06b45932fe64f98",
+        "font-2.ttf": "992cccaf0a7d485e0729585e9cfcdbad2fb98e0d43ae270ed8f10657be1b2139",
+        "font-3.ttf": "62fe556d1b28b2b65e21bf0a6a4663b69c8d6a360ac55e5291d94f7d5a72e87b",
+        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+      }
+    },
+    {
+      "id": "community-claude",
+      "name": "Claude",
+      "manifest": "themes/community-claude/theme.json",
+      "sha256": "cbc3a13fa4cdffd1a7887af06baefdcc6f05b4ecd6c26e19c1432142990dd8cc",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "2e98d27dff9849c07047fc06bf6d6eb9a9bb718f59aba3826c14e356eddcfc1c",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "e322528be897ced0175bb4e8affe95325afbdea25e14378594581118b86a5f0d",
+        "font-2.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-clinical-precision",
+      "name": "Clinical Precision",
+      "manifest": "themes/community-clinical-precision/theme.json",
+      "sha256": "c907ba54950233ae78e4c8a018aa47358093a5d78bcd7dfc786c66de039a58e6",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "57efae8ac935fd16e98bc8f50fb72a8d37378ef9d2739384834b297766997243"
+      }
+    },
+    {
+      "id": "community-coastal-creative",
+      "name": "Coastal Creative",
+      "manifest": "themes/community-coastal-creative/theme.json",
+      "sha256": "21eed2b6f6be15f357e5cb3aa5cd5240df261ecaaaba3e698ac53b14ef1c9d4a",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "6727f482cd937a9b8399176e452f772d000b940d31f70887103741d8bf7b1d60",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-2.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-colophon",
+      "name": "Colophon",
+      "manifest": "themes/community-colophon/theme.json",
+      "sha256": "7d6e886b17c9e976a58c08d8ec4b93dca3b55e443af25266fefa89e914fe224f",
+      "files": {
+        "LICENSE.txt": "e498e69df24b15d8ff64c2094842d56e32692d0255df7b348bd55d4542adf59a",
+        "NOTICE.txt": "99ac9e1a4be33c29fa8d4033048b93e7c7ef78d3e937da7202b9f0e0ffae2697"
+      }
+    },
+    {
+      "id": "community-community-garden",
+      "name": "Community Garden",
+      "manifest": "themes/community-community-garden/theme.json",
+      "sha256": "92ae60233bbb79dbdfd21353dfd2445e350465582718d4db2887acdf93e9dbc7",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "5e18e9d0b87d570a99d671c3fb696a11f5b98e017efcc2ae0b86884ac98bf40f",
+        "font-0.ttf": "d8804f9c1ba102d9aaa9241447884c1a675d553ad89dd896ec44cfd4c273f060",
+        "font-1.ttf": "992cccaf0a7d485e0729585e9cfcdbad2fb98e0d43ae270ed8f10657be1b2139",
+        "font-2.ttf": "62fe556d1b28b2b65e21bf0a6a4663b69c8d6a360ac55e5291d94f7d5a72e87b",
+        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+      }
+    },
+    {
+      "id": "community-consultant-polished",
+      "name": "Consultant Polished",
+      "manifest": "themes/community-consultant-polished/theme.json",
+      "sha256": "f75ee85874ba70893364bec0f72350c0a7b6df5943d229eae4164bd39cebc9a9",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "4af8c5df0048c14e4d2d5c840114261a52a3c7299806f95cac1b2b16e9f3d441"
+      }
+    },
+    {
+      "id": "community-creative-confidence",
+      "name": "Creative Confidence",
+      "manifest": "themes/community-creative-confidence/theme.json",
+      "sha256": "22b7e9e5ce52f72333b98963aa3971a624b5fe6c156fdc917b59427703abfbd6",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "969e6a1d24dbad0b00e550dc08e45585df910b2349222b42450fe31c3fc8bb78"
+      }
+    },
+    {
+      "id": "community-creative-studio",
+      "name": "Creative Studio",
+      "manifest": "themes/community-creative-studio/theme.json",
+      "sha256": "ebf60fa20797818daf121be94d2d4bd65a7e1a8eea22a0a6bc3affdddf8ff939",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "a1ecadea199e477262aaa95518488fcd8df038eba2fa0e69e5a064f1db25baf7",
+        "font-0.ttf": "62fe556d1b28b2b65e21bf0a6a4663b69c8d6a360ac55e5291d94f7d5a72e87b",
+        "font-1.ttf": "d8804f9c1ba102d9aaa9241447884c1a675d553ad89dd896ec44cfd4c273f060",
+        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+      }
+    },
+    {
+      "id": "community-data-driven",
+      "name": "Data Driven",
+      "manifest": "themes/community-data-driven/theme.json",
+      "sha256": "282b7c6715c2b0565073a6b8e55cbe4263468a8e1aa39d76f95734cba3edf48e",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "b5aaf73df92ada589ea605e03dfb4e5e971e300fa6f9e434ba69d5c6bc0e6dfe",
+        "font-0.ttf": "7ceca4edcdaca0375cb73cd3875a848c790d22455c6ade58ce0297fbd8d78f77",
+        "font-1.ttf": "3aa1ee1f1554d0c53be8c72e01491c75bf8d043d6c5ac66c099cd650064c1f5d",
+        "font-2.ttf": "4a6c41ef978d8098fae1720e315ad5ef8ce136797ff4c713ea4de11523885065",
+        "font-3.ttf": "8ae74776db7bdb9d248ed8afd4e2761d1b72374362ed666fd1af35a71d7ff269",
+        "font-license-0.txt": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+      }
+    },
+    {
+      "id": "community-desert-modern",
+      "name": "Desert Modern",
+      "manifest": "themes/community-desert-modern/theme.json",
+      "sha256": "e06819c0a5809188f0c698f633d35792e6922f3ec63a86e2171f8343d62c41d2",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "4fc90b8f083f7b40ca452031715970f342258294025b84083005f59d2446480e",
+        "font-0.ttf": "d8804f9c1ba102d9aaa9241447884c1a675d553ad89dd896ec44cfd4c273f060",
+        "font-1.ttf": "992cccaf0a7d485e0729585e9cfcdbad2fb98e0d43ae270ed8f10657be1b2139",
+        "font-2.ttf": "62fe556d1b28b2b65e21bf0a6a4663b69c8d6a360ac55e5291d94f7d5a72e87b",
+        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+      }
+    },
+    {
+      "id": "community-developer-mono",
+      "name": "Developer Mono",
+      "manifest": "themes/community-developer-mono/theme.json",
+      "sha256": "41b1d8570a7edd5df0c95f7a16a6559857f0038d003056322b54b90b62b2b5dd",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "fdd4def72a068bac9a0c06543a27c8f42cfc0a124ef04ccafa0d5b29f9541704",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-diagonal-accent-bar",
+      "name": "Diagonal Accent Bar",
+      "manifest": "themes/community-diagonal-accent-bar/theme.json",
+      "sha256": "c07fe7dce2e5f512ea9205d460c7b6d7ed120ae22109750ea52fc1bff5dd97e0",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "601f1a65fb21629068a24ebd9f150b7ed5edb4eec62ca7d5d7fede7755416e01"
+      }
+    },
+    {
+      "id": "community-elegant",
+      "name": "Elegant",
+      "manifest": "themes/community-elegant/theme.json",
+      "sha256": "b38dba738be3afc429c4ee6350e45b3360fc53aa06755ba4d6501abe2e610689",
+      "files": {
+        "LICENSE.txt": "2350cdbbfc144ffec28a6fee262d7edf431bf3c37b4b76093eee056dc5a4c48f",
+        "NOTICE.txt": "86cdd01275253d016df591c11a304dfb0eb1626e6aa1021ee01767a5c5f8cecb"
+      }
+    },
+    {
+      "id": "community-elegant-pink",
+      "name": "Elegant Pink",
+      "manifest": "themes/community-elegant-pink/theme.json",
+      "sha256": "8dbd1fb153c951ae5daa498ba48eadaa91e0c0b61ca322a447bf3e0fbba74d8c",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "c5deb839abfc1c59710f2eb44dc8b2a0e2f723b87137c2831a500760d27ae3a8",
+        "font-0.ttf": "00dcdacf443a9b2addc7f091aa4d4ab95ba44b20dacaedcc0db624d9da1a1ea4",
+        "font-1.ttf": "e322528be897ced0175bb4e8affe95325afbdea25e14378594581118b86a5f0d",
+        "font-2.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-even",
+      "name": "Even",
+      "manifest": "themes/community-even/theme.json",
+      "sha256": "fc3a729c58f48ded3e35bbe278f179a1dea36aac297550b45e7b0d0940aa1073",
+      "files": {
+        "LICENSE.txt": "a1436e5316bd543cf13606ac2a6b8e2c979e6b2284f9db4e4ec6ebace473e8b8",
+        "NOTICE.txt": "2c6009a70d4aec133a5964760f3830ad7462d5338355121087224dbf2c1c88aa",
+        "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+      }
+    },
+    {
+      "id": "community-executive-slate",
+      "name": "Executive Slate",
+      "manifest": "themes/community-executive-slate/theme.json",
+      "sha256": "3b2cb6006a8afb0e070866e2c6d4074b3a0c3abffb77ff80f9d8b32567a093fa",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "5e83939c080d81fb4d7da7526b0d410dc73a673c6bc428cd2f9ad0e0f0b27560",
+        "font-0.ttf": "3f7c0ac9486268a85c0aa52d3a38ca962d68f426781246598692cc7d12f6e34f",
+        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+      }
+    },
+    {
+      "id": "community-field-researcher",
+      "name": "Field Researcher",
+      "manifest": "themes/community-field-researcher/theme.json",
+      "sha256": "3880e04792cb73db53f8dfa827fc0e4a819a4de82badf29ae746af4c0fdb1602",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "4111ccd78bc82047f1fe44dede73219c38bcce36bc893e5db8241965ef40d66d"
+      }
+    },
+    {
+      "id": "community-flat",
+      "name": "Flat",
+      "manifest": "themes/community-flat/theme.json",
+      "sha256": "baa91354e0e932da6fda5354b162147f649f1c376373ac87a1c6e0e802273654",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "5db303b4477f06caa44a429cc69d9630f06c3f59a595da55c9cb1fa74d075d0d",
+        "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
+        "font-1.ttf": "8e56d6dedac8ceca050fe305d676cb9356d0d25c71ecedc24eddd0e4686956c9",
+        "font-2.ttf": "468ce84052a9b302696d100a7b708973360679183d9ff22ef8a46bc67252f08e",
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+      }
+    },
+    {
+      "id": "community-french-atelier",
+      "name": "French Atelier",
+      "manifest": "themes/community-french-atelier/theme.json",
+      "sha256": "c2fe48030a1b31f38386a5373154147d9b5d87b213c4306c5a9b6fdd68dba8ec",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "73086bd71c79d7a8886e7cc47173dcb7e8e06c11a68cf5d558952bc9d1a52d34",
+        "font-0.ttf": "cdbdffe6d5f62388ce966b4a70c3ee1b9bc15c4976441e9bf0747a0431b99941",
+        "font-1.ttf": "6beea9a6b9ca1b271530a8d8b90590e15963fc104be04dbaaca02bfdd3cfd6f4",
+        "font-license-0.txt": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+      }
+    },
+    {
+      "id": "community-government-standard",
+      "name": "Government Standard",
+      "manifest": "themes/community-government-standard/theme.json",
+      "sha256": "c456687b48ed8a76040b47fb52ccb7f8e2a088254a361cfdd813ee6bd544773a",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "7bccf0f2498c9ca8422a3ee1d1cb93faeaba7f52bdc375f6f92b206c8d167b08"
+      }
+    },
+    {
+      "id": "community-graph-paper-grid",
+      "name": "Graph Paper Grid",
+      "manifest": "themes/community-graph-paper-grid/theme.json",
+      "sha256": "1763a632ffc04ad8d127e28dc1fa8253e1ab187e398be1c8d80093d7254346d5",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "efc46d44ca9749ea029758bd4cf56291dc4952babf4f615caea268a8e6c50f49",
+        "font-0.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-1.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-industrial-engineer",
+      "name": "Industrial Engineer",
+      "manifest": "themes/community-industrial-engineer/theme.json",
+      "sha256": "377f1fac559a98c40f3e59d113d8bf07ecf7d558c0163b0563f41ac78b9c31ec",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "6aef588f2cc912c938d086ae9b0c1d88f8f8f05fba2b25de1a79843aa28826c0"
+      }
+    },
+    {
+      "id": "community-investor-brief",
+      "name": "Investor Brief",
+      "manifest": "themes/community-investor-brief/theme.json",
+      "sha256": "1990fe44fc0c675c0500224c24379a5d3ced6888b7d37ab5742bfb253286aed4",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "5ed14548e0e9fc750645a3c26ecac7a02ca06af150665396e77e51c6a5d891a5",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-2.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-jacrys",
+      "name": "Jacrys",
+      "manifest": "themes/community-jacrys/theme.json",
+      "sha256": "9fffbc1a9c1345e5f5b76beb006395ec2010bf8b227bda9645a56f085b15dca7",
+      "files": {
+        "LICENSE.txt": "29baee045d4c789be43de0d4de5a1b317ade16a25c558bd21613debd358206a4",
+        "NOTICE.txt": "c0b37de7f8f8560e3b15fc168d616ae200459117114aed75f49d5d19c3fff19c",
+        "font-0.ttf": "11b2b8681ca11e2a26cbf8a35072eb61d1f43aa95b3e2ca0ac7503a1bf4bf461",
+        "font-1.ttf": "ce5a6c70e053127273912b4fb67b52729b485e5e1d4c63f7d9ae0e4f3229e1ff",
+        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7"
+      }
+    },
+    {
+      "id": "community-kendall",
+      "name": "Kendall",
+      "manifest": "themes/community-kendall/theme.json",
+      "sha256": "e7cd7c240ced43bbf8983f02d973de8d388cf2b27a08449802c767609135fd53",
+      "files": {
+        "LICENSE.txt": "09f4303a3fb836b733cfb0a96eccda365f7710d28b2c3c603c742ec8246f3aff",
+        "NOTICE.txt": "a3a491a8654fbdc66c74688705987c552add678376e62b2cfa760b3858301c61",
+        "font-0.ttf": "11b2b8681ca11e2a26cbf8a35072eb61d1f43aa95b3e2ca0ac7503a1bf4bf461",
+        "font-1.ttf": "ce5a6c70e053127273912b4fb67b52729b485e5e1d4c63f7d9ae0e4f3229e1ff",
+        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7"
+      }
+    },
+    {
+      "id": "community-london-bureau",
+      "name": "London Bureau",
+      "manifest": "themes/community-london-bureau/theme.json",
+      "sha256": "3073a47938cffc1c95ea97b0a62146f9d32a8cc145862008f289ee1fb1f22b7f",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "0321b221c0af86adf82df6cec5b88993c499d915f5548da8d309ed113eedf411"
+      }
+    },
+    {
+      "id": "community-lucide",
+      "name": "Lucide",
+      "manifest": "themes/community-lucide/theme.json",
+      "sha256": "8831c48e7d8122e7f37bdf6111702e1c9a54efa852621ace70c9baedbbcb7474",
+      "files": {
+        "LICENSE.txt": "60bd19cd8c068bb6323ba1ad0b0b5a585335e22909feffcd3db800bc77c10202",
+        "NOTICE.txt": "5c8f803fb002cf3a00106a9a032d49eff6caf5cd59a851460770c63e4b45252f"
+      }
+    },
+    {
+      "id": "community-macchiato",
+      "name": "Macchiato",
+      "manifest": "themes/community-macchiato/theme.json",
+      "sha256": "c8c6627c7575bdade5c56c36ce9065421fb59331889df0e3365324e8484c1506",
+      "files": {
+        "LICENSE.txt": "2a726d549105fa4f716438035af5a39ffe51c5a2b13a3aa2eed415e54020c8de",
+        "NOTICE.txt": "ed8e75c5dd22492b5737e730c8b8fc170c88f68101e4eeecfc8ea1f3258dca62",
+        "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
+        "font-1.ttf": "efddcabda17eb2c76bed8e7b9681e61b20730ddfeafe059d68290aec5172b80e",
+        "font-2.ttf": "468ce84052a9b302696d100a7b708973360679183d9ff22ef8a46bc67252f08e",
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+      }
+    },
+    {
+      "id": "community-marketing-narrative",
+      "name": "Marketing Narrative",
+      "manifest": "themes/community-marketing-narrative/theme.json",
+      "sha256": "6c4856cd61471a6e95378237929a7c5ca364acd2a8b50decdc4b500445a5b233",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "520b335d074775c90b506b4efac06c43d143b5ab78b2961ef53e542f0719442d",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-mid-century-resume",
+      "name": "Mid Century Resume",
+      "manifest": "themes/community-mid-century-resume/theme.json",
+      "sha256": "8bd61757ea91eed81e035b0ccf48a8f553216785d8699665d4ae2ee883258f3d",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "055fa63b139659de0ca0d8d63690002a04d912ab1a839c5d88e8aa941b41c4d9"
+      }
+    },
+    {
+      "id": "community-minimalist-grid",
+      "name": "Minimalist Grid",
+      "manifest": "themes/community-minimalist-grid/theme.json",
+      "sha256": "a890241f68cac88453dfe509f1adcfb650cba9b10c6f0c940b60876ddb0847cb",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "6bc00ad66c7488dca88d2b1b55da31faf7ece42e904de1fa0aeac6cb051a755c",
+        "font-0.ttf": "5e8f6d7a4aa60812a3a5d63d7ecabfb7865ea2ad4a68b4bc617f3b24dbbc93b8",
+        "font-1.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-2.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-minyma",
+      "name": "Minyma",
+      "manifest": "themes/community-minyma/theme.json",
+      "sha256": "f4b80e0e241ced2bc4b71188a3ab0ae07a5dfde707dfada0314ae4c3ce708f8c",
+      "files": {
+        "LICENSE.txt": "abad3175b27d2970c5667a4e80353b56841b84613c5a57e187d0fe77431e3d96",
+        "NOTICE.txt": "27699794668b33e797e867a06f0fa0a425b7099d1ec05606ef3fef2eaa49e741",
+        "font-0.ttf": "884d671a93c80edc7eac9a9dc44656203bd72eb7cca8d38e5301ee9a000c11da",
+        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    },
+    {
+      "id": "community-modern-classic",
+      "name": "Modern Classic",
+      "manifest": "themes/community-modern-classic/theme.json",
+      "sha256": "e6277afcdd8b36cf0180d0d68825264975ad651c0a0aee4de90ee705f4bde4e6",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "a2abb82308f60d60ad34259549631abfcf42df5b225bad23ba90aab9dd7d3427",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-monochrome-noir",
+      "name": "Monochrome Noir",
+      "manifest": "themes/community-monochrome-noir/theme.json",
+      "sha256": "0e33fbd11ce38be1280d1614d4c8a171c5d4ddec58ea3c7992ef1a1974dd532d",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "546c4931a7f11787305e1c13d028b7be4508c4b22f95b69996820ac3f43f9382",
+        "font-0.ttf": "588aa669182adf8b3cd8913a81bb190c520ff5bd794cd7f877ce4878176fa2e4",
+        "font-1.ttf": "e0ee12d515ca262e5595d7a691f36db073d1ddf23619ee75053e455f32a48f46",
+        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    },
+    {
+      "id": "community-new-york-editorial",
+      "name": "New York Editorial",
+      "manifest": "themes/community-new-york-editorial/theme.json",
+      "sha256": "ac389330a713e157796e791cb681f33365bdbf0bba8729969d2468f8f01be93e",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "3bc0e84e01e5d9d3a2907fb1679aca82a064734c8a6d3a2b1b27bf0f72f82575",
+        "font-0.ttf": "3f7c0ac9486268a85c0aa52d3a38ca962d68f426781246598692cc7d12f6e34f",
+        "font-1.ttf": "f9962428afcb3cf694799a815d8fa6913d8a567ebf24a3b54ce0b9520e9f18c8",
+        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+      }
+    },
+    {
+      "id": "community-nordic-minimal",
+      "name": "Nordic Minimal",
+      "manifest": "themes/community-nordic-minimal/theme.json",
+      "sha256": "112cf4a7c42c6bd0b695cc969a6bbd0bb9930b3d10c6a87ad7484d6f3b2895f5",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "7a66fce7c0a2d03cefdeb1183f74ea68f2eea98e4146a367bb5beec80c240f24",
+        "font-0.ttf": "efddcabda17eb2c76bed8e7b9681e61b20730ddfeafe059d68290aec5172b80e",
+        "font-1.ttf": "8e56d6dedac8ceca050fe305d676cb9356d0d25c71ecedc24eddd0e4686956c9",
+        "font-2.ttf": "afbade30f9191647acee5df1cbf00ff57d6654d6419446b4c8b5c5c136b677b5",
+        "font-3.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+      }
+    },
+    {
+      "id": "community-operations-precision",
+      "name": "Operations Precision",
+      "manifest": "themes/community-operations-precision/theme.json",
+      "sha256": "46c631d90146d9a29d309fe4e4e1227eee9b1bdb045d0e7ff5c2993e91f471a2",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "2751985306be2405e794e77f2b55bd0119df507440b922814319b94384066526",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-pacific-horizon",
+      "name": "Pacific Horizon",
+      "manifest": "themes/community-pacific-horizon/theme.json",
+      "sha256": "297ec84485eca0d7336fc71fda3d5df1ffe3427973373fdc1297da094a37711c",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "7604844c431e649722f9bfb31f323d29af96ea0b7accfcb173535b866d4a67a2",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-paper-plus-plus",
+      "name": "Paper Plus Plus",
+      "manifest": "themes/community-paper-plus-plus/theme.json",
+      "sha256": "62c849d7cdde2df31672895dcda2a85c0248f0c168160d130b2dd09175cc4149",
+      "files": {
+        "LICENSE.txt": "c5b97d672c6527fe47a2a37bdc28de81eab2082e47e559f38880d0f747accdf4",
+        "NOTICE.txt": "c79d0b68ffeda902118c5905362aa44f856ec479ae50980ce769a03af43be8f4",
+        "font-0.ttf": "ce5a6c70e053127273912b4fb67b52729b485e5e1d4c63f7d9ae0e4f3229e1ff",
+        "font-1.ttf": "3765bec93c164c4f2001cd5bd967af174f8cf2c52e89249bd07f3376b63f0de9",
+        "font-2.ttf": "e685957032af8decad1335a78939eb3de46c71cbe8102e312536242193c95157",
+        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7"
+      }
+    },
+    {
+      "id": "community-pro",
+      "name": "Pro",
+      "manifest": "themes/community-pro/theme.json",
+      "sha256": "ec35c8e437d7810316da83260fb3bd4cbf797c0920296dcc46117f74c19344fd",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "9e24e9cb51fed6903dfbe6ab595547f1d72c91bd52e2aa7b1ffcb86374d407f2",
+        "font-0.ttf": "633281f68562fc0c9f8bc9078f5f8007aafaf8aeda48ecb2ca13c6d8817e20bd",
+        "font-1.ttf": "85a19414a9a255ef8e8152a05edf7fb80acd5c5eb0e4f221ab62f84631e813e3",
+        "font-license-0.txt": "0682fcffaf707844f4d0d5d69fbd32180cf696243459ff259db7d8708d153cdc"
+      }
+    },
+    {
+      "id": "community-product-manager-canvas",
+      "name": "Product Manager Canvas",
+      "manifest": "themes/community-product-manager-canvas/theme.json",
+      "sha256": "1a9c6c29dd341f873fc82f4f5ed26c2bf99c0109f52f3fee18bd0ce2d8e6eef3",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "01ca9f58e87c2437ec9186b8ccff910aaa12769567bc1faeb168dbe14d042e98",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-professional",
+      "name": "Professional",
+      "manifest": "themes/community-professional/theme.json",
+      "sha256": "b57f50ae0d7166f35e7247eda835ed39247f049789c99e51a5a88e841f65a7ff",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "b262f4a0f586c472b056996114d02a0bee734022e1e020b5792cdeaca5e79c59"
+      }
+    },
+    {
+      "id": "community-pumpkin",
+      "name": "Pumpkin",
+      "manifest": "themes/community-pumpkin/theme.json",
+      "sha256": "96b98e22ee2541aeb21b89e0dc88c940678cbc6fc230d755cd9f2d3a51a587cf",
+      "files": {
+        "LICENSE.txt": "f801ac1ce02a39e0e9de67809bb598f6387c34fe91eab075af430b98b346684e",
+        "NOTICE.txt": "15c479f067e19e0ca96409383c644f92d0ece560aaf4fa5ef8c1ecb5ee3ed128",
+        "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
+        "font-1.ttf": "8e56d6dedac8ceca050fe305d676cb9356d0d25c71ecedc24eddd0e4686956c9",
+        "font-2.ttf": "468ce84052a9b302696d100a7b708973360679183d9ff22ef8a46bc67252f08e",
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+      }
+    },
+    {
+      "id": "community-reference",
+      "name": "Reference",
+      "manifest": "themes/community-reference/theme.json",
+      "sha256": "437f8b3edf9ad6378f0a8732bd3aa7070c0ea37f99b8b8cf7290b93d830bbc11",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "5b353f65c5aec01ba4208d005cafc54e4d710152d7c0bca41ab942df73a92efd"
+      }
+    },
+    {
+      "id": "community-rickosborne",
+      "name": "Rickosborne",
+      "manifest": "themes/community-rickosborne/theme.json",
+      "sha256": "1b179f879fed80190f35dd58aa8c2bbe54d36f31687b4c1d7a399eee7828035f",
+      "files": {
+        "LICENSE.txt": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
+        "NOTICE.txt": "28704e8f920a9a7fc849ab007395d2a01a464651bcdae8824cd782c9343f4a62"
+      }
+    },
+    {
+      "id": "community-sales-hunter",
+      "name": "Sales Hunter",
+      "manifest": "themes/community-sales-hunter/theme.json",
+      "sha256": "5adcaab7a8962eb7b388d2a31f2a1a19f1b255b1fb16685fbbad0669f2f9b811",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "0193d8d3a064a1368b34008a69054399b21f91e959672ba8d0a327d17f7f5b3a",
+        "font-0.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-1.ttf": "e322528be897ced0175bb4e8affe95325afbdea25e14378594581118b86a5f0d",
+        "font-2.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-3.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-sidebar",
+      "name": "Sidebar",
+      "manifest": "themes/community-sidebar/theme.json",
+      "sha256": "e120d7ca61b5036d5700ce01536ea60cebebf449603c271522524b9dc6ea8d72",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "dd145dd07927d98e1a9527d7c4349d9c5163decd1ca1f1a075488047cdaa4231"
+      }
+    },
+    {
+      "id": "community-sidebar-photo-strip",
+      "name": "Sidebar Photo Strip",
+      "manifest": "themes/community-sidebar-photo-strip/theme.json",
+      "sha256": "c858bb65a0e498438ee6325c6d412868a6249ff2c4b0a95c1bcc4e8022628bd0",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "9e615b85d9370cb2e5a3940a8c5bbc67bb2b92fcca6d343584a3d7ae03634312",
+        "font-0.ttf": "7ceca4edcdaca0375cb73cd3875a848c790d22455c6ade58ce0297fbd8d78f77",
+        "font-1.ttf": "4a6c41ef978d8098fae1720e315ad5ef8ce136797ff4c713ea4de11523885065",
+        "font-2.ttf": "8ae74776db7bdb9d248ed8afd4e2761d1b72374362ed666fd1af35a71d7ff269",
+        "font-license-0.txt": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+      }
+    },
+    {
+      "id": "community-stackoverflow",
+      "name": "Stackoverflow",
+      "manifest": "themes/community-stackoverflow/theme.json",
+      "sha256": "10e5d974b4186b868c2f01eef4324fb76155cf52fd5538a88533cfbe22577fb7",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "d57aadf37a33fea8aff9815efe5b306e90b74c67fe95f9c17d6d4f92eeada525"
+      }
+    },
+    {
+      "id": "community-tailwind",
+      "name": "Tailwind",
+      "manifest": "themes/community-tailwind/theme.json",
+      "sha256": "506f6ed4a0489dc677bd7245e2579a240d789c2547dc0503720f7448d22439f1",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "a2e1e296fc1862b24dcd1ab2b8873afbef987485771f10400ef9891f30b95dfd"
+      }
+    },
+    {
+      "id": "community-tan-responsive",
+      "name": "Tan Responsive",
+      "manifest": "themes/community-tan-responsive/theme.json",
+      "sha256": "38575e30581e502586aaeb01e7cd769548c0d8a4cfe0e444ac8649f329336ae9",
+      "files": {
+        "LICENSE.txt": "d72726e4616da3dd072c8604bbb6ee6dfc1ce4d65021d7b9e3473fee3364b0f7",
+        "NOTICE.txt": "55635d5e420f04befe98e9549f5317af00f635f9b77f05238d61e1c4b523361a",
+        "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+      }
+    },
+    {
+      "id": "community-tokyo-modernist",
+      "name": "Tokyo Modernist",
+      "manifest": "themes/community-tokyo-modernist/theme.json",
+      "sha256": "858c684d8695d3568023641627600fabeca4636ea5b4b41dc743eb5849675366",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "b6e96940f337974fadaf04da4577ee73f20459318221b482fa53e0b2ecffa1cf",
+        "font-0.ttf": "56fa09fce3f948c205fbb33910ea9e07cfa0ca8afe656edcc28ec34e8cb58785",
+        "font-1.ttf": "03c1fa13576fb4499ba2403b2da7f5df5d36e2ddd9efb3e65107161e5f8bcc08",
+        "font-2.ttf": "baba3fce1266d2088ab7c01d74242ed41e7d944231ccd5d00faa086cf957e359",
+        "font-3.ttf": "81cae6e8e3a7c2ae25839d9fe0bbde2f12e67ba5e2cfc9dc9f44bba222ee44c8",
+        "font-license-0.txt": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+      }
+    },
+    {
+      "id": "community-two-column",
+      "name": "Two Column",
+      "manifest": "themes/community-two-column/theme.json",
+      "sha256": "4b7a10a8801161b4b3bdbb2fb68ac1fa06540590a550a224dc56029f65f9b75b",
+      "files": {
+        "LICENSE.txt": "48b041bc0f2615d8c2804334d7bf1fcf383f9f7f8a0a00cae82312f99e4b3bf6",
+        "NOTICE.txt": "41dc2d0357dcb2f28a757b83ff967dcbe9052fff78bd5da424bc1bb063668060"
+      }
+    },
+    {
+      "id": "community-two-column-modernist",
+      "name": "Two Column Modernist",
+      "manifest": "themes/community-two-column-modernist/theme.json",
+      "sha256": "8494f35711f8435a83fdc4ad9f03b9d1f131d07148bf20ddfdb9ebcf2cd4b892",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "3704034b94b2223fe31202f14c1a775dc717eafc1a741ab72cfbee74c147f290",
+        "font-0.ttf": "a9c908a2489e8d47a1046c61b8549e93b80fa5e87162d7f560e45ca8306a49de",
+        "font-1.ttf": "8982bf55c34dbf5df2e8df603fab58e92c33b32dda373f5c02ccedb13648173b",
+        "font-2.ttf": "98d681f04126dec1efd29b6341607f37a41d8faafcb51d289aa6bbf114ed32c6",
+        "font-3.ttf": "ed35f359c3e09974046003d49f1d07a295041cd80b2222ec95403fed6a17e630",
+        "font-license-0.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+        "font-license-1.txt": "5e83794425e5648114d98e70717e75e264a4f46171ceb494cf8d2f35f1362262"
+      }
+    },
+    {
+      "id": "community-typewriter-modern",
+      "name": "Typewriter Modern",
+      "manifest": "themes/community-typewriter-modern/theme.json",
+      "sha256": "ccd96d42b699ff79266540ef33a445b68b9200e354355e02ea99df26991730c8",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "44c6eae7f01c5af61f3b50ae9cdc4b915324eaea697838bff128ab06bd0acaa2",
+        "font-0.ttf": "6beea9a6b9ca1b271530a8d8b90590e15963fc104be04dbaaca02bfdd3cfd6f4",
+        "font-license-0.txt": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+      }
+    },
+    {
+      "id": "community-university-first",
+      "name": "University First",
+      "manifest": "themes/community-university-first/theme.json",
+      "sha256": "c39c9b50859daf58162cad7fa2a4ca14349c2fdf58539deb784f803dd28301ef",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "d8a700f9bb377a8c07e4d87dea2ae09b306c7fbdc6a7064ef61dc346abb414d9",
+        "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
+        "font-1.ttf": "e322528be897ced0175bb4e8affe95325afbdea25e14378594581118b86a5f0d",
+        "font-2.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
+        "font-3.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      }
+    },
+    {
+      "id": "community-urban-techno",
+      "name": "Urban Techno",
+      "manifest": "themes/community-urban-techno/theme.json",
+      "sha256": "7de761b9730cacd36e5097f3746b3dd01a9bc254a62f88f80fb1b91ac0601739",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "9a0a633a06418a0ec4cb5062e6a81f33b6489396fad73aaefc2e8bfd8d37d4cd",
+        "font-0.ttf": "e0ee12d515ca262e5595d7a691f36db073d1ddf23619ee75053e455f32a48f46",
+        "font-1.ttf": "588aa669182adf8b3cd8913a81bb190c520ff5bd794cd7f877ce4878176fa2e4",
+        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    },
+    {
+      "id": "community-writers-portfolio",
+      "name": "Writers Portfolio",
+      "manifest": "themes/community-writers-portfolio/theme.json",
+      "sha256": "560ccb69c353617a018ebd1f89a889b8618176aa9396422a6c19887cea410244",
+      "files": {
+        "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
+        "NOTICE.txt": "5f2edd52a361636f2b217dc9d9b4744819996053fc14a64e3607b985f3c99029",
+        "font-0.ttf": "b2224106979e73df827d72b6d2d9e4067a497b147077b78df0c2d9fe566e2e08",
+        "font-1.ttf": "3f7c0ac9486268a85c0aa52d3a38ca962d68f426781246598692cc7d12f6e34f",
+        "font-2.ttf": "2dbc10c0c2e5bfd1681b072234a92579f98cfe8bd828e12ba29b940ce3879923",
+        "font-3.ttf": "f9962428afcb3cf694799a815d8fa6913d8a567ebf24a3b54ce0b9520e9f18c8",
+        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+      }
+    }
+  ]
+}
