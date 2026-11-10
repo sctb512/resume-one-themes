@@ -3,7 +3,7 @@
   "id": "community-university-first",
   "name": "University First",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -12,8 +12,8 @@
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
     "ink": "#1F2937",
-    "muted": "#2563EB",
-    "border": "#2563EB"
+    "muted": "#52627C",
+    "border": "#C4D3EB"
   },
   "modules": [
     "basics",
@@ -32,79 +32,81 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 11.0,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.45,
       "color": "#1F2937",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 36.0,
+      "sizePt": 28,
       "weight": 800,
-      "lineHeight": 1.6,
+      "lineHeight": 1.2,
       "trackingEm": -0.010416666666666666,
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-3",
-      "sizePt": 13.5,
+      "sizePt": 11.25,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.34,
       "trackingEm": 0.016666666666666666,
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.46,
       "color": "#475569",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-2",
-      "sizePt": 16.5,
+      "sizePt": 12.75,
       "weight": 700,
-      "lineHeight": 1.6,
+      "lineHeight": 1.27,
       "trackingEm": 0.022727272727272728,
       "textTransform": "uppercase",
-      "color": "#2563EB",
+      "color": "#214B9B",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-3",
-      "sizePt": 12.0,
+      "sizePt": 11.5,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.32,
       "color": "#111827",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 11.25,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.6,
-      "color": "#2563EB",
+      "lineHeight": 1.32,
+      "color": "#52627C",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "cjk-serif",
-      "sizePt": 9.75,
+      "sizePt": 9.25,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.32,
       "color": "#6B7280",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 23.28333333333333,
-      "right": 23.28333333333333,
-      "bottom": 23.28333333333333,
-      "left": 23.28333333333333
+      "top": 17,
+      "right": 18,
+      "bottom": 17,
+      "left": 18
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "size": "A4",
+    "sectionGapMm": 5.0
   },
   "composition": {
     "preset": "single-column",
@@ -137,15 +139,15 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 14.25,
+            "sizePt": 12.25,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#1E40AF"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 2.0
         },
         {
           "role": "body",
@@ -160,14 +162,14 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 12.0,
+            "sizePt": 10.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.33,
             "textTransform": "none",
             "color": "#374151"
           },
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.5
         },
         {
           "role": "meta",
@@ -179,12 +181,12 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 9.75,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.3,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#52627C"
           }
         },
         {
@@ -197,12 +199,12 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 10.5,
+            "sizePt": 9.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.3,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#52627C"
           }
         }
       ],
@@ -223,10 +225,10 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 12.0,
+            "sizePt": 11.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#111827"
           },
@@ -243,16 +245,17 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 9.75,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.3,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#52627C"
           }
         }
       ],
-      "date": "inline"
+      "date": "inline",
+      "items": "compact"
     },
     "work": {
       "title": "Experience",
@@ -266,10 +269,10 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 12.0,
+            "sizePt": 11.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#111827"
           },
@@ -285,14 +288,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 11.25,
+            "sizePt": 10.25,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.33,
             "textTransform": "none",
-            "color": "#2563EB"
+            "color": "#334D71"
           },
-          "spaceBeforePt": 3.0
+          "spaceBeforePt": 1.5
         },
         {
           "role": "meta",
@@ -304,16 +307,17 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 9.75,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.3,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#52627C"
           }
         }
       ],
-      "date": "inline"
+      "date": "inline",
+      "items": "compact"
     },
     "volunteer": {
       "title": "Volunteer Experience",
@@ -327,10 +331,10 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 12.0,
+            "sizePt": 11.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#111827"
           },
@@ -346,14 +350,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 11.25,
+            "sizePt": 10.25,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.33,
             "textTransform": "none",
-            "color": "#2563EB"
+            "color": "#334D71"
           },
-          "spaceBeforePt": 3.0
+          "spaceBeforePt": 1.5
         },
         {
           "role": "meta",
@@ -365,16 +369,17 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 9.75,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.3,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#52627C"
           }
         }
       ],
-      "date": "inline"
+      "date": "inline",
+      "items": "compact"
     },
     "awards": {
       "title": "Awards & Honors",
@@ -388,15 +393,15 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 12.0,
+            "sizePt": 11.5,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#1E40AF"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 2.0
         },
         {
           "role": "body",
@@ -408,14 +413,14 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 12.0,
+            "sizePt": 10.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.33,
             "textTransform": "none",
             "color": "#374151"
           },
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.5
         },
         {
           "role": "meta",
@@ -426,12 +431,12 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 9.75,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.3,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#52627C"
           }
         }
       ],
@@ -449,15 +454,15 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 12.0,
+            "sizePt": 11.5,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#1E40AF"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 2.0
         },
         {
           "role": "body",
@@ -469,14 +474,14 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 12.0,
+            "sizePt": 10.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.33,
             "textTransform": "none",
             "color": "#374151"
           },
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.5
         },
         {
           "role": "meta",
@@ -487,12 +492,12 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 9.75,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.3,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#52627C"
           }
         }
       ],
@@ -510,15 +515,15 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 12.0,
+            "sizePt": 11.5,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#1E40AF"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 2.0
         },
         {
           "role": "body",
@@ -530,14 +535,14 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 12.0,
+            "sizePt": 10.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.33,
             "textTransform": "none",
             "color": "#374151"
           },
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.5
         },
         {
           "role": "meta",
@@ -548,12 +553,12 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 9.75,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.3,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#52627C"
           }
         }
       ],

@@ -1,8 +1,8 @@
 # 简里社区主题
 
-这里保存 Resume One 迁移工具生成的 67 套声明式社区主题。每个 `themes/community-*/` 目录都有主题、许可正文、出处和迁移记录，使用独立字体资源的主题也附有字体许可。`NOTICE.txt` 记录上游的许可声明和所附许可文本来源。Rick Osborne 主题使用 CC BY-NC-SA 4.0，出处和完整许可在对应目录。
+这里保存 67 套声明式社区主题。基础主题由 Resume One 迁移工具从固定上游版本生成，再逐套审校为 A4 版式，调整边距、文字层级及装饰。每个 `themes/community-*/` 目录都有最终主题、许可正文、出处和初始迁移记录，使用独立字体资源的主题也附有字体许可。`NOTICE.txt` 记录上游的许可声明和所附许可文本来源。Rick Osborne 主题使用 CC BY-NC-SA 4.0，出处和完整许可在对应目录。
 
-从 [Releases](https://github.com/sctb512/resume-one-themes/releases) 下载 ZIP 后，解压并在简里的「管理」中将本地主题目录指向其中的 `themes/`。这批是已做本地排版和导出验收的适配版，逐主题的原版视觉等价仍待核对。
+从 [Releases](https://github.com/sctb512/resume-one-themes/releases) 下载 ZIP 后，解压并在简里的「管理」中将本地主题目录指向其中的 `themes/`。1.1.0 适配版以清楚易读为目标，保留每套的主要版式特征。逐套使用中文和英文样本检查 PDF 页宽及文字边界，并验证 DOCX 文件内容。
 
 新版简里默认提供两个在线来源，都指向此仓库的 `main` 分支：
 

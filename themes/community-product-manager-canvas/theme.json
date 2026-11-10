@@ -3,7 +3,7 @@
   "id": "community-product-manager-canvas",
   "name": "Product Manager Canvas",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#1F2937",
     "muted": "#6B7280",
-    "border": "#E5E7EB"
+    "border": "#DAD4E5"
   },
   "modules": [
     "basics",
@@ -32,83 +32,84 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 10.5,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.44,
       "color": "#1F2937",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 31.5,
+      "sizePt": 28,
       "weight": 700,
-      "lineHeight": 1.6,
+      "lineHeight": 1.18,
       "trackingEm": -0.011904761904761904,
       "color": "#111827",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-2",
-      "sizePt": 13.5,
+      "sizePt": 11.25,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.32,
       "color": "#7C3AED",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.7,
+      "lineHeight": 1.45,
       "color": "#374151",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 15.0,
+      "sizePt": 12,
       "weight": 700,
-      "lineHeight": 1.6,
+      "lineHeight": 1.28,
       "trackingEm": 0.025,
       "textTransform": "uppercase",
-      "color": "#111827",
+      "color": "#573D72",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-1",
-      "sizePt": 10.5,
+      "sizePt": 11.25,
       "weight": 700,
-      "lineHeight": 1.6,
-      "trackingEm": 0.021428571428571425,
-      "textTransform": "uppercase",
+      "lineHeight": 1.32,
+      "trackingEm": 0,
+      "textTransform": "none",
       "color": "#111827",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-3",
-      "sizePt": 9.75,
+      "sizePt": 9.5,
       "weight": 500,
-      "lineHeight": 1.6,
+      "lineHeight": 1.34,
       "color": "#6B7280",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.32,
       "color": "#1F2937",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 6.35,
-      "right": 6.35,
-      "bottom": 6.35,
-      "left": 6.35
+      "top": 17,
+      "right": 17,
+      "bottom": 17,
+      "left": 17
     },
-    "sectionGapMm": 4.2333333333333325,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.4,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column",
@@ -130,57 +131,57 @@
   "sections": {
     "awards": {
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "Awards"
     },
     "certificates": {
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "Certificates"
     },
     "education": {
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "Education"
     },
     "interests": {
-      "heading": "line",
-      "items": "cards",
+      "heading": "plain",
+      "items": "compact",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
-      "items": "cards",
+      "heading": "plain",
+      "items": "compact",
       "title": "Languages"
     },
     "projects": {
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "Projects"
     },
     "publications": {
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "Publications"
     },
     "references": {
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "References"
     },
     "skills": {
-      "heading": "line",
-      "items": "cards",
+      "heading": "plain",
+      "items": "compact",
       "title": "Skills"
     },
     "volunteer": {
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "Volunteer"
     },
     "work": {
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "Experience"
     }
   },

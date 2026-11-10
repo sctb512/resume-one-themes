@@ -3,17 +3,17 @@
   "id": "community-sidebar",
   "name": "Sidebar",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
     "accent": "#1E3A52",
     "seal": "#334155",
-    "paper": "#F5F2ED",
+    "paper": "#F9F6F1",
     "canvas": "#F5F3EE",
     "ink": "#333333",
-    "muted": "#666666",
-    "border": "#1E3A52",
+    "muted": "#4B5660",
+    "border": "#B9C6CC",
     "sidebar": "#1E3A52"
   },
   "modules": [
@@ -33,78 +33,78 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 11.0,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.6
+      "lineHeight": 1.46
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 42.0,
+      "sizePt": 30,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.19,
       "trackingEm": 0.008928571428571428,
       "color": "#2C2C2C",
       "fontStyle": "normal"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 18.0,
+      "sizePt": 11.5,
       "weight": 400,
-      "lineHeight": 1.6,
-      "trackingEm": 0.08333333333333333,
+      "lineHeight": 1.35,
+      "trackingEm": 0.035,
       "textTransform": "uppercase",
-      "color": "#666666"
+      "color": "#505C63"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 11.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.46,
       "color": "#4A4A4A"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 16.0,
+      "sizePt": 12,
       "weight": 600,
-      "lineHeight": 1.6,
-      "trackingEm": 0.0703125,
+      "lineHeight": 1.3,
+      "trackingEm": 0.045,
       "textTransform": "uppercase",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 12.0,
+      "sizePt": 11.25,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.34,
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-sans",
-      "sizePt": 10.0,
+      "sizePt": 9.75,
       "weight": 400,
-      "lineHeight": 1.6
+      "lineHeight": 1.37
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 10.0,
+      "sizePt": 9.25,
       "weight": 400,
-      "lineHeight": 1.6
+      "lineHeight": 1.32
     }
   },
   "page": {
     "marginsMm": {
-      "top": 15.875,
-      "right": 13.229166666666666,
-      "bottom": 15.875,
-      "left": 13.229166666666666
+      "top": 16,
+      "right": 15,
+      "bottom": 16,
+      "left": 15
     },
-    "sectionGapMm": 10.583333333333334,
+    "sectionGapMm": 5.8,
     "size": "A4",
     "firstLinePosition": "line-box"
   },
   "composition": {
     "preset": "sidebar-left",
-    "sidebarWidthPct": 30.0,
+    "sidebarWidthPct": 33,
     "placements": {
       "skills": "sidebar",
       "languages": "sidebar",
@@ -123,7 +123,8 @@
       "certificates",
       "publications",
       "interests"
-    ]
+    ],
+    "contact": "stacked"
   },
   "sections": {
     "awards": {
@@ -131,19 +132,19 @@
       "title": "AWARDS & HONORS"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "CERTIFICATES"
     },
     "education": {
-      "heading": "line",
+      "heading": "plain",
       "title": "EDUCATION"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "INTERESTS"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "LANGUAGES"
     },
     "projects": {
@@ -158,7 +159,7 @@
       "heading": "line"
     },
     "skills": {
-      "heading": "line",
+      "heading": "plain",
       "title": "SKILLS"
     },
     "volunteer": {

@@ -3,16 +3,16 @@
   "id": "community-stackoverflow",
   "name": "Stackoverflow",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "minimal",
   "colors": {
-    "accent": "#000000",
+    "accent": "#28526C",
     "seal": "#334155",
-    "paper": "#DFEAF1",
+    "paper": "#F2F7FB",
     "canvas": "#F5F3EE",
-    "ink": "#3E6D8E",
-    "muted": "#000000",
+    "ink": "#29475A",
+    "muted": "#475B68",
     "border": "#CBD5E1"
   },
   "modules": [
@@ -32,79 +32,80 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 7.800000000000001,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.25,
+      "lineHeight": 1.44,
       "trackingEm": 0.0,
-      "color": "#3E6D8E"
+      "color": "#29475A"
     },
     "name": {
       "family": "cjk-sans",
-      "sizePt": 27.299999999999997,
+      "sizePt": 27,
       "weight": 400,
-      "lineHeight": 1.0,
+      "lineHeight": 1.18,
       "trackingEm": 0.0,
       "color": "#40484F",
       "fontStyle": "normal"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 14.3325,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.25,
+      "lineHeight": 1.33,
       "trackingEm": 0.0,
       "color": "#202931",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 9.75,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.25,
+      "lineHeight": 1.45,
       "trackingEm": 0.0,
       "color": "#40484F"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 8.775,
+      "sizePt": 12.25,
       "weight": 600,
-      "lineHeight": 1.25,
-      "trackingEm": 0.0,
+      "lineHeight": 1.26,
+      "trackingEm": 0.04,
       "textTransform": "uppercase",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-sans",
-      "sizePt": 12.3825,
+      "sizePt": 11.25,
       "weight": 400,
-      "lineHeight": 1.25,
+      "lineHeight": 1.34,
       "trackingEm": 0.0
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.25,
+      "lineHeight": 1.32,
       "trackingEm": 0.0,
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 9.75,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.25,
+      "lineHeight": 1.32,
       "trackingEm": 0.0
     }
   },
   "page": {
     "marginsMm": {
-      "top": 10.343958333333333,
-      "right": 14.343958333333333,
-      "bottom": 10.343958333333333,
-      "left": 14.343958333333333
+      "top": 16,
+      "right": 16,
+      "bottom": 16,
+      "left": 16
     },
-    "sectionGapMm": 4.0,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.1,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column"

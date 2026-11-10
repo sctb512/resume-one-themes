@@ -3,7 +3,7 @@
   "id": "community-desert-modern",
   "name": "Desert Modern",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#4F3D31",
     "muted": "#B45309",
-    "border": "#CBD5E1"
+    "border": "#D9C6B3"
   },
   "modules": [
     "basics",
@@ -32,85 +32,85 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 10.5,
+      "sizePt": 10.8,
       "weight": 400,
-      "lineHeight": 1.75,
+      "lineHeight": 1.44,
       "color": "#4F3D31",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 28.5,
+      "sizePt": 29,
       "weight": 700,
-      "lineHeight": 1.7,
+      "lineHeight": 1.17,
       "trackingEm": 0.020000000000000004,
       "color": "#92400E",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-2",
-      "sizePt": 10.5,
+      "sizePt": 10.8,
       "weight": 600,
-      "lineHeight": 1.7,
-      "trackingEm": 0.28,
+      "lineHeight": 1.28,
+      "trackingEm": 0.09,
       "textTransform": "uppercase",
       "color": "#B45309",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.45,
       "color": "#4F3D31",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 11.25,
+      "sizePt": 12.25,
       "weight": 700,
-      "lineHeight": 1.7,
-      "trackingEm": 0.28,
+      "lineHeight": 1.25,
+      "trackingEm": 0.085,
       "textTransform": "uppercase",
       "color": "#B45309",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-2",
-      "sizePt": 13.5,
+      "sizePt": 11.8,
       "weight": 600,
-      "lineHeight": 1.7,
+      "lineHeight": 1.29,
       "trackingEm": 0.01,
       "color": "#4A3326",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-2",
-      "sizePt": 9.0,
+      "sizePt": 9.3,
       "weight": 600,
-      "lineHeight": 1.7,
-      "trackingEm": 0.12000000000000001,
-      "textTransform": "uppercase",
-      "color": "#B45309",
+      "lineHeight": 1.3,
+      "trackingEm": 0.025,
+      "textTransform": "none",
+      "color": "#744823",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9,
       "weight": 400,
-      "lineHeight": 1.7,
+      "lineHeight": 1.27,
       "color": "#3F2F25",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 23.28333333333333,
-      "right": 25.4,
-      "bottom": 23.28333333333333,
-      "left": 25.4
+      "top": 19,
+      "right": 21,
+      "bottom": 18,
+      "left": 21
     },
-    "sectionGapMm": 9.524999999999999,
+    "sectionGapMm": 4.6,
     "firstLinePosition": "line-box"
   },
   "composition": {

@@ -3,7 +3,7 @@
   "id": "community-french-atelier",
   "name": "French Atelier",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#4A4A4A",
     "muted": "#3B0A45",
-    "border": "#E0E0E0"
+    "border": "#D9C9DC"
   },
   "modules": [
     "basics",
@@ -32,84 +32,85 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 10.875,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.75,
+      "lineHeight": 1.5,
       "color": "#4A4A4A",
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 42.0,
+      "sizePt": 34,
       "weight": 600,
-      "lineHeight": 1.1,
-      "trackingEm": -0.026785714285714284,
+      "lineHeight": 1.13,
+      "trackingEm": -0.02,
       "color": "#1A1A1A",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-1",
-      "sizePt": 9.75,
+      "sizePt": 10.5,
       "weight": 600,
-      "lineHeight": 1.75,
-      "trackingEm": 0.038461538461538464,
+      "lineHeight": 1.38,
+      "trackingEm": 0.052,
       "textTransform": "uppercase",
       "color": "#3B0A45",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.51,
       "color": "#4A4A4A",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 24.0,
+      "sizePt": 15.5,
       "weight": 600,
-      "lineHeight": 1.75,
-      "trackingEm": -0.015625,
+      "lineHeight": 1.24,
+      "trackingEm": -0.008,
       "color": "#1A1A1A",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 16.5,
+      "sizePt": 12.25,
       "weight": 600,
-      "lineHeight": 1.75,
+      "lineHeight": 1.31,
       "color": "#1A1A1A",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-1",
-      "sizePt": 12.0,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.75,
+      "lineHeight": 1.35,
       "color": "#3B0A45",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-1",
-      "sizePt": 9.0,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.75,
-      "trackingEm": 0.041666666666666664,
+      "lineHeight": 1.33,
+      "trackingEm": 0.018,
       "textTransform": "uppercase",
-      "color": "#737373",
+      "color": "#61496A",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 9.524999999999999,
-      "right": 7.408333333333333,
-      "bottom": 9.524999999999999,
-      "left": 7.408333333333333
+      "top": 17,
+      "right": 19,
+      "bottom": 17,
+      "left": 19
     },
-    "sectionGapMm": 12.7,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.8,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column",
@@ -129,12 +130,12 @@
   },
   "sections": {
     "awards": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "Awards"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "Certificates"
     },
@@ -144,12 +145,12 @@
       "title": "Education"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "Languages"
     },
@@ -159,22 +160,22 @@
       "title": "Projects"
     },
     "publications": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "Publications"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "References"
     },
     "skills": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "Skills"
     },
     "volunteer": {
-      "heading": "line",
+      "heading": "plain",
       "items": "timeline",
       "title": "Volunteer"
     },

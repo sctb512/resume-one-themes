@@ -3,17 +3,17 @@
   "id": "community-tan-responsive",
   "name": "Tan Responsive",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "minimal",
   "colors": {
-    "accent": "#FFFFFF",
+    "accent": "#E4B660",
     "seal": "#334155",
     "paper": "#181818",
     "canvas": "#F5F3EE",
-    "ink": "#FFFFFF",
-    "muted": "#FFFFFF",
-    "border": "#CBD5E1"
+    "ink": "#F0EBE3",
+    "muted": "#CCC1AF",
+    "border": "#554837"
   },
   "modules": [
     "basics",
@@ -32,71 +32,74 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.3999999999999997,
+      "lineHeight": 1.45,
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 39.599999999999994,
+      "sizePt": 31,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.2,
       "fontStyle": "normal",
-      "color": "#CF8A05"
+      "color": "#E4B660"
     },
     "label": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.4,
-      "fontStyle": "normal"
+      "lineHeight": 1.34,
+      "fontStyle": "normal",
+      "color": "#E4D6C1"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.46,
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 31.200000000000003,
+      "sizePt": 14,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.28,
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11.75,
       "weight": 400,
-      "lineHeight": 1.4,
-      "fontStyle": "normal"
+      "lineHeight": 1.34,
+      "fontStyle": "normal",
+      "color": "#F8F1E4"
     },
     "meta": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.75,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.35,
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.34,
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 16.0,
-      "right": 16.0,
-      "bottom": 16.0,
-      "left": 16.0
+      "top": 18,
+      "right": 19,
+      "bottom": 18,
+      "left": 19
     },
-    "sectionGapMm": 4.0,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.3,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column"

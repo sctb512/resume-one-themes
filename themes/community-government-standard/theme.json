@@ -3,7 +3,7 @@
   "id": "community-government-standard",
   "name": "Government Standard",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -12,8 +12,8 @@
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
     "ink": "#000000",
-    "muted": "#000000",
-    "border": "#000000"
+    "muted": "#494949",
+    "border": "#B5B5B5"
   },
   "modules": [
     "basics",
@@ -32,81 +32,83 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.46,
       "color": "#000000",
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 18.0,
+      "sizePt": 23,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.0,
+      "lineHeight": 1.19,
+      "trackingEm": 0.015,
       "textTransform": "uppercase",
       "color": "#000000",
       "fontStyle": "normal"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.35,
       "color": "#000000",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.46,
       "color": "#000000",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 14.0,
+      "sizePt": 12.75,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.28,
       "textTransform": "uppercase",
       "color": "#000000",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 12.0,
+      "sizePt": 11.75,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.31,
       "color": "#000000",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
-      "color": "#000000",
+      "lineHeight": 1.34,
+      "color": "#494949",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 11.0,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.32,
       "fontStyle": "normal",
-      "color": "#111827"
+      "color": "#494949"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 25.4,
-      "right": 25.4,
-      "bottom": 25.4,
-      "left": 25.4
+      "top": 20,
+      "right": 21,
+      "bottom": 20,
+      "left": 21
     },
     "avoidSplitItems": true,
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "size": "A4",
+    "sectionGapMm": 5
   },
   "composition": {
     "preset": "single-column",
@@ -123,40 +125,40 @@
   },
   "sections": {
     "awards": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Awards and Honors"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certifications"
     },
     "education": {
       "heading": "line"
     },
     "interests": {
-      "heading": "line"
+      "heading": "plain"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Projects"
     },
     "publications": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Publications"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "title": "References"
     },
     "skills": {
-      "heading": "line"
+      "heading": "plain"
     },
     "volunteer": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Volunteer Experience"
     },
     "work": {

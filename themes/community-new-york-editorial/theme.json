@@ -3,7 +3,7 @@
   "id": "community-new-york-editorial",
   "name": "New York Editorial",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -32,80 +32,82 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 11.25,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.7,
+      "lineHeight": 1.49,
       "fontStyle": "normal",
       "color": "#444444"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 39.0,
+      "sizePt": 34,
       "weight": 600,
-      "lineHeight": 1.1,
-      "trackingEm": -0.019230769230769232,
+      "lineHeight": 1.14,
+      "trackingEm": -0.016,
       "color": "#222222",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-1",
-      "sizePt": 15.0,
+      "sizePt": 12,
       "weight": 400,
-      "lineHeight": 1.75,
+      "lineHeight": 1.38,
       "fontStyle": "italic",
-      "trackingEm": 0.014999999999999998,
+      "trackingEm": 0.01,
       "color": "#555555"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 12.75,
+      "sizePt": 11.5,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.5,
       "fontStyle": "normal",
       "color": "#3A3A3A"
     },
     "sectionTitle": {
       "family": "asset:font-0",
-      "sizePt": 21.0,
+      "sizePt": 15,
       "weight": 700,
-      "lineHeight": 1.75,
+      "lineHeight": 1.26,
       "color": "#222222",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 13.5,
+      "sizePt": 12,
       "weight": 600,
-      "lineHeight": 1.3,
+      "lineHeight": 1.32,
       "fontStyle": "normal",
       "color": "#222222"
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 11.25,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.75,
+      "lineHeight": 1.35,
       "fontStyle": "normal",
-      "color": "#6E6E6E"
+      "color": "#595959",
+      "trackingEm": -0.007
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 11.25,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.75,
-      "color": "#6E6E6E",
+      "lineHeight": 1.33,
+      "color": "#595959",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 15.875,
-      "right": 21.166666666666668,
-      "bottom": 15.875,
-      "left": 21.166666666666668
+      "top": 18,
+      "right": 21,
+      "bottom": 18,
+      "left": 21
     },
-    "sectionGapMm": 14.816666666666666,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.6,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column",
@@ -124,11 +126,11 @@
   },
   "sections": {
     "awards": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Awards & Honors"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certificates"
     },
     "education": {
@@ -136,11 +138,11 @@
       "title": "Education"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
@@ -152,14 +154,14 @@
       "title": "Publications"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "title": "References"
     },
     "skills": {
-      "heading": "line"
+      "heading": "plain"
     },
     "volunteer": {
-      "heading": "line"
+      "heading": "plain"
     },
     "work": {
       "heading": "line",

@@ -3,7 +3,7 @@
   "id": "community-nordic-minimal",
   "name": "Nordic Minimal",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,8 @@
     "canvas": "#F5F3EE",
     "ink": "#34495E",
     "muted": "#2C3E50",
-    "border": "#3D6F9E"
+    "border": "#C6D5E1",
+    "sidebar": "#F1F5F8"
   },
   "modules": [
     "basics",
@@ -32,89 +33,90 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 11,
       "weight": 300,
-      "lineHeight": 1.7,
+      "lineHeight": 1.47,
       "color": "#34495E",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-0",
-      "sizePt": 15.0,
+      "sizePt": 24,
       "weight": 300,
-      "lineHeight": 1.8,
-      "trackingEm": -0.025,
-      "color": "#5F6C6D",
+      "lineHeight": 1.24,
+      "trackingEm": -0.01,
+      "color": "#34495E",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-3",
-      "sizePt": 10.0,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.34,
       "color": "#2C3E50",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 300,
-      "lineHeight": 1.9,
+      "lineHeight": 1.48,
       "color": "#34495E",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 10.5,
+      "sizePt": 11.25,
       "weight": 600,
-      "lineHeight": 1.8,
-      "trackingEm": 0.10714285714285714,
+      "lineHeight": 1.28,
+      "trackingEm": 0.065,
       "textTransform": "uppercase",
       "color": "#3D6F9E",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-2",
-      "sizePt": 12.0,
+      "sizePt": 11.5,
       "weight": 500,
-      "lineHeight": 1.8,
-      "trackingEm": 0.03125,
-      "textTransform": "uppercase",
+      "lineHeight": 1.34,
+      "trackingEm": 0,
+      "textTransform": "none",
       "color": "#2C3E50",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-1",
-      "sizePt": 9.0,
+      "sizePt": 9.25,
       "weight": 600,
-      "lineHeight": 1.8,
-      "trackingEm": 0.08333333333333333,
-      "textTransform": "uppercase",
-      "color": "#2C3E50",
+      "lineHeight": 1.36,
+      "trackingEm": 0,
+      "textTransform": "none",
+      "color": "#4B5E70",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 10.5,
+      "sizePt": 9.5,
       "weight": 300,
-      "lineHeight": 1.8,
+      "lineHeight": 1.33,
       "color": "#647274",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 15.583333333333334,
-      "right": 12.9375,
-      "bottom": 15.583333333333334,
-      "left": 12.9375
+      "top": 17,
+      "right": 15,
+      "bottom": 17,
+      "left": 15
     },
-    "sectionGapMm": 13.229166666666666,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 6.2,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "sidebar-left",
-    "sidebarWidthPct": 30.0,
+    "sidebarWidthPct": 31,
     "placements": {
       "skills": "sidebar",
       "languages": "sidebar",
@@ -136,7 +138,8 @@
       "publications",
       "volunteer",
       "references"
-    ]
+    ],
+    "contact": "stacked"
   },
   "sections": {
     "awards": {
@@ -144,7 +147,7 @@
       "title": "Awards"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certificates"
     },
     "education": {
@@ -152,11 +155,11 @@
       "title": "Education"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
@@ -172,7 +175,7 @@
       "title": "References"
     },
     "skills": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Skills"
     },
     "volunteer": {

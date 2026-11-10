@@ -3,7 +3,7 @@
   "id": "community-diagonal-accent-bar",
   "name": "Diagonal Accent Bar",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#1F2937",
     "muted": "#4B5563",
-    "border": "#E11D48"
+    "border": "#C2546D"
   },
   "modules": [
     "basics",
@@ -32,83 +32,84 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 11.25,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.43,
       "color": "#1F2937"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 36.0,
+      "sizePt": 32,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.041666666666666664,
+      "lineHeight": 1.15,
+      "trackingEm": 0.03,
       "textTransform": "uppercase",
       "color": "#111827",
       "fontStyle": "normal"
     },
     "label": {
       "family": "cjk-serif",
-      "sizePt": 12.0,
+      "sizePt": 10.9,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.09375,
+      "lineHeight": 1.28,
+      "trackingEm": 0.06,
       "textTransform": "uppercase",
-      "color": "#E11D48",
+      "color": "#A61F45",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 10.85,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.44,
       "color": "#4B5563"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 16.5,
+      "sizePt": 13.1,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.09090909090909091,
+      "lineHeight": 1.25,
+      "trackingEm": 0.06,
       "textTransform": "uppercase",
       "color": "#111827",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 13.5,
+      "sizePt": 11.8,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.05555555555555555,
-      "textTransform": "uppercase",
+      "lineHeight": 1.3,
+      "trackingEm": 0.02,
+      "textTransform": "none",
       "color": "#111827",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 11.25,
+      "sizePt": 9.45,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.29,
       "color": "#4B5563",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "cjk-serif",
-      "sizePt": 10.5,
+      "sizePt": 9.2,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.27,
       "color": "#6B7280",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 23.28333333333333,
-      "right": 23.28333333333333,
-      "bottom": 23.28333333333333,
-      "left": 23.28333333333333
+      "top": 18,
+      "right": 20,
+      "bottom": 17,
+      "left": 20
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "sectionGapMm": 4.45
   },
   "composition": {
     "preset": "single-column",
@@ -128,7 +129,7 @@
   },
   "sections": {
     "awards": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Awards",
       "entryHeader": [
         {
@@ -140,16 +141,16 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 13.5,
+            "sizePt": 11.8,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
             "color": "#111827",
-            "trackingEm": 0.05555555555555555
+            "trackingEm": 0.02
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.1
         },
         {
           "role": "body",
@@ -161,14 +162,14 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 11.25,
+            "sizePt": 10.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.25,
             "textTransform": "none",
             "color": "#4B5563"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "meta",
@@ -179,19 +180,19 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 10.5,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#556171"
           }
         }
       ],
       "date": "inline"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certificates",
       "entryHeader": [
         {
@@ -203,16 +204,16 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 13.5,
+            "sizePt": 11.8,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
             "color": "#111827",
-            "trackingEm": 0.05555555555555555
+            "trackingEm": 0.02
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.1
         },
         {
           "role": "body",
@@ -224,14 +225,14 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 11.25,
+            "sizePt": 10.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.25,
             "textTransform": "none",
             "color": "#4B5563"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "meta",
@@ -242,12 +243,12 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 10.5,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#556171"
           }
         }
       ],
@@ -266,16 +267,16 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 13.5,
+            "sizePt": 11.8,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
             "color": "#111827",
-            "trackingEm": 0.05555555555555555
+            "trackingEm": 0.02
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.1
         },
         {
           "role": "body",
@@ -294,14 +295,14 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 11.25,
+            "sizePt": 10.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.25,
             "textTransform": "none",
             "color": "#4B5563"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "meta",
@@ -313,23 +314,23 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 10.5,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#556171"
           }
         }
       ],
       "date": "inline"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
@@ -345,13 +346,13 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 14.25,
+            "sizePt": 11.8,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
             "color": "#111827",
-            "trackingEm": 0.05263157894736842
+            "trackingEm": 0.02
           },
           "spaceBeforePt": 0.0,
           "spaceAfterPt": 0.0
@@ -360,7 +361,7 @@
       "date": "inline"
     },
     "publications": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Publications",
       "entryHeader": [
         {
@@ -372,16 +373,16 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 13.5,
+            "sizePt": 11.8,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
             "color": "#111827",
-            "trackingEm": 0.05555555555555555
+            "trackingEm": 0.02
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.1
         },
         {
           "role": "body",
@@ -393,14 +394,14 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 11.25,
+            "sizePt": 10.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.25,
             "textTransform": "none",
             "color": "#4B5563"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "meta",
@@ -411,27 +412,27 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 10.5,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#556171"
           }
         }
       ],
       "date": "inline"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "title": "References"
     },
     "skills": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Skills"
     },
     "volunteer": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Volunteer",
       "entryHeader": [
         {
@@ -443,13 +444,13 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 14.25,
+            "sizePt": 11.8,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
             "color": "#111827",
-            "trackingEm": 0.05263157894736842
+            "trackingEm": 0.02
           },
           "spaceBeforePt": 0.0,
           "spaceAfterPt": 0.0
@@ -463,14 +464,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.0,
+            "sizePt": 10.4,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.25,
             "textTransform": "none",
-            "color": "#E11D48"
+            "color": "#A61F45"
           },
-          "spaceBeforePt": 3.0
+          "spaceBeforePt": 0.9
         },
         {
           "role": "meta",
@@ -482,12 +483,12 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 10.5,
+            "sizePt": 9.4,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#556171"
           }
         }
       ],
@@ -506,13 +507,13 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 14.25,
+            "sizePt": 11.8,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
             "color": "#111827",
-            "trackingEm": 0.05263157894736842
+            "trackingEm": 0.02
           },
           "spaceBeforePt": 0.0,
           "spaceAfterPt": 0.0
@@ -526,14 +527,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.0,
+            "sizePt": 10.4,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.25,
             "textTransform": "none",
-            "color": "#E11D48"
+            "color": "#A61F45"
           },
-          "spaceBeforePt": 3.0
+          "spaceBeforePt": 0.9
         },
         {
           "role": "meta",
@@ -545,12 +546,12 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 10.5,
+            "sizePt": 9.4,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.24,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#556171"
           }
         }
       ],

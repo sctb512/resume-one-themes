@@ -3,7 +3,7 @@
   "id": "community-elegant-pink",
   "name": "Elegant Pink",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#1F2937",
     "muted": "#374151",
-    "border": "#E5E7EB"
+    "border": "#E7CFD7"
   },
   "modules": [
     "basics",
@@ -32,82 +32,84 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 11.0,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.48,
       "fontStyle": "italic",
       "color": "#1F2937"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 36.0,
+      "sizePt": 32,
       "weight": 800,
-      "lineHeight": 1.6,
-      "trackingEm": -0.020833333333333332,
+      "lineHeight": 1.18,
+      "trackingEm": -0.015,
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-3",
-      "sizePt": 16.5,
+      "sizePt": 12.5,
       "weight": 500,
-      "lineHeight": 1.6,
+      "lineHeight": 1.35,
       "trackingEm": 0.013636363636363636,
-      "fontStyle": "normal"
+      "fontStyle": "normal",
+      "color": "#8E2143"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 13.5,
+      "sizePt": 11.25,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.48,
       "color": "#374151",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-2",
-      "sizePt": 19.5,
+      "sizePt": 13.5,
       "weight": 700,
-      "lineHeight": 1.6,
-      "trackingEm": 0.038461538461538464,
+      "lineHeight": 1.25,
+      "trackingEm": 0.035,
       "textTransform": "uppercase",
       "color": "#9F1239",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-2",
-      "sizePt": 13.5,
+      "sizePt": 11.75,
       "weight": 700,
-      "lineHeight": 1.6,
-      "trackingEm": 0.027777777777777776,
-      "textTransform": "uppercase",
+      "lineHeight": 1.3,
+      "trackingEm": 0.012,
+      "textTransform": "none",
       "color": "#9F1239",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 12.0,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.6,
-      "color": "#374151",
+      "lineHeight": 1.35,
+      "color": "#535B67",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-3",
-      "sizePt": 10.5,
+      "sizePt": 9.75,
       "weight": 500,
-      "lineHeight": 1.6,
-      "color": "#6B7280",
+      "lineHeight": 1.32,
+      "color": "#535B67",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 23.28333333333333,
-      "right": 23.28333333333333,
-      "bottom": 23.28333333333333,
-      "left": 23.28333333333333
+      "top": 18,
+      "right": 20,
+      "bottom": 17,
+      "left": 20
     },
     "size": "A4",
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "sectionGapMm": 5
   },
   "composition": {
     "preset": "single-column",
@@ -122,7 +124,7 @@
   },
   "sections": {
     "awards": {
-      "items": "cards",
+      "items": "stack",
       "entryHeader": [
         {
           "role": "itemTitle",
@@ -133,15 +135,16 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 12.75,
+            "sizePt": 11.5,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.28,
             "textTransform": "none",
-            "color": "#9F1239"
+            "color": "#9F1239",
+            "trackingEm": 0.01
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 1.25
         },
         {
           "role": "body",
@@ -153,14 +156,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.0,
+            "sizePt": 10.75,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.36,
             "textTransform": "none",
             "color": "#374151"
           },
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1
         },
         {
           "role": "meta",
@@ -171,19 +174,19 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 10.5,
+            "sizePt": 9.75,
             "weight": 500,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#535B67"
           }
         }
       ],
       "date": "inline"
     },
     "certificates": {
-      "items": "cards",
+      "items": "stack",
       "title": "Certifications",
       "entryHeader": [
         {
@@ -195,15 +198,16 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 12.75,
+            "sizePt": 11.5,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.28,
             "textTransform": "none",
-            "color": "#9F1239"
+            "color": "#9F1239",
+            "trackingEm": 0.01
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 1.25
         },
         {
           "role": "body",
@@ -215,14 +219,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.0,
+            "sizePt": 10.75,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.36,
             "textTransform": "none",
             "color": "#374151"
           },
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1
         },
         {
           "role": "meta",
@@ -233,19 +237,19 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 10.5,
+            "sizePt": 9.75,
             "weight": 500,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#535B67"
           }
         }
       ],
       "date": "inline"
     },
     "education": {
-      "items": "cards",
+      "items": "stack",
       "title": "Education",
       "entryHeader": [
         {
@@ -257,15 +261,16 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 13.5,
+            "sizePt": 11.5,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.28,
             "textTransform": "none",
-            "color": "#9F1239"
+            "color": "#9F1239",
+            "trackingEm": 0.01
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 1.25
         },
         {
           "role": "body",
@@ -280,14 +285,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.0,
+            "sizePt": 10.75,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.36,
             "textTransform": "none",
             "color": "#374151"
           },
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1
         },
         {
           "role": "meta",
@@ -299,12 +304,12 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 10.5,
+            "sizePt": 9.75,
             "weight": 500,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#535B67"
           }
         },
         {
@@ -317,27 +322,27 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 10.5,
+            "sizePt": 9.75,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#535B67"
           }
         }
       ],
       "date": "inline"
     },
     "interests": {
-      "items": "cards",
+      "items": "compact",
       "title": "Interests"
     },
     "languages": {
-      "items": "cards",
+      "items": "compact",
       "title": "Languages"
     },
     "projects": {
-      "items": "cards",
+      "items": "stack",
       "entryHeader": [
         {
           "role": "itemTitle",
@@ -348,15 +353,16 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 13.5,
+            "sizePt": 11.5,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.28,
             "textTransform": "none",
-            "color": "#9F1239"
+            "color": "#9F1239",
+            "trackingEm": 0.01
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.25
         },
         {
           "role": "meta",
@@ -368,19 +374,19 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 10.5,
+            "sizePt": 9.75,
             "weight": 500,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#535B67"
           }
         }
       ],
       "date": "inline"
     },
     "publications": {
-      "items": "cards",
+      "items": "stack",
       "title": "Publications",
       "entryHeader": [
         {
@@ -392,15 +398,16 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 12.75,
+            "sizePt": 11.5,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.28,
             "textTransform": "none",
-            "color": "#9F1239"
+            "color": "#9F1239",
+            "trackingEm": 0.01
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 1.25
         },
         {
           "role": "body",
@@ -412,14 +419,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.0,
+            "sizePt": 10.75,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.36,
             "textTransform": "none",
             "color": "#374151"
           },
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1
         },
         {
           "role": "meta",
@@ -430,25 +437,25 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 10.5,
+            "sizePt": 9.75,
             "weight": 500,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#535B67"
           }
         }
       ],
       "date": "inline"
     },
     "references": {
-      "items": "cards"
+      "items": "compact"
     },
     "skills": {
-      "items": "cards"
+      "items": "compact"
     },
     "volunteer": {
-      "items": "cards",
+      "items": "stack",
       "entryHeader": [
         {
           "role": "itemTitle",
@@ -459,15 +466,16 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 15.0,
+            "sizePt": 12,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.28,
             "textTransform": "none",
-            "color": "#9F1239"
+            "color": "#9F1239",
+            "trackingEm": 0.01
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.25
         },
         {
           "role": "body",
@@ -478,10 +486,10 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.75,
+            "sizePt": 10.75,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.36,
             "textTransform": "none",
             "color": "#374151"
           }
@@ -496,19 +504,19 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 10.5,
+            "sizePt": 9.75,
             "weight": 500,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#535B67"
           }
         }
       ],
       "date": "inline"
     },
     "work": {
-      "items": "cards",
+      "items": "stack",
       "title": "Professional Experience",
       "entryHeader": [
         {
@@ -520,15 +528,16 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 15.0,
+            "sizePt": 12,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.28,
             "textTransform": "none",
-            "color": "#9F1239"
+            "color": "#9F1239",
+            "trackingEm": 0.01
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 4.5
+          "spaceAfterPt": 1.25
         },
         {
           "role": "body",
@@ -539,10 +548,10 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.75,
+            "sizePt": 10.75,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.36,
             "textTransform": "none",
             "color": "#374151"
           }
@@ -557,12 +566,12 @@
           ],
           "style": {
             "family": "asset:font-3",
-            "sizePt": 10.5,
+            "sizePt": 9.75,
             "weight": 500,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.32,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#535B67"
           }
         }
       ],

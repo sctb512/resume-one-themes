@@ -3,7 +3,7 @@
   "id": "community-macchiato",
   "name": "Macchiato",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -32,91 +32,92 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 9.0,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.4,
-      "trackingEm": 0.024999999999999998,
+      "lineHeight": 1.45,
+      "trackingEm": 0.014,
       "textTransform": "none",
       "color": "#39424B",
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 30.0,
+      "sizePt": 29,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.025,
+      "lineHeight": 1.17,
+      "trackingEm": 0.018,
       "textTransform": "none",
       "color": "#39424B",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-0",
-      "sizePt": 10.0,
+      "sizePt": 11.25,
       "weight": 400,
-      "lineHeight": 1.4,
-      "trackingEm": 0.0225,
+      "lineHeight": 1.34,
+      "trackingEm": 0.015,
       "color": "#39424B",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 10.0,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.4,
-      "trackingEm": 0.0225,
+      "lineHeight": 1.46,
+      "trackingEm": 0.014,
       "color": "#39424B",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 10.5,
+      "sizePt": 13.25,
       "weight": 300,
-      "lineHeight": 1.4,
-      "trackingEm": 0.028571428571428574,
+      "lineHeight": 1.26,
+      "trackingEm": 0.038,
       "textTransform": "none",
-      "color": "#39424B",
+      "color": "#283543",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-2",
-      "sizePt": 9.0,
+      "sizePt": 11,
       "weight": 700,
-      "lineHeight": 1.4,
-      "trackingEm": 0.024999999999999998,
+      "lineHeight": 1.29,
+      "trackingEm": 0.01,
       "textTransform": "none",
       "color": "#39424B",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
-      "trackingEm": 0.026470588235294114,
-      "color": "#39424B",
+      "lineHeight": 1.33,
+      "trackingEm": 0.01,
+      "color": "#505E6B",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
-      "trackingEm": 0.026470588235294114,
-      "color": "#39424B",
+      "lineHeight": 1.32,
+      "trackingEm": 0.01,
+      "color": "#505E6B",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 9.524999999999999,
-      "right": 16.0,
-      "bottom": 7.9375,
-      "left": 16.0
+      "top": 15,
+      "right": 17,
+      "bottom": 15,
+      "left": 17
     },
     "avoidSplitItems": true,
     "size": "A4",
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "sectionGapMm": 5
   },
   "composition": {
     "preset": "single-column",
@@ -133,10 +134,12 @@
   },
   "sections": {
     "languages": {
-      "title": "Languages"
+      "title": "Languages",
+      "items": "compact"
     },
     "interests": {
-      "title": "Interests"
+      "title": "Interests",
+      "items": "compact"
     },
     "work": {
       "title": "Experience"

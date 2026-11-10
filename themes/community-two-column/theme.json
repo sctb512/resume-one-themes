@@ -3,7 +3,7 @@
   "id": "community-two-column",
   "name": "Two Column",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -12,8 +12,8 @@
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
     "ink": "#000000",
-    "muted": "#000000",
-    "border": "#CBD5E1"
+    "muted": "#4D4D4D",
+    "border": "#C7C7C7"
   },
   "modules": [
     "basics",
@@ -32,86 +32,105 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 9.464508,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.1578947368421053,
+      "lineHeight": 1.42,
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-sans",
-      "sizePt": 37.858032,
+      "sizePt": 32,
       "weight": 400,
-      "lineHeight": 1.0,
+      "lineHeight": 1.16,
       "fontStyle": "normal",
       "trackingEm": 0.029999999999999995,
       "color": "#000000"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 12.951432,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.0,
+      "lineHeight": 1.35,
       "fontStyle": "normal",
-      "trackingEm": 0.05,
-      "color": "#000000"
+      "trackingEm": 0.02,
+      "color": "#4D4D4D"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 10.958904,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.0909090909090908,
+      "lineHeight": 1.45,
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "cjk-sans",
-      "sizePt": 14.94396,
+      "sizePt": 12.75,
       "weight": 400,
-      "lineHeight": 1.0,
+      "lineHeight": 1.26,
       "fontStyle": "normal",
       "textTransform": "uppercase",
-      "color": "#000000"
+      "color": "#000000",
+      "trackingEm": 0.035
     },
     "itemTitle": {
       "family": "cjk-sans",
-      "sizePt": 11.955168,
+      "sizePt": 11.5,
       "weight": 400,
-      "lineHeight": 1.0833333333333333,
+      "lineHeight": 1.32,
       "fontStyle": "normal",
       "color": "#000000"
     },
     "meta": {
       "family": "cjk-sans",
-      "sizePt": 11.0,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.0909090909090908,
+      "lineHeight": 1.34,
       "fontStyle": "normal",
-      "color": "#000000"
+      "color": "#4D4D4D"
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9.25,
       "weight": 400,
-      "lineHeight": 1.4064903529411765,
+      "lineHeight": 1.32,
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 6.0,
-      "right": 5.0,
-      "bottom": 3.0,
-      "left": 5.0
+      "top": 14,
+      "right": 16,
+      "bottom": 14,
+      "left": 16
     },
     "avoidSplitItems": true,
     "keepHeadingWithFirstItem": true,
-    "sectionGapMm": 5.3975,
+    "sectionGapMm": 4.2,
     "size": "A4",
     "firstLinePosition": "line-box"
   },
   "composition": {
-    "preset": "single-column"
+    "preset": "single-column",
+    "header": "split",
+    "contact": "stacked"
   },
-  "sections": {},
+  "sections": {
+    "work": {
+      "items": "compact"
+    },
+    "projects": {
+      "items": "compact"
+    },
+    "skills": {
+      "items": "compact"
+    },
+    "languages": {
+      "items": "compact"
+    },
+    "awards": {
+      "items": "compact"
+    }
+  },
   "provenance": {
     "migratedBy": "resume-one-theme-migrate --adapt",
     "fidelity": "adapted",

@@ -3,7 +3,7 @@
   "id": "community-art-school-modern",
   "name": "Art School Modern",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -32,42 +32,42 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 10.875,
+      "sizePt": 10.8,
       "weight": 400,
-      "lineHeight": 1.62,
-      "trackingEm": -0.015,
+      "lineHeight": 1.42,
+      "trackingEm": 0,
       "color": "#2A2722",
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-sans",
-      "sizePt": 26.0,
+      "sizePt": 32,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.14,
       "trackingEm": -0.030000000000000002,
       "textTransform": "uppercase",
       "color": "#111111"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 10.0,
+      "sizePt": 11.3,
       "weight": 400,
-      "lineHeight": 1.2,
+      "lineHeight": 1.3,
       "fontStyle": "normal",
       "color": "#111111"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 11.25,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.44,
       "color": "#111111"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 22.5,
+      "sizePt": 15.4,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.2,
       "trackingEm": -0.02,
       "textTransform": "uppercase",
       "color": "#111111",
@@ -75,39 +75,40 @@
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 15.75,
+      "sizePt": 12.3,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.28,
       "trackingEm": -0.01,
-      "textTransform": "uppercase",
+      "textTransform": "none",
       "color": "#111111",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 12.75,
+      "sizePt": 9.1,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.29,
       "fontStyle": "normal",
-      "trackingEm": 0.16,
-      "textTransform": "uppercase"
+      "trackingEm": 0.02,
+      "textTransform": "none",
+      "color": "#514941"
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.27,
       "color": "#111111"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 16.0,
-      "right": 16.0,
-      "bottom": 16.0,
-      "left": 16.0
+      "top": 17,
+      "right": 18,
+      "bottom": 16,
+      "left": 18
     },
-    "sectionGapMm": 6.35,
+    "sectionGapMm": 4.4,
     "firstLinePosition": "line-box"
   },
   "composition": {

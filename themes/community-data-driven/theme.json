@@ -3,7 +3,7 @@
   "id": "community-data-driven",
   "name": "Data Driven",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -32,17 +32,17 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 7.5,
+      "sizePt": 10.2,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#475569",
+      "lineHeight": 1.42,
+      "color": "#334155",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 21.0,
+      "sizePt": 26,
       "weight": 700,
-      "lineHeight": 1.5,
+      "lineHeight": 1.15,
       "trackingEm": -0.03,
       "textTransform": "uppercase",
       "color": "#0F172A",
@@ -50,25 +50,25 @@
     },
     "label": {
       "family": "asset:font-2",
-      "sizePt": 9.75,
+      "sizePt": 10.8,
       "weight": 600,
-      "lineHeight": 1.5,
+      "lineHeight": 1.28,
       "trackingEm": 0.02,
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 8.25,
+      "sizePt": 10.35,
       "weight": 400,
-      "lineHeight": 1.6,
-      "color": "#475569",
+      "lineHeight": 1.43,
+      "color": "#334155",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 10.5,
+      "sizePt": 11.6,
       "weight": 700,
-      "lineHeight": 1.5,
+      "lineHeight": 1.24,
       "trackingEm": 0.05,
       "textTransform": "uppercase",
       "color": "#0F172A",
@@ -76,38 +76,38 @@
     },
     "itemTitle": {
       "family": "asset:font-1",
-      "sizePt": 9.0,
+      "sizePt": 11.2,
       "weight": 700,
-      "lineHeight": 1.5,
+      "lineHeight": 1.28,
       "color": "#0F172A",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-3",
-      "sizePt": 7.5,
+      "sizePt": 9.25,
       "weight": 500,
-      "lineHeight": 1.5,
+      "lineHeight": 1.3,
       "color": "#475569",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.2,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#0F172A",
+      "lineHeight": 1.27,
+      "color": "#46566B",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 4.2333333333333325,
-      "right": 4.2333333333333325,
-      "bottom": 4.2333333333333325,
-      "left": 4.2333333333333325
+      "top": 15,
+      "right": 16,
+      "bottom": 15,
+      "left": 16
     },
     "avoidSplitItems": true,
-    "sectionGapMm": 6.35,
+    "sectionGapMm": 3.9,
     "firstLinePosition": "line-box"
   },
   "composition": {
@@ -125,45 +125,51 @@
   },
   "sections": {
     "awards": {
-      "heading": "line"
+      "heading": "plain"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certifications"
     },
     "education": {
       "heading": "line",
-      "title": "Education"
+      "title": "Education",
+      "date": "right"
     },
     "interests": {
-      "heading": "line",
-      "title": "Interests"
+      "heading": "plain",
+      "title": "Interests",
+      "items": "compact"
     },
     "languages": {
-      "heading": "line",
-      "title": "Languages"
+      "heading": "plain",
+      "title": "Languages",
+      "items": "compact"
     },
     "projects": {
-      "heading": "line"
+      "heading": "line",
+      "date": "right"
     },
     "publications": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Publications"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "title": "References"
     },
     "skills": {
-      "heading": "line",
-      "title": "Technical Skills"
+      "heading": "plain",
+      "title": "Technical Skills",
+      "items": "compact"
     },
     "volunteer": {
-      "heading": "line"
+      "heading": "plain"
     },
     "work": {
       "heading": "line",
-      "title": "Professional Experience"
+      "title": "Professional Experience",
+      "date": "right"
     }
   },
   "provenance": {

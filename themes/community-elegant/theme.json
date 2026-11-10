@@ -3,7 +3,7 @@
   "id": "community-elegant",
   "name": "Elegant",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -11,9 +11,10 @@
     "seal": "#334155",
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
-    "ink": "#555555",
-    "muted": "#64748B",
-    "border": "#E6E6E6"
+    "ink": "#333C47",
+    "muted": "#4E5A68",
+    "border": "#CED5DC",
+    "sidebar": "#F0F2F4"
   },
   "modules": [
     "basics",
@@ -32,74 +33,75 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 10.55,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#555555"
+      "lineHeight": 1.42,
+      "color": "#333C47"
     },
     "name": {
       "family": "cjk-sans",
-      "sizePt": 18.0,
+      "sizePt": 27,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#707070"
+      "lineHeight": 1.16,
+      "color": "#263545"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 11.1,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#555555"
+      "lineHeight": 1.3,
+      "color": "#4E5A68"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 10.6,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#555555"
+      "lineHeight": 1.43,
+      "color": "#333C47"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 13.0,
+      "sizePt": 12.7,
       "weight": 600,
-      "lineHeight": 1.5,
-      "color": "#555555",
+      "lineHeight": 1.25,
+      "color": "#334155",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-sans",
-      "sizePt": 10.6,
+      "sizePt": 11.55,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#555555"
+      "lineHeight": 1.3,
+      "color": "#263545"
     },
     "meta": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9.3,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#555555"
+      "lineHeight": 1.3,
+      "color": "#4E5A68"
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9.2,
       "weight": 400,
-      "lineHeight": 1.5,
-      "color": "#555555"
+      "lineHeight": 1.27,
+      "color": "#4E5A68"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 16.0,
-      "right": 16.0,
-      "bottom": 16.0,
-      "left": 16.0
+      "top": 16,
+      "right": 16,
+      "bottom": 16,
+      "left": 16
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "sectionGapMm": 4.4
   },
   "composition": {
     "preset": "sidebar-left",
-    "sidebarWidthPct": 30.0,
+    "sidebarWidthPct": 32,
     "placements": {
       "skills": "sidebar",
       "languages": "sidebar",
@@ -108,41 +110,47 @@
     },
     "contactRegion": "sidebar",
     "headerRegion": "main",
-    "summaryRegion": "main"
+    "summaryRegion": "main",
+    "gapMm": 5.5,
+    "contact": "stacked",
+    "sidebarTypographyScale": 0.96
   },
   "sections": {
     "awards": {
-      "items": "cards"
+      "items": "stack"
     },
     "certificates": {
-      "items": "cards"
+      "items": "compact"
     },
     "education": {
-      "items": "cards"
+      "items": "stack",
+      "heading": "line"
     },
     "interests": {
-      "items": "cards"
+      "items": "compact"
     },
     "languages": {
-      "items": "cards"
+      "items": "compact"
     },
     "projects": {
-      "items": "cards"
+      "items": "stack",
+      "heading": "line"
     },
     "publications": {
-      "items": "cards"
+      "items": "stack"
     },
     "references": {
-      "items": "cards"
+      "items": "stack"
     },
     "skills": {
-      "items": "cards"
+      "items": "compact"
     },
     "volunteer": {
-      "items": "cards"
+      "items": "stack"
     },
     "work": {
-      "items": "cards"
+      "items": "stack",
+      "heading": "line"
     }
   },
   "provenance": {

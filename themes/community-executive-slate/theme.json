@@ -3,7 +3,7 @@
   "id": "community-executive-slate",
   "name": "Executive Slate",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,8 +13,8 @@
     "canvas": "#F5F3EE",
     "ink": "#000000",
     "muted": "#4B5563",
-    "border": "#475569",
-    "sidebar": "#475569"
+    "border": "#B4C0CD",
+    "sidebar": "#3A485B"
   },
   "modules": [
     "basics",
@@ -33,79 +33,81 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 9.75,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.44,
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-0",
-      "sizePt": 27.0,
+      "sizePt": 27,
       "weight": 700,
-      "lineHeight": 1.2,
+      "lineHeight": 1.16,
       "trackingEm": -0.013888888888888888,
       "fontStyle": "normal"
     },
     "label": {
       "family": "cjk-serif",
-      "sizePt": 11.25,
+      "sizePt": 10.75,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.03333333333333333,
+      "lineHeight": 1.32,
+      "trackingEm": 0.025,
       "textTransform": "uppercase",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 11.25,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.46,
       "color": "#475569",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-0",
-      "sizePt": 18.0,
+      "sizePt": 12.5,
       "weight": 700,
-      "lineHeight": 1.4,
-      "trackingEm": 0.0625,
+      "lineHeight": 1.27,
+      "trackingEm": 0.04,
       "textTransform": "uppercase",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-0",
-      "sizePt": 13.5,
+      "sizePt": 11.75,
       "weight": 700,
-      "lineHeight": 1.4,
+      "lineHeight": 1.28,
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 12.0,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.34,
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "cjk-serif",
-      "sizePt": 10.5,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.34,
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 10.583333333333334,
-      "right": 10.583333333333334,
-      "bottom": 10.583333333333334,
-      "left": 10.583333333333334
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "size": "A4",
+    "sectionGapMm": 4.8
   },
   "composition": {
     "preset": "sidebar-left",
-    "sidebarWidthPct": 30.0,
+    "sidebarWidthPct": 34,
     "placements": {
       "skills": "sidebar",
       "education": "sidebar",
@@ -122,11 +124,12 @@
       "publications",
       "interests",
       "references"
-    ]
+    ],
+    "gapMm": 6
   },
   "sections": {
     "awards": {
-      "heading": "line",
+      "heading": "plain",
       "entryHeader": [
         {
           "role": "itemTitle",
@@ -137,10 +140,10 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 13.5,
+            "sizePt": 11.25,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.27,
             "textTransform": "none",
             "color": "#1F2937"
           },
@@ -157,10 +160,10 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 12.0,
+            "sizePt": 10.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#4B5563"
           },
@@ -175,19 +178,19 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 10.5,
+            "sizePt": 9.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.31,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#526074"
           }
         }
       ],
       "date": "inline"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certificates",
       "entryHeader": [
         {
@@ -199,10 +202,10 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 13.5,
+            "sizePt": 11.25,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.27,
             "textTransform": "none",
             "color": "#1F2937"
           },
@@ -219,10 +222,10 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 12.0,
+            "sizePt": 10.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#4B5563"
           },
@@ -237,19 +240,19 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 10.5,
+            "sizePt": 9.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.31,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#526074"
           }
         }
       ],
       "date": "inline"
     },
     "education": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Education",
       "entryHeader": [
         {
@@ -261,10 +264,10 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 12.0,
+            "sizePt": 11.25,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.27,
             "textTransform": "none"
           }
         },
@@ -281,10 +284,10 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 12.0,
+            "sizePt": 10.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.32,
             "textTransform": "none"
           }
         },
@@ -298,10 +301,10 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 12.0,
+            "sizePt": 9.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.31,
             "textTransform": "none"
           }
         }
@@ -309,15 +312,15 @@
       "date": "inline"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
-      "heading": "line",
+      "heading": "plain",
       "entryHeader": [
         {
           "role": "itemTitle",
@@ -328,10 +331,10 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 15.0,
+            "sizePt": 11.25,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.27,
             "textTransform": "none",
             "color": "#1F2937"
           },
@@ -342,7 +345,7 @@
       "date": "inline"
     },
     "publications": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Publications",
       "entryHeader": [
         {
@@ -354,10 +357,10 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 13.5,
+            "sizePt": 11.25,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.27,
             "textTransform": "none",
             "color": "#1F2937"
           },
@@ -374,10 +377,10 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 12.0,
+            "sizePt": 10.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#4B5563"
           },
@@ -392,27 +395,27 @@
           ],
           "style": {
             "family": "cjk-sans",
-            "sizePt": 10.5,
+            "sizePt": 9.5,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.31,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#526074"
           }
         }
       ],
       "date": "inline"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "title": "References"
     },
     "skills": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Skills"
     },
     "volunteer": {
-      "heading": "line",
+      "heading": "plain",
       "entryHeader": [
         {
           "role": "itemTitle",
@@ -423,10 +426,10 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 15.0,
+            "sizePt": 11.75,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.27,
             "textTransform": "none",
             "color": "#1F2937"
           },
@@ -442,14 +445,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.75,
+            "sizePt": 10.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#2F4F4F"
           },
-          "spaceBeforePt": 4.5
+          "spaceBeforePt": 1
         },
         {
           "role": "meta",
@@ -461,12 +464,12 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 10.5,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.31,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#526074"
           }
         }
       ],
@@ -485,10 +488,10 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 15.0,
+            "sizePt": 11.75,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.27,
             "textTransform": "none",
             "color": "#1F2937"
           },
@@ -504,14 +507,14 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 12.75,
+            "sizePt": 10.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.32,
             "textTransform": "none",
             "color": "#2F4F4F"
           },
-          "spaceBeforePt": 4.5
+          "spaceBeforePt": 1
         },
         {
           "role": "meta",
@@ -523,12 +526,12 @@
           ],
           "style": {
             "family": "cjk-serif",
-            "sizePt": 10.5,
+            "sizePt": 9.5,
             "weight": 600,
             "fontStyle": "normal",
-            "lineHeight": 1.4,
+            "lineHeight": 1.31,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#526074"
           }
         }
       ],

@@ -3,7 +3,7 @@
   "id": "community-industrial-engineer",
   "name": "Industrial Engineer",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -31,21 +31,21 @@
   ],
   "typography": {
     "body": {
-      "family": "cjk-serif",
-      "sizePt": 7.125,
-      "weight": 600,
-      "lineHeight": 1.5,
-      "trackingEm": 0.21052631578947367,
-      "textTransform": "uppercase",
-      "color": "#1B3A5B",
+      "family": "cjk-sans",
+      "sizePt": 10.25,
+      "weight": 400,
+      "lineHeight": 1.44,
+      "trackingEm": 0,
+      "textTransform": "none",
+      "color": "#28333F",
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 22.5,
+      "sizePt": 25,
       "weight": 600,
-      "lineHeight": 1.05,
-      "trackingEm": 0.03333333333333333,
+      "lineHeight": 1.16,
+      "trackingEm": 0.025,
       "textTransform": "uppercase",
       "fontStyle": "normal"
     },
@@ -53,102 +53,106 @@
       "family": "cjk-serif",
       "sizePt": 10.5,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.021428571428571425,
+      "lineHeight": 1.33,
+      "trackingEm": 0.014,
       "fontStyle": "normal"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 10.125,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.46,
       "color": "#28333F"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 12.0,
+      "sizePt": 12.25,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.09375,
+      "lineHeight": 1.26,
+      "trackingEm": 0.055,
       "textTransform": "uppercase",
       "color": "#1B3A5B",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 11.25,
+      "sizePt": 11.5,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": 0.053333333333333344,
-      "textTransform": "uppercase",
+      "lineHeight": 1.28,
+      "trackingEm": 0.015,
+      "textTransform": "none",
       "color": "#16202B",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-sans",
-      "sizePt": 7.125,
+      "sizePt": 9.25,
       "weight": 400,
-      "lineHeight": 1.4,
-      "trackingEm": 0.10526315789473684,
-      "textTransform": "uppercase",
+      "lineHeight": 1.32,
+      "trackingEm": 0.005,
+      "textTransform": "none",
       "color": "#5D6B78"
     },
     "sideDate": {
       "family": "cjk-serif",
-      "sizePt": 8.25,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.31,
       "color": "#1B3A5B",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 6.879166666666666,
-      "right": 7.408333333333333,
-      "bottom": 7.9375,
-      "left": 7.408333333333333
+      "top": 14,
+      "right": 16,
+      "bottom": 15,
+      "left": 16
     },
-    "sectionGapMm": 6.879166666666666,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 4.5,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column",
-    "contact": "stacked"
+    "contact": "stacked",
+    "header": "split"
   },
   "sections": {
     "awards": {
-      "items": "cards"
+      "items": "compact"
     },
     "certificates": {
-      "items": "cards"
+      "items": "compact"
     },
     "education": {
-      "items": "cards"
+      "items": "stack",
+      "date": "right"
     },
     "interests": {
-      "items": "cards"
+      "items": "compact"
     },
     "languages": {
-      "items": "cards"
+      "items": "compact"
     },
     "projects": {
-      "items": "cards"
+      "items": "stack"
     },
     "publications": {
-      "items": "cards"
+      "items": "stack"
     },
     "references": {
-      "items": "cards"
+      "items": "compact"
     },
     "skills": {
-      "items": "cards"
+      "items": "compact"
     },
     "volunteer": {
-      "items": "cards"
+      "items": "stack"
     },
     "work": {
-      "items": "cards"
+      "items": "stack",
+      "date": "right"
     }
   },
   "provenance": {

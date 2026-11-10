@@ -3,17 +3,17 @@
   "id": "community-marketing-narrative",
   "name": "Marketing Narrative",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
-    "accent": "#E11D48",
+    "accent": "#B81D43",
     "seal": "#334155",
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
     "ink": "#1F2937",
     "muted": "#4B5563",
-    "border": "#E5E7EB"
+    "border": "#E9CCD5"
   },
   "modules": [
     "basics",
@@ -32,82 +32,84 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 10.0,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.9,
+      "lineHeight": 1.47,
       "color": "#1F2937",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 36.0,
+      "sizePt": 32,
       "weight": 700,
-      "lineHeight": 1.9,
+      "lineHeight": 1.16,
       "trackingEm": -0.010416666666666666,
       "color": "#111827",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-2",
-      "sizePt": 13.5,
+      "sizePt": 11.5,
       "weight": 600,
-      "lineHeight": 1.9,
-      "trackingEm": 0.027777777777777776,
+      "lineHeight": 1.34,
+      "trackingEm": 0.04,
       "textTransform": "uppercase",
-      "color": "#E11D48",
+      "color": "#B81D43",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 12.75,
+      "sizePt": 11.5,
       "weight": 400,
-      "lineHeight": 2.0,
+      "lineHeight": 1.49,
       "color": "#374151",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 18.0,
+      "sizePt": 13.25,
       "weight": 700,
-      "lineHeight": 1.9,
-      "trackingEm": 0.041666666666666664,
+      "lineHeight": 1.28,
+      "trackingEm": 0.045,
       "textTransform": "uppercase",
-      "color": "#E11D48",
+      "color": "#B81D43",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-2",
-      "sizePt": 15.0,
+      "sizePt": 11.75,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.32,
       "color": "#111827",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-2",
-      "sizePt": 12.0,
+      "sizePt": 9.75,
       "weight": 600,
-      "lineHeight": 1.8,
+      "lineHeight": 1.35,
       "color": "#4B5563",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-3",
-      "sizePt": 11.25,
+      "sizePt": 9.5,
       "weight": 500,
-      "lineHeight": 1.9,
-      "color": "#6B7280",
+      "lineHeight": 1.33,
+      "color": "#525C69",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 23.28333333333333,
-      "right": 23.28333333333333,
-      "bottom": 23.28333333333333,
-      "left": 23.28333333333333
+      "top": 18,
+      "right": 19,
+      "bottom": 17,
+      "left": 19
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "size": "A4",
+    "sectionGapMm": 5.2
   },
   "composition": {
     "preset": "single-column",
@@ -115,48 +117,48 @@
   },
   "sections": {
     "awards": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "stack"
     },
     "certificates": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "stack"
     },
     "education": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "stack"
     },
     "interests": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "compact"
     },
     "languages": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "compact"
     },
     "projects": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "stack"
     },
     "publications": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "stack"
     },
     "references": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "compact"
     },
     "skills": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "compact"
     },
     "volunteer": {
-      "heading": "line",
-      "items": "cards"
+      "heading": "plain",
+      "items": "stack"
     },
     "work": {
       "heading": "line",
-      "items": "cards"
+      "items": "stack"
     }
   },
   "provenance": {

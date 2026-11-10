@@ -3,7 +3,7 @@
   "id": "community-graph-paper-grid",
   "name": "Graph Paper Grid",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#4B5563",
     "muted": "#374151",
-    "border": "#374151"
+    "border": "#A9B5C2"
   },
   "modules": [
     "basics",
@@ -34,15 +34,15 @@
       "family": "cjk-sans",
       "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.46,
       "color": "#4B5563",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-0",
-      "sizePt": 30.0,
+      "sizePt": 28,
       "weight": 700,
-      "lineHeight": 1.7,
+      "lineHeight": 1.19,
       "trackingEm": -0.0125,
       "textTransform": "uppercase",
       "color": "#111827",
@@ -50,70 +50,71 @@
     },
     "label": {
       "family": "asset:font-1",
-      "sizePt": 12.0,
+      "sizePt": 10.5,
       "weight": 500,
-      "lineHeight": 1.7,
-      "trackingEm": 0.125,
+      "lineHeight": 1.34,
+      "trackingEm": 0.075,
       "textTransform": "uppercase",
       "color": "#374151",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 11.25,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.8,
+      "lineHeight": 1.48,
       "color": "#374151",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 12.5,
       "weight": 700,
-      "lineHeight": 1.7,
-      "trackingEm": 0.125,
+      "lineHeight": 1.28,
+      "trackingEm": 0.075,
       "textTransform": "uppercase",
       "color": "#111827",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11.5,
       "weight": 700,
-      "lineHeight": 1.7,
-      "trackingEm": 0.0625,
-      "textTransform": "uppercase",
+      "lineHeight": 1.31,
+      "trackingEm": 0.015,
+      "textTransform": "none",
       "color": "#111827",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 11.25,
+      "sizePt": 9.75,
       "weight": 600,
-      "lineHeight": 1.7,
+      "lineHeight": 1.34,
       "color": "#374151",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "cjk-serif",
-      "sizePt": 9.75,
+      "sizePt": 9.5,
       "weight": 600,
-      "lineHeight": 1.7,
-      "trackingEm": 0.038461538461538464,
-      "textTransform": "uppercase",
-      "color": "#6B7280",
+      "lineHeight": 1.32,
+      "trackingEm": 0.015,
+      "textTransform": "none",
+      "color": "#515D6E",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 15.583333333333334,
-      "right": 12.9375,
-      "bottom": 15.583333333333334,
-      "left": 12.9375
+      "top": 16,
+      "right": 16,
+      "bottom": 16,
+      "left": 16
     },
-    "sectionGapMm": 13.229166666666666,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.1,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column",
@@ -133,12 +134,12 @@
   },
   "sections": {
     "awards": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "Awards"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certificates"
     },
     "education": {
@@ -146,25 +147,26 @@
       "title": "Education"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "Languages"
     },
     "projects": {
       "heading": "line",
-      "items": "cards",
-      "title": "Projects"
+      "items": "stack",
+      "title": "Projects",
+      "date": "right"
     },
     "publications": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Publications"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "title": "References"
     },
     "skills": {
@@ -172,7 +174,7 @@
       "title": "Skills"
     },
     "volunteer": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Volunteer"
     },
     "work": {

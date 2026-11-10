@@ -3,7 +3,7 @@
   "id": "community-kendall",
   "name": "Kendall",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -31,87 +31,98 @@
   ],
   "typography": {
     "body": {
-      "family": "asset:font-0",
-      "sizePt": 11.399999999999999,
-      "weight": 700,
-      "lineHeight": 1.5,
+      "family": "asset:font-1",
+      "sizePt": 10.5,
+      "weight": 400,
+      "lineHeight": 1.48,
       "color": "#334960",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-0",
-      "sizePt": 17.099999999999998,
+      "sizePt": 27,
       "weight": 700,
-      "lineHeight": 1.4,
-      "trackingEm": -0.04385964912280702,
+      "lineHeight": 1.15,
+      "trackingEm": -0.014,
       "textTransform": "uppercase",
       "color": "#363636",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-0",
-      "sizePt": 13.679999999999998,
+      "sizePt": 11.5,
       "weight": 700,
-      "lineHeight": 1.4,
-      "color": "#363636",
+      "lineHeight": 1.33,
+      "color": "#334960",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-1",
-      "sizePt": 11.399999999999999,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.49,
       "color": "#363636",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-0",
-      "sizePt": 17.099999999999998,
+      "sizePt": 12.5,
       "weight": 700,
-      "lineHeight": 1.4,
+      "lineHeight": 1.26,
       "textTransform": "uppercase",
       "color": "#227C74",
-      "fontStyle": "normal"
+      "fontStyle": "normal",
+      "trackingEm": 0.045
     },
     "itemTitle": {
       "family": "asset:font-0",
-      "sizePt": 13.679999999999998,
+      "sizePt": 11.5,
       "weight": 700,
-      "lineHeight": 1.4,
+      "lineHeight": 1.32,
       "color": "#363636",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-1",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
-      "color": "#363636",
+      "lineHeight": 1.35,
+      "color": "#526175",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-1",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
-      "color": "#363636",
+      "lineHeight": 1.34,
+      "color": "#526175",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 16,
-      "right": 16,
-      "bottom": 16,
-      "left": 16
+      "top": 17,
+      "right": 18,
+      "bottom": 17,
+      "left": 18
     },
     "avoidSplitItems": true,
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "size": "A4",
+    "sectionGapMm": 5
   },
   "composition": {
-    "preset": "single-column"
+    "preset": "single-column",
+    "header": "centered"
   },
-  "sections": {},
+  "sections": {
+    "education": {
+      "date": "left"
+    },
+    "awards": {
+      "date": "left"
+    }
+  },
   "provenance": {
     "migratedBy": "resume-one-theme-migrate --adapt",
     "fidelity": "adapted",

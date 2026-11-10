@@ -3,11 +3,11 @@
   "id": "community-minimalist-grid",
   "name": "Minimalist Grid",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
-    "accent": "#6B7280",
+    "accent": "#485366",
     "seal": "#334155",
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
@@ -32,18 +32,18 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 11,
       "weight": 300,
-      "lineHeight": 1.75,
+      "lineHeight": 1.48,
       "color": "#374151",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-0",
-      "sizePt": 27.0,
+      "sizePt": 29,
       "weight": 300,
-      "lineHeight": 1.75,
-      "trackingEm": 0.05555555555555555,
+      "lineHeight": 1.18,
+      "trackingEm": 0.04,
       "textTransform": "uppercase",
       "color": "#111827",
       "fontStyle": "normal"
@@ -52,67 +52,68 @@
       "family": "asset:font-2",
       "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.75,
-      "trackingEm": 0.10714285714285714,
+      "lineHeight": 1.33,
+      "trackingEm": 0.065,
       "textTransform": "uppercase",
-      "color": "#6B7280",
+      "color": "#535D6D",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 11,
       "weight": 300,
-      "lineHeight": 1.75,
+      "lineHeight": 1.49,
       "color": "#374151",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 9.0,
+      "sizePt": 11.75,
       "weight": 500,
-      "lineHeight": 1.75,
-      "trackingEm": 0.16666666666666666,
+      "lineHeight": 1.28,
+      "trackingEm": 0.1,
       "textTransform": "uppercase",
-      "color": "#6B7280",
+      "color": "#485366",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-1",
-      "sizePt": 9.0,
+      "sizePt": 11.25,
       "weight": 500,
-      "lineHeight": 1.75,
-      "trackingEm": 0.125,
-      "textTransform": "uppercase",
-      "color": "#6B7280",
+      "lineHeight": 1.31,
+      "trackingEm": 0.012,
+      "textTransform": "none",
+      "color": "#273346",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-2",
-      "sizePt": 9.75,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.75,
-      "trackingEm": 0.038461538461538464,
-      "color": "#6B7280",
+      "lineHeight": 1.34,
+      "trackingEm": 0.012,
+      "color": "#535D6D",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 300,
-      "lineHeight": 1.75,
-      "color": "#374151",
+      "lineHeight": 1.33,
+      "color": "#535D6D",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 19.049999999999997,
-      "right": 19.049999999999997,
-      "bottom": 19.049999999999997,
-      "left": 19.049999999999997
+      "top": 18,
+      "right": 19,
+      "bottom": 18,
+      "left": 19
     },
-    "sectionGapMm": 10.583333333333334,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.6,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column",

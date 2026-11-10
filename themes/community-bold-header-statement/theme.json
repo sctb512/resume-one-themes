@@ -3,7 +3,7 @@
   "id": "community-bold-header-statement",
   "name": "Bold Header Statement",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -32,84 +32,85 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 300,
-      "lineHeight": 1.7,
+      "lineHeight": 1.42,
       "color": "#1F2937",
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 42.0,
+      "sizePt": 38,
       "weight": 600,
-      "lineHeight": 1.0,
+      "lineHeight": 1.12,
       "trackingEm": -0.03571428571428571,
       "textTransform": "uppercase",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-0",
-      "sizePt": 18.0,
+      "sizePt": 13.2,
       "weight": 300,
-      "lineHeight": 1.4,
+      "lineHeight": 1.28,
       "trackingEm": 0.020833333333333332,
-      "fontStyle": "normal"
+      "fontStyle": "normal",
+      "color": "#0F655E"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 13.5,
+      "sizePt": 11.1,
       "weight": 300,
-      "lineHeight": 1.8,
+      "lineHeight": 1.45,
       "color": "#374151",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 10.5,
+      "sizePt": 12.1,
       "weight": 700,
-      "lineHeight": 1.4,
-      "trackingEm": 0.14285714285714285,
+      "lineHeight": 1.25,
+      "trackingEm": 0.075,
       "textTransform": "uppercase",
       "color": "#0F766E",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-1",
-      "sizePt": 15.0,
+      "sizePt": 12.2,
       "weight": 700,
-      "lineHeight": 1.4,
-      "trackingEm": -0.025,
-      "textTransform": "uppercase",
+      "lineHeight": 1.27,
+      "trackingEm": 0,
+      "textTransform": "none",
       "color": "#111827",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-2",
-      "sizePt": 12.0,
+      "sizePt": 9.6,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.3,
       "color": "#4B5563",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-2",
-      "sizePt": 10.5,
+      "sizePt": 9.3,
       "weight": 400,
-      "lineHeight": 1.4,
-      "trackingEm": 0.07142857142857142,
-      "textTransform": "uppercase",
+      "lineHeight": 1.27,
+      "trackingEm": 0.025,
+      "textTransform": "none",
       "color": "#6B7280",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 12.7,
-      "right": 12.7,
-      "bottom": 12.7,
-      "left": 12.7
+      "top": 17,
+      "right": 18,
+      "bottom": 16,
+      "left": 18
     },
-    "sectionGapMm": 15.875,
+    "sectionGapMm": 4.8,
     "firstLinePosition": "line-box"
   },
   "composition": {
@@ -130,11 +131,11 @@
   },
   "sections": {
     "awards": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Awards"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certificates"
     },
     "education": {
@@ -142,11 +143,11 @@
       "title": "Education"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
@@ -154,19 +155,19 @@
       "title": "Projects"
     },
     "publications": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Publications"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "title": "References"
     },
     "skills": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Skills"
     },
     "volunteer": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Volunteer"
     },
     "work": {

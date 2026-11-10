@@ -3,7 +3,7 @@
   "id": "community-lucide",
   "name": "Lucide",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,8 +13,8 @@
     "canvas": "#F5F3EE",
     "ink": "#333333",
     "muted": "#64748B",
-    "border": "#CBD5E1",
-    "sidebar": "#0077CC"
+    "border": "#B8CFDF",
+    "sidebar": "#0863A5"
   },
   "modules": [
     "basics",
@@ -33,71 +33,72 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 8.399999999999999,
+      "sizePt": 10.25,
       "weight": 400,
-      "lineHeight": 1.4
+      "lineHeight": 1.44
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 36.0,
+      "sizePt": 30,
       "weight": 600,
-      "lineHeight": 1.0,
-      "color": "#0077CC",
+      "lineHeight": 1.14,
+      "color": "#0863A5",
       "fontStyle": "normal"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 12.0,
+      "sizePt": 11.25,
       "weight": 400,
-      "lineHeight": 1.4
+      "lineHeight": 1.35
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 10.0,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.4
+      "lineHeight": 1.46
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 15.0,
+      "sizePt": 12.5,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.28,
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 7.199999999999999,
+      "sizePt": 11.25,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.3,
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4
+      "lineHeight": 1.36
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4
+      "lineHeight": 1.34
     }
   },
   "page": {
     "marginsMm": {
-      "top": 5.78,
-      "right": 4.2333333333333325,
-      "bottom": 4.2333333333333325,
-      "left": 4.2333333333333325
+      "top": 14,
+      "right": 14,
+      "bottom": 14,
+      "left": 14
     },
-    "sectionGapMm": 4.0,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 4.6,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "sidebar-left",
-    "sidebarWidthPct": 30.0,
-    "gapMm": 1.7638888888888888,
+    "sidebarWidthPct": 33,
+    "gapMm": 5,
     "placements": {
       "skills": "sidebar",
       "languages": "sidebar",
@@ -106,9 +107,14 @@
     },
     "contactRegion": "sidebar",
     "headerRegion": "main",
-    "summaryRegion": "main"
+    "summaryRegion": "main",
+    "contact": "stacked"
   },
-  "sections": {},
+  "sections": {
+    "skills": {
+      "items": "compact"
+    }
+  },
   "provenance": {
     "migratedBy": "resume-one-theme-migrate --adapt",
     "fidelity": "adapted",

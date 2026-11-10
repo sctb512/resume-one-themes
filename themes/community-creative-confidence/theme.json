@@ -3,7 +3,7 @@
   "id": "community-creative-confidence",
   "name": "Creative Confidence",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,8 @@
     "canvas": "#F5F3EE",
     "ink": "#000000",
     "muted": "#64748B",
-    "border": "#0B1F3F"
+    "border": "#9DACC1",
+    "sidebar": "#EDF4FF"
   },
   "modules": [
     "basics",
@@ -32,80 +33,82 @@
   "typography": {
     "body": {
       "family": "cjk-sans",
-      "sizePt": 9.35,
+      "sizePt": 10.3,
       "weight": 400,
-      "lineHeight": 1.1,
+      "lineHeight": 1.39,
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 22.0,
+      "sizePt": 25,
       "weight": 600,
-      "lineHeight": 1.05,
-      "fontStyle": "normal"
+      "lineHeight": 1.16,
+      "fontStyle": "normal",
+      "color": "#0F274D"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 10.4,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.22,
-      "fontStyle": "normal"
+      "lineHeight": 1.29,
+      "fontStyle": "normal",
+      "color": "#334155"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 10.05,
+      "sizePt": 10.3,
       "weight": 400,
-      "lineHeight": 1.22,
+      "lineHeight": 1.42,
       "color": "#0F172A"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 14.2,
+      "sizePt": 12.5,
       "weight": 600,
-      "lineHeight": 1.22,
+      "lineHeight": 1.25,
       "color": "#0F274D",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 10.6,
+      "sizePt": 11.3,
       "weight": 600,
-      "lineHeight": 1.22,
+      "lineHeight": 1.28,
       "color": "#0F172A",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9.25,
       "weight": 400,
-      "lineHeight": 1.22,
+      "lineHeight": 1.31,
       "color": "#0F172A"
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 9.15,
+      "sizePt": 9.2,
       "weight": 400,
-      "lineHeight": 1.22,
+      "lineHeight": 1.27,
       "color": "#334155"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 8.889999999999999,
-      "right": 8.127999999999998,
-      "bottom": 12.191999999999998,
-      "left": 8.127999999999998
+      "top": 15,
+      "right": 15,
+      "bottom": 15,
+      "left": 15
     },
     "avoidSplitItems": true,
     "keepHeadingWithFirstItem": true,
-    "sectionGapMm": 4.0,
-    "size": "Letter",
+    "sectionGapMm": 4.05,
+    "size": "A4",
     "firstLinePosition": "line-box"
   },
   "composition": {
     "preset": "sidebar-right",
-    "sidebarWidthPct": 37.03703703703704,
-    "gapMm": 4.063999999999999,
+    "sidebarWidthPct": 34,
+    "gapMm": 5.5,
     "placements": {
       "skills": "sidebar",
       "languages": "sidebar",
@@ -114,7 +117,9 @@
     },
     "contactRegion": "sidebar",
     "headerRegion": "main",
-    "summaryRegion": "main"
+    "summaryRegion": "main",
+    "contact": "stacked",
+    "sidebarTypographyScale": 0.95
   },
   "sections": {},
   "provenance": {

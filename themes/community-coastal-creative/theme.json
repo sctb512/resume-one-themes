@@ -3,7 +3,7 @@
   "id": "community-coastal-creative",
   "name": "Coastal Creative",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -32,82 +32,82 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.9,
+      "lineHeight": 1.46,
       "color": "#334155",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 31.5,
+      "sizePt": 30.5,
       "weight": 600,
-      "lineHeight": 1.9,
+      "lineHeight": 1.16,
       "trackingEm": -0.011904761904761904,
       "color": "#0F172A",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-2",
-      "sizePt": 13.5,
+      "sizePt": 11.5,
       "weight": 500,
-      "lineHeight": 1.9,
+      "lineHeight": 1.31,
       "color": "#0369A1",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 12.75,
+      "sizePt": 11.15,
       "weight": 400,
-      "lineHeight": 2.0,
+      "lineHeight": 1.46,
       "color": "#475569",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 18.0,
+      "sizePt": 13.5,
       "weight": 600,
-      "lineHeight": 1.9,
-      "trackingEm": 0.041666666666666664,
+      "lineHeight": 1.23,
+      "trackingEm": 0.035,
       "textTransform": "uppercase",
       "color": "#0369A1",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-1",
-      "sizePt": 11.25,
+      "sizePt": 11.9,
       "weight": 600,
-      "lineHeight": 1.9,
-      "trackingEm": 0.03333333333333333,
-      "textTransform": "uppercase",
-      "color": "#0369A1",
+      "lineHeight": 1.3,
+      "trackingEm": 0,
+      "textTransform": "none",
+      "color": "#203D52",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-2",
-      "sizePt": 11.25,
+      "sizePt": 9.5,
       "weight": 500,
-      "lineHeight": 1.9,
-      "color": "#64748B",
+      "lineHeight": 1.33,
+      "color": "#526579",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9,
       "weight": 400,
-      "lineHeight": 1.9,
+      "lineHeight": 1.28,
       "color": "#334155",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 8.466666666666665,
-      "right": 8.466666666666665,
-      "bottom": 8.466666666666665,
-      "left": 8.466666666666665
+      "top": 17,
+      "right": 18,
+      "bottom": 16,
+      "left": 18
     },
-    "sectionGapMm": 12.7,
+    "sectionGapMm": 4.7,
     "firstLinePosition": "line-box"
   },
   "composition": {

@@ -3,7 +3,7 @@
   "id": "community-creative-studio",
   "name": "Creative Studio",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#555555",
     "muted": "#000000",
-    "border": "#FF6363"
+    "border": "#D99090"
   },
   "modules": [
     "basics",
@@ -32,73 +32,74 @@
   "typography": {
     "body": {
       "family": "cjk-serif",
-      "sizePt": 13.200000000000001,
+      "sizePt": 10.7,
       "weight": 600,
-      "lineHeight": 1.8,
+      "lineHeight": 1.43,
       "fontStyle": "normal",
       "color": "#555555"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 33.0,
+      "sizePt": 30,
       "weight": 600,
-      "lineHeight": 1.2,
+      "lineHeight": 1.15,
       "trackingEm": -0.011363636363636364,
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-0",
-      "sizePt": 13.5,
+      "sizePt": 11.4,
       "weight": 600,
-      "lineHeight": 1.8,
+      "lineHeight": 1.31,
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-1",
-      "sizePt": 13.200000000000001,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.9,
+      "lineHeight": 1.45,
       "color": "#555555",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 21.0,
+      "sizePt": 14.4,
       "weight": 600,
-      "lineHeight": 1.8,
+      "lineHeight": 1.24,
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "cjk-serif",
-      "sizePt": 15.0,
+      "sizePt": 12.1,
       "weight": 600,
-      "lineHeight": 1.8,
+      "lineHeight": 1.29,
       "color": "#333333",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-0",
-      "sizePt": 13.200000000000001,
+      "sizePt": 9.3,
       "weight": 600,
-      "lineHeight": 1.8,
-      "fontStyle": "normal"
+      "lineHeight": 1.3,
+      "fontStyle": "normal",
+      "color": "#524B4B"
     },
     "sideDate": {
       "family": "cjk-serif",
-      "sizePt": 10.5,
+      "sizePt": 9.25,
       "weight": 600,
-      "lineHeight": 1.8,
+      "lineHeight": 1.28,
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 10.583333333333334,
-      "right": 10.583333333333334,
-      "bottom": 10.583333333333334,
-      "left": 10.583333333333334
+      "top": 17,
+      "right": 18,
+      "bottom": 16,
+      "left": 18
     },
-    "sectionGapMm": 7.9375,
+    "sectionGapMm": 4.6,
     "firstLinePosition": "line-box"
   },
   "composition": {
@@ -117,22 +118,22 @@
   },
   "sections": {
     "awards": {
-      "heading": "line"
+      "heading": "plain"
     },
     "certificates": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Certificates"
     },
     "education": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Education"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
@@ -140,20 +141,20 @@
       "title": "Projects"
     },
     "publications": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Publications"
     },
     "references": {
-      "heading": "line",
+      "heading": "plain",
       "items": "stack",
       "title": "References"
     },
     "skills": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Skills"
     },
     "volunteer": {
-      "heading": "line"
+      "heading": "plain"
     },
     "work": {
       "heading": "line",

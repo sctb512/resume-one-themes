@@ -5,7 +5,7 @@
       "id": "community-academic-cv-lite",
       "name": "Academic Cv Lite",
       "manifest": "themes/community-academic-cv-lite/theme.json",
-      "sha256": "7e5d7caccc4b580c170d66ce83a372539fd1f9e96c1b4460c33bca0b82b2f0dd",
+      "sha256": "d6908bb5f7fef26bfca704aaedb4b1f5b4dfb99e5f955fbacfe8f6eb962818f3",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "2edfdee1ee6ed6ef95ed1c5f0f7f1bfb3e020e51e7968a1251096534216bd6c5",
@@ -19,7 +19,7 @@
       "id": "community-architects-portfolio",
       "name": "Architects Portfolio",
       "manifest": "themes/community-architects-portfolio/theme.json",
-      "sha256": "e565f4d1f3b1514f7b800d0b523a8261b627d2fd7b8bf86f5c5686d345a249a9",
+      "sha256": "98146df63de2efe1c499a029395263b77b839569004273631d3006014ce9872e",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "eb8b47250942eff564cc70fbda49f1dcf183f4356ed5d9d3ed5c84526bd7e573",
@@ -33,7 +33,7 @@
       "id": "community-art-deco",
       "name": "Art Deco",
       "manifest": "themes/community-art-deco/theme.json",
-      "sha256": "81f742172ed06f0c39291a36d47c4a367221b8a5b81387ac2859e7d15857b070",
+      "sha256": "5f7bba4d639ee1b83a6d7ed2ee19ce0d3fa6a99d4ab03091cf8c11129908c2bf",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "7c02e04c2150ad258999ba6367f478e29b9a5b47fec517433599cd9687070188"
@@ -43,7 +43,7 @@
       "id": "community-art-school-modern",
       "name": "Art School Modern",
       "manifest": "themes/community-art-school-modern/theme.json",
-      "sha256": "a8820bdf1b9b442bf7353a31d567af8ac07f19197aa7acc74c18f646ece59bb2",
+      "sha256": "16598c956b3fecb1de079760942cc2f31e0d71acc4f3b15bdab87b7c07bd9e1a",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "c69785fff45428bc9780b9610e46236acceeafbb87f11846609327ba7c5c49f5"
@@ -53,7 +53,7 @@
       "id": "community-asymmetric-timeline",
       "name": "Asymmetric Timeline",
       "manifest": "themes/community-asymmetric-timeline/theme.json",
-      "sha256": "bbf59936292dbd9eee623fd7626bac065fe737e8d672e8be752b34e1b18fe760",
+      "sha256": "6370f6f398de321894f8353239ea734ca2c74140e1ed9debbc58532e39d23873",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "3d2f348565a4f5d4765ee92dc8cb7d693f64ff2d5c0337dab52566d2e4b87531",
@@ -66,7 +66,7 @@
       "id": "community-berlin-grid",
       "name": "Berlin Grid",
       "manifest": "themes/community-berlin-grid/theme.json",
-      "sha256": "855b20fb12c7aa7188ff6f50237351b06a00d72d931f94290daaed1a267bc0bf",
+      "sha256": "483621c9d4ea36b39f77236b01979bba7ac7a90ffdb521af5b506ff86943d87f",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "fe6d46b263451e071d9823d42197bfa386960b09c66d48a64dc4b9f0d8708e6c"
@@ -76,7 +76,7 @@
       "id": "community-bold-header-statement",
       "name": "Bold Header Statement",
       "manifest": "themes/community-bold-header-statement/theme.json",
-      "sha256": "6a2b2e4d7b8847be9cb08bbbb35312351901cadf77f8481dc87d547b6916f43a",
+      "sha256": "df22caec1f9b179fc2414b3caaa6d8b0f9ffbf38bbb83ce146422c375fbf55be",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "7e226e1655c1ad7087f92baa1130fd49d260851384454853d61e0efac65c9530",
@@ -90,7 +90,7 @@
       "id": "community-brutalist",
       "name": "Brutalist",
       "manifest": "themes/community-brutalist/theme.json",
-      "sha256": "aced1a7d76719b191dab76fffbe935b6c337d05ce614aa465d46b7691a9e15f1",
+      "sha256": "930bd035885ddce2a80dfeb1e0300b387f85b3a813684953cf52589e3cf8224a",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "a28262dbb2b59afa8ea49830c304623ee1f68081b80b9f69d4a1302b867907b1",
@@ -106,7 +106,7 @@
       "id": "community-californian-warm",
       "name": "Californian Warm",
       "manifest": "themes/community-californian-warm/theme.json",
-      "sha256": "d371bbf3dd7ecf48288bb6b684640277e63865c17ccfb361f9042b46354dad01",
+      "sha256": "c986c3d4fee92f5230679beab892bc0433e1d52963ede5664a6ae14d8a438aa9",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "6d137fc5ea5caabcd63ba7747f1a986e3d4c2b4b3e3fb212614f5ca391196b4b",
@@ -121,7 +121,7 @@
       "id": "community-claude",
       "name": "Claude",
       "manifest": "themes/community-claude/theme.json",
-      "sha256": "cbc3a13fa4cdffd1a7887af06baefdcc6f05b4ecd6c26e19c1432142990dd8cc",
+      "sha256": "692aad8150f0e593084e2965abdc9164418bf538ee856ccb36fff9f89bd9554c",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "2e98d27dff9849c07047fc06bf6d6eb9a9bb718f59aba3826c14e356eddcfc1c",
@@ -136,7 +136,7 @@
       "id": "community-clinical-precision",
       "name": "Clinical Precision",
       "manifest": "themes/community-clinical-precision/theme.json",
-      "sha256": "c907ba54950233ae78e4c8a018aa47358093a5d78bcd7dfc786c66de039a58e6",
+      "sha256": "8bd8cecf553a1ad5184880dbf01211fe539a6f6d53cb034d39e21b48fd0ef475",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "57efae8ac935fd16e98bc8f50fb72a8d37378ef9d2739384834b297766997243"
@@ -146,7 +146,7 @@
       "id": "community-coastal-creative",
       "name": "Coastal Creative",
       "manifest": "themes/community-coastal-creative/theme.json",
-      "sha256": "21eed2b6f6be15f357e5cb3aa5cd5240df261ecaaaba3e698ac53b14ef1c9d4a",
+      "sha256": "79b7a1ec591c592ed274fc1f05872f4a44f22f7362604fbdd3073916e8502db7",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "6727f482cd937a9b8399176e452f772d000b940d31f70887103741d8bf7b1d60",
@@ -160,7 +160,7 @@
       "id": "community-colophon",
       "name": "Colophon",
       "manifest": "themes/community-colophon/theme.json",
-      "sha256": "7d6e886b17c9e976a58c08d8ec4b93dca3b55e443af25266fefa89e914fe224f",
+      "sha256": "9ccb366be7b0f79e6058e8de016412a92a6c63fa3fe7cfb686db23f03d262437",
       "files": {
         "LICENSE.txt": "e498e69df24b15d8ff64c2094842d56e32692d0255df7b348bd55d4542adf59a",
         "NOTICE.txt": "99ac9e1a4be33c29fa8d4033048b93e7c7ef78d3e937da7202b9f0e0ffae2697"
@@ -170,7 +170,7 @@
       "id": "community-community-garden",
       "name": "Community Garden",
       "manifest": "themes/community-community-garden/theme.json",
-      "sha256": "92ae60233bbb79dbdfd21353dfd2445e350465582718d4db2887acdf93e9dbc7",
+      "sha256": "00ffd2b03870fc0ccab9d70c634ef371a130157bb09c7d24e1d619c0c09a96a9",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "5e18e9d0b87d570a99d671c3fb696a11f5b98e017efcc2ae0b86884ac98bf40f",
@@ -184,7 +184,7 @@
       "id": "community-consultant-polished",
       "name": "Consultant Polished",
       "manifest": "themes/community-consultant-polished/theme.json",
-      "sha256": "f75ee85874ba70893364bec0f72350c0a7b6df5943d229eae4164bd39cebc9a9",
+      "sha256": "0f8a19a158ece84299e3ceb2b740add646626ae182750c565eb8a930e3734c1d",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "4af8c5df0048c14e4d2d5c840114261a52a3c7299806f95cac1b2b16e9f3d441"
@@ -194,7 +194,7 @@
       "id": "community-creative-confidence",
       "name": "Creative Confidence",
       "manifest": "themes/community-creative-confidence/theme.json",
-      "sha256": "22b7e9e5ce52f72333b98963aa3971a624b5fe6c156fdc917b59427703abfbd6",
+      "sha256": "d9a50edfd3505c1fe5f73356dd4e0a1c6926097a43f5cf77bd4df6b09bd8eddb",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "969e6a1d24dbad0b00e550dc08e45585df910b2349222b42450fe31c3fc8bb78"
@@ -204,7 +204,7 @@
       "id": "community-creative-studio",
       "name": "Creative Studio",
       "manifest": "themes/community-creative-studio/theme.json",
-      "sha256": "ebf60fa20797818daf121be94d2d4bd65a7e1a8eea22a0a6bc3affdddf8ff939",
+      "sha256": "9f90b16343a0075e25132669420e845f66470e19a8f2c171f126991fe3b88d2e",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "a1ecadea199e477262aaa95518488fcd8df038eba2fa0e69e5a064f1db25baf7",
@@ -217,7 +217,7 @@
       "id": "community-data-driven",
       "name": "Data Driven",
       "manifest": "themes/community-data-driven/theme.json",
-      "sha256": "282b7c6715c2b0565073a6b8e55cbe4263468a8e1aa39d76f95734cba3edf48e",
+      "sha256": "b2f69f151e93c01e9935ab5987ed017ff8f3c08b93a33c3a95e3ab84c7126595",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "b5aaf73df92ada589ea605e03dfb4e5e971e300fa6f9e434ba69d5c6bc0e6dfe",
@@ -232,7 +232,7 @@
       "id": "community-desert-modern",
       "name": "Desert Modern",
       "manifest": "themes/community-desert-modern/theme.json",
-      "sha256": "e06819c0a5809188f0c698f633d35792e6922f3ec63a86e2171f8343d62c41d2",
+      "sha256": "6e7a90aef38a39220a27db77769dcbcff3950f54fa7a48b09f011597e26d8293",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "4fc90b8f083f7b40ca452031715970f342258294025b84083005f59d2446480e",
@@ -246,7 +246,7 @@
       "id": "community-developer-mono",
       "name": "Developer Mono",
       "manifest": "themes/community-developer-mono/theme.json",
-      "sha256": "41b1d8570a7edd5df0c95f7a16a6559857f0038d003056322b54b90b62b2b5dd",
+      "sha256": "a3cc3cb2489bca26b0915b3b33e29bafba8925118f212b5bc731ecde95e7c7f0",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "fdd4def72a068bac9a0c06543a27c8f42cfc0a124ef04ccafa0d5b29f9541704",
@@ -258,7 +258,7 @@
       "id": "community-diagonal-accent-bar",
       "name": "Diagonal Accent Bar",
       "manifest": "themes/community-diagonal-accent-bar/theme.json",
-      "sha256": "c07fe7dce2e5f512ea9205d460c7b6d7ed120ae22109750ea52fc1bff5dd97e0",
+      "sha256": "13f3a4fd858a981623d19b1bc6497fe322213a3e489ebafb96b6074d3cc2d1ee",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "601f1a65fb21629068a24ebd9f150b7ed5edb4eec62ca7d5d7fede7755416e01"
@@ -268,7 +268,7 @@
       "id": "community-elegant",
       "name": "Elegant",
       "manifest": "themes/community-elegant/theme.json",
-      "sha256": "b38dba738be3afc429c4ee6350e45b3360fc53aa06755ba4d6501abe2e610689",
+      "sha256": "b824a9e656b05d771eb091e40209a3b843c64f249583a5ed0b4d9499e87530b0",
       "files": {
         "LICENSE.txt": "2350cdbbfc144ffec28a6fee262d7edf431bf3c37b4b76093eee056dc5a4c48f",
         "NOTICE.txt": "86cdd01275253d016df591c11a304dfb0eb1626e6aa1021ee01767a5c5f8cecb"
@@ -278,7 +278,7 @@
       "id": "community-elegant-pink",
       "name": "Elegant Pink",
       "manifest": "themes/community-elegant-pink/theme.json",
-      "sha256": "8dbd1fb153c951ae5daa498ba48eadaa91e0c0b61ca322a447bf3e0fbba74d8c",
+      "sha256": "e9326e98429da01065f0d8196f6355309df4486a76ffa1baf59229d50514a4fe",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "c5deb839abfc1c59710f2eb44dc8b2a0e2f723b87137c2831a500760d27ae3a8",
@@ -293,7 +293,7 @@
       "id": "community-even",
       "name": "Even",
       "manifest": "themes/community-even/theme.json",
-      "sha256": "fc3a729c58f48ded3e35bbe278f179a1dea36aac297550b45e7b0d0940aa1073",
+      "sha256": "0d64434e48d88af19cd9b1300ee7b8569746ac440f19cfd28bbff2d48abc890e",
       "files": {
         "LICENSE.txt": "a1436e5316bd543cf13606ac2a6b8e2c979e6b2284f9db4e4ec6ebace473e8b8",
         "NOTICE.txt": "2c6009a70d4aec133a5964760f3830ad7462d5338355121087224dbf2c1c88aa",
@@ -305,7 +305,7 @@
       "id": "community-executive-slate",
       "name": "Executive Slate",
       "manifest": "themes/community-executive-slate/theme.json",
-      "sha256": "3b2cb6006a8afb0e070866e2c6d4074b3a0c3abffb77ff80f9d8b32567a093fa",
+      "sha256": "969b9f0baf4ebd2b8c18518989a8a7d888147ea0be58635dfa3edd2819fabe70",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "5e83939c080d81fb4d7da7526b0d410dc73a673c6bc428cd2f9ad0e0f0b27560",
@@ -317,7 +317,7 @@
       "id": "community-field-researcher",
       "name": "Field Researcher",
       "manifest": "themes/community-field-researcher/theme.json",
-      "sha256": "3880e04792cb73db53f8dfa827fc0e4a819a4de82badf29ae746af4c0fdb1602",
+      "sha256": "e683e60bd1c7a74591aa2fbc1fc29e1a60e5a401f5deefe1c5a773ba6b883d98",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "4111ccd78bc82047f1fe44dede73219c38bcce36bc893e5db8241965ef40d66d"
@@ -327,7 +327,7 @@
       "id": "community-flat",
       "name": "Flat",
       "manifest": "themes/community-flat/theme.json",
-      "sha256": "baa91354e0e932da6fda5354b162147f649f1c376373ac87a1c6e0e802273654",
+      "sha256": "5bbb48bd180e5eafb4385071163f4267c4a9c7686c978b613230b1282314b93f",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "5db303b4477f06caa44a429cc69d9630f06c3f59a595da55c9cb1fa74d075d0d",
@@ -341,7 +341,7 @@
       "id": "community-french-atelier",
       "name": "French Atelier",
       "manifest": "themes/community-french-atelier/theme.json",
-      "sha256": "c2fe48030a1b31f38386a5373154147d9b5d87b213c4306c5a9b6fdd68dba8ec",
+      "sha256": "540b5f99cc1a0595b8548aa339c2fed9146f9a543fe6e8f2c61d12df1d7427e3",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "73086bd71c79d7a8886e7cc47173dcb7e8e06c11a68cf5d558952bc9d1a52d34",
@@ -354,7 +354,7 @@
       "id": "community-government-standard",
       "name": "Government Standard",
       "manifest": "themes/community-government-standard/theme.json",
-      "sha256": "c456687b48ed8a76040b47fb52ccb7f8e2a088254a361cfdd813ee6bd544773a",
+      "sha256": "255a8de5ab6e769926c234ce5cbe5aaca980f5d6d41ab0864a5627f263ff5715",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "7bccf0f2498c9ca8422a3ee1d1cb93faeaba7f52bdc375f6f92b206c8d167b08"
@@ -364,7 +364,7 @@
       "id": "community-graph-paper-grid",
       "name": "Graph Paper Grid",
       "manifest": "themes/community-graph-paper-grid/theme.json",
-      "sha256": "1763a632ffc04ad8d127e28dc1fa8253e1ab187e398be1c8d80093d7254346d5",
+      "sha256": "8b1efefdec9d7b565e8fb6405c28512b81bd649d55a6193ad196e3f0815733e6",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "efc46d44ca9749ea029758bd4cf56291dc4952babf4f615caea268a8e6c50f49",
@@ -377,7 +377,7 @@
       "id": "community-industrial-engineer",
       "name": "Industrial Engineer",
       "manifest": "themes/community-industrial-engineer/theme.json",
-      "sha256": "377f1fac559a98c40f3e59d113d8bf07ecf7d558c0163b0563f41ac78b9c31ec",
+      "sha256": "b3b0998313cb62a43dc1e8610f095a7c4af69012b9b1e583af9891b4cbcfcd2b",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "6aef588f2cc912c938d086ae9b0c1d88f8f8f05fba2b25de1a79843aa28826c0"
@@ -387,7 +387,7 @@
       "id": "community-investor-brief",
       "name": "Investor Brief",
       "manifest": "themes/community-investor-brief/theme.json",
-      "sha256": "1990fe44fc0c675c0500224c24379a5d3ced6888b7d37ab5742bfb253286aed4",
+      "sha256": "4b4a7c9d8707b78090477ef5cbab5d55c93ce8451f83d72a99dac3e3a77a693d",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "5ed14548e0e9fc750645a3c26ecac7a02ca06af150665396e77e51c6a5d891a5",
@@ -401,7 +401,7 @@
       "id": "community-jacrys",
       "name": "Jacrys",
       "manifest": "themes/community-jacrys/theme.json",
-      "sha256": "9fffbc1a9c1345e5f5b76beb006395ec2010bf8b227bda9645a56f085b15dca7",
+      "sha256": "c68ca26b3603a0ef3145404334f08b645ebe1f15b7089f57ee8e8a2340ad6e61",
       "files": {
         "LICENSE.txt": "29baee045d4c789be43de0d4de5a1b317ade16a25c558bd21613debd358206a4",
         "NOTICE.txt": "c0b37de7f8f8560e3b15fc168d616ae200459117114aed75f49d5d19c3fff19c",
@@ -414,7 +414,7 @@
       "id": "community-kendall",
       "name": "Kendall",
       "manifest": "themes/community-kendall/theme.json",
-      "sha256": "e7cd7c240ced43bbf8983f02d973de8d388cf2b27a08449802c767609135fd53",
+      "sha256": "a9a29ecb7b82427fd0017e08ac2518cf9be8015269d1268298cba7ac70ceb881",
       "files": {
         "LICENSE.txt": "09f4303a3fb836b733cfb0a96eccda365f7710d28b2c3c603c742ec8246f3aff",
         "NOTICE.txt": "a3a491a8654fbdc66c74688705987c552add678376e62b2cfa760b3858301c61",
@@ -427,7 +427,7 @@
       "id": "community-london-bureau",
       "name": "London Bureau",
       "manifest": "themes/community-london-bureau/theme.json",
-      "sha256": "3073a47938cffc1c95ea97b0a62146f9d32a8cc145862008f289ee1fb1f22b7f",
+      "sha256": "ef50fb4816468dc17989bdd0d3b77ea4e5871fac12f42a4c9bd6cda95442aad3",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "0321b221c0af86adf82df6cec5b88993c499d915f5548da8d309ed113eedf411"
@@ -437,7 +437,7 @@
       "id": "community-lucide",
       "name": "Lucide",
       "manifest": "themes/community-lucide/theme.json",
-      "sha256": "8831c48e7d8122e7f37bdf6111702e1c9a54efa852621ace70c9baedbbcb7474",
+      "sha256": "4d8b304056e506768264127b04d6b8f201a386ae83bbd616b114c84e2604df02",
       "files": {
         "LICENSE.txt": "60bd19cd8c068bb6323ba1ad0b0b5a585335e22909feffcd3db800bc77c10202",
         "NOTICE.txt": "5c8f803fb002cf3a00106a9a032d49eff6caf5cd59a851460770c63e4b45252f"
@@ -447,7 +447,7 @@
       "id": "community-macchiato",
       "name": "Macchiato",
       "manifest": "themes/community-macchiato/theme.json",
-      "sha256": "c8c6627c7575bdade5c56c36ce9065421fb59331889df0e3365324e8484c1506",
+      "sha256": "a1f26e2b500117c52d66d89ec0164aa87e30bdc68856cca60ddbbb926f3db693",
       "files": {
         "LICENSE.txt": "2a726d549105fa4f716438035af5a39ffe51c5a2b13a3aa2eed415e54020c8de",
         "NOTICE.txt": "ed8e75c5dd22492b5737e730c8b8fc170c88f68101e4eeecfc8ea1f3258dca62",
@@ -461,7 +461,7 @@
       "id": "community-marketing-narrative",
       "name": "Marketing Narrative",
       "manifest": "themes/community-marketing-narrative/theme.json",
-      "sha256": "6c4856cd61471a6e95378237929a7c5ca364acd2a8b50decdc4b500445a5b233",
+      "sha256": "c02f8bdb7f3d2b8840eaf2c215bc212bd9686a16824139a1e6908ff7a7eadcf1",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "520b335d074775c90b506b4efac06c43d143b5ab78b2961ef53e542f0719442d",
@@ -476,7 +476,7 @@
       "id": "community-mid-century-resume",
       "name": "Mid Century Resume",
       "manifest": "themes/community-mid-century-resume/theme.json",
-      "sha256": "8bd61757ea91eed81e035b0ccf48a8f553216785d8699665d4ae2ee883258f3d",
+      "sha256": "19b1accd369955c0f2c3314d68d108b2b92890c4861da8335bb68d3054398ce7",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "055fa63b139659de0ca0d8d63690002a04d912ab1a839c5d88e8aa941b41c4d9"
@@ -486,7 +486,7 @@
       "id": "community-minimalist-grid",
       "name": "Minimalist Grid",
       "manifest": "themes/community-minimalist-grid/theme.json",
-      "sha256": "a890241f68cac88453dfe509f1adcfb650cba9b10c6f0c940b60876ddb0847cb",
+      "sha256": "da139228dd9cb30ca2b570247c9080b1c2c9e3e28d3f47b479cd0170f2496b9d",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "6bc00ad66c7488dca88d2b1b55da31faf7ece42e904de1fa0aeac6cb051a755c",
@@ -500,7 +500,7 @@
       "id": "community-minyma",
       "name": "Minyma",
       "manifest": "themes/community-minyma/theme.json",
-      "sha256": "f4b80e0e241ced2bc4b71188a3ab0ae07a5dfde707dfada0314ae4c3ce708f8c",
+      "sha256": "58449953cd0438be9089bbdf5b3c664e2c5f28595937263e8563ba73132c699a",
       "files": {
         "LICENSE.txt": "abad3175b27d2970c5667a4e80353b56841b84613c5a57e187d0fe77431e3d96",
         "NOTICE.txt": "27699794668b33e797e867a06f0fa0a425b7099d1ec05606ef3fef2eaa49e741",
@@ -512,7 +512,7 @@
       "id": "community-modern-classic",
       "name": "Modern Classic",
       "manifest": "themes/community-modern-classic/theme.json",
-      "sha256": "e6277afcdd8b36cf0180d0d68825264975ad651c0a0aee4de90ee705f4bde4e6",
+      "sha256": "df92f5b194ba1fce1c93c477fdbb58f210acbda284f0245d6d55fb78229b2e2d",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "a2abb82308f60d60ad34259549631abfcf42df5b225bad23ba90aab9dd7d3427",
@@ -527,7 +527,7 @@
       "id": "community-monochrome-noir",
       "name": "Monochrome Noir",
       "manifest": "themes/community-monochrome-noir/theme.json",
-      "sha256": "0e33fbd11ce38be1280d1614d4c8a171c5d4ddec58ea3c7992ef1a1974dd532d",
+      "sha256": "51ac699d29cd0040db82af223748451494a634b994bfa78a874ff28c2701ac01",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "546c4931a7f11787305e1c13d028b7be4508c4b22f95b69996820ac3f43f9382",
@@ -540,7 +540,7 @@
       "id": "community-new-york-editorial",
       "name": "New York Editorial",
       "manifest": "themes/community-new-york-editorial/theme.json",
-      "sha256": "ac389330a713e157796e791cb681f33365bdbf0bba8729969d2468f8f01be93e",
+      "sha256": "45e9869c719b06af4b409e2f55de740a73b7576484f72214864d4cef16750f82",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "3bc0e84e01e5d9d3a2907fb1679aca82a064734c8a6d3a2b1b27bf0f72f82575",
@@ -553,7 +553,7 @@
       "id": "community-nordic-minimal",
       "name": "Nordic Minimal",
       "manifest": "themes/community-nordic-minimal/theme.json",
-      "sha256": "112cf4a7c42c6bd0b695cc969a6bbd0bb9930b3d10c6a87ad7484d6f3b2895f5",
+      "sha256": "0a03f4dbc52c9ddb9194dd15a50fdb24edc629d01aef2f9a29c521b5981174a9",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "7a66fce7c0a2d03cefdeb1183f74ea68f2eea98e4146a367bb5beec80c240f24",
@@ -568,7 +568,7 @@
       "id": "community-operations-precision",
       "name": "Operations Precision",
       "manifest": "themes/community-operations-precision/theme.json",
-      "sha256": "46c631d90146d9a29d309fe4e4e1227eee9b1bdb045d0e7ff5c2993e91f471a2",
+      "sha256": "bcb85e30b45c5cb7524bbc0b212cb0bc5d6dd94979bae0835899c961723369b6",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "2751985306be2405e794e77f2b55bd0119df507440b922814319b94384066526",
@@ -583,7 +583,7 @@
       "id": "community-pacific-horizon",
       "name": "Pacific Horizon",
       "manifest": "themes/community-pacific-horizon/theme.json",
-      "sha256": "297ec84485eca0d7336fc71fda3d5df1ffe3427973373fdc1297da094a37711c",
+      "sha256": "228f53bb892b89a36a91c191e167f1173155273c2b271587f0d265d98e5c2240",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "7604844c431e649722f9bfb31f323d29af96ea0b7accfcb173535b866d4a67a2",
@@ -598,7 +598,7 @@
       "id": "community-paper-plus-plus",
       "name": "Paper Plus Plus",
       "manifest": "themes/community-paper-plus-plus/theme.json",
-      "sha256": "62c849d7cdde2df31672895dcda2a85c0248f0c168160d130b2dd09175cc4149",
+      "sha256": "47f3370b382d085890cb57810aa074a7818b1b38eb41591fb2cd4c5a0ce6be6a",
       "files": {
         "LICENSE.txt": "c5b97d672c6527fe47a2a37bdc28de81eab2082e47e559f38880d0f747accdf4",
         "NOTICE.txt": "c79d0b68ffeda902118c5905362aa44f856ec479ae50980ce769a03af43be8f4",
@@ -612,7 +612,7 @@
       "id": "community-pro",
       "name": "Pro",
       "manifest": "themes/community-pro/theme.json",
-      "sha256": "ec35c8e437d7810316da83260fb3bd4cbf797c0920296dcc46117f74c19344fd",
+      "sha256": "1f7f2d16f1fc2aab50204fbeac0f60c68e09774933a703c95e1aafa393d74daa",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "9e24e9cb51fed6903dfbe6ab595547f1d72c91bd52e2aa7b1ffcb86374d407f2",
@@ -625,7 +625,7 @@
       "id": "community-product-manager-canvas",
       "name": "Product Manager Canvas",
       "manifest": "themes/community-product-manager-canvas/theme.json",
-      "sha256": "1a9c6c29dd341f873fc82f4f5ed26c2bf99c0109f52f3fee18bd0ce2d8e6eef3",
+      "sha256": "8248ce06a6d36d21d23afa4c6646a5b4c32ae0931878ace26d8c2e4478b7db8c",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "01ca9f58e87c2437ec9186b8ccff910aaa12769567bc1faeb168dbe14d042e98",
@@ -640,7 +640,7 @@
       "id": "community-professional",
       "name": "Professional",
       "manifest": "themes/community-professional/theme.json",
-      "sha256": "b57f50ae0d7166f35e7247eda835ed39247f049789c99e51a5a88e841f65a7ff",
+      "sha256": "325838fe518df1d08921006dbd792bc99ffc2f237aaaf01eceb81ffcc4e87050",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "b262f4a0f586c472b056996114d02a0bee734022e1e020b5792cdeaca5e79c59"
@@ -650,7 +650,7 @@
       "id": "community-pumpkin",
       "name": "Pumpkin",
       "manifest": "themes/community-pumpkin/theme.json",
-      "sha256": "96b98e22ee2541aeb21b89e0dc88c940678cbc6fc230d755cd9f2d3a51a587cf",
+      "sha256": "b5b2ab03e27174b798963cca8f08f58bf719f23ade424821788f03d978ef6d0f",
       "files": {
         "LICENSE.txt": "f801ac1ce02a39e0e9de67809bb598f6387c34fe91eab075af430b98b346684e",
         "NOTICE.txt": "15c479f067e19e0ca96409383c644f92d0ece560aaf4fa5ef8c1ecb5ee3ed128",
@@ -664,7 +664,7 @@
       "id": "community-reference",
       "name": "Reference",
       "manifest": "themes/community-reference/theme.json",
-      "sha256": "437f8b3edf9ad6378f0a8732bd3aa7070c0ea37f99b8b8cf7290b93d830bbc11",
+      "sha256": "e23ade642a14a8fcbfaa269c4e2097a4cc31e86293414db4f832f5dc51e18e14",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "5b353f65c5aec01ba4208d005cafc54e4d710152d7c0bca41ab942df73a92efd"
@@ -674,7 +674,7 @@
       "id": "community-rickosborne",
       "name": "Rickosborne",
       "manifest": "themes/community-rickosborne/theme.json",
-      "sha256": "1b179f879fed80190f35dd58aa8c2bbe54d36f31687b4c1d7a399eee7828035f",
+      "sha256": "7081452bbdba7029cd8a8f25a78e55a7e44f1ee0d5fe06892f096f882b0a59ed",
       "files": {
         "LICENSE.txt": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
         "NOTICE.txt": "28704e8f920a9a7fc849ab007395d2a01a464651bcdae8824cd782c9343f4a62"
@@ -684,7 +684,7 @@
       "id": "community-sales-hunter",
       "name": "Sales Hunter",
       "manifest": "themes/community-sales-hunter/theme.json",
-      "sha256": "5adcaab7a8962eb7b388d2a31f2a1a19f1b255b1fb16685fbbad0669f2f9b811",
+      "sha256": "149de2908373978c3bcf181a76b10803b5390247ef63222ceefb844eef09934c",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "0193d8d3a064a1368b34008a69054399b21f91e959672ba8d0a327d17f7f5b3a",
@@ -699,7 +699,7 @@
       "id": "community-sidebar",
       "name": "Sidebar",
       "manifest": "themes/community-sidebar/theme.json",
-      "sha256": "e120d7ca61b5036d5700ce01536ea60cebebf449603c271522524b9dc6ea8d72",
+      "sha256": "f3971d72c2394a463b0480becc79706f016919b046222037970c677488f6df81",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "dd145dd07927d98e1a9527d7c4349d9c5163decd1ca1f1a075488047cdaa4231"
@@ -709,7 +709,7 @@
       "id": "community-sidebar-photo-strip",
       "name": "Sidebar Photo Strip",
       "manifest": "themes/community-sidebar-photo-strip/theme.json",
-      "sha256": "c858bb65a0e498438ee6325c6d412868a6249ff2c4b0a95c1bcc4e8022628bd0",
+      "sha256": "e3a9c6597a716cea1fefe515dad0f285f02c729b4cb8e5b8287661e4ee9fecb4",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "9e615b85d9370cb2e5a3940a8c5bbc67bb2b92fcca6d343584a3d7ae03634312",
@@ -723,7 +723,7 @@
       "id": "community-stackoverflow",
       "name": "Stackoverflow",
       "manifest": "themes/community-stackoverflow/theme.json",
-      "sha256": "10e5d974b4186b868c2f01eef4324fb76155cf52fd5538a88533cfbe22577fb7",
+      "sha256": "ce2d7f012aa31d92a047c60895435f024fccd5acfe4d4fabb5e3aae4a754bf91",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "d57aadf37a33fea8aff9815efe5b306e90b74c67fe95f9c17d6d4f92eeada525"
@@ -733,7 +733,7 @@
       "id": "community-tailwind",
       "name": "Tailwind",
       "manifest": "themes/community-tailwind/theme.json",
-      "sha256": "506f6ed4a0489dc677bd7245e2579a240d789c2547dc0503720f7448d22439f1",
+      "sha256": "dde33d1e818cf7de83dce0086a6e27f99f697e7f8c04a5c7fd181ec6b9d34012",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "a2e1e296fc1862b24dcd1ab2b8873afbef987485771f10400ef9891f30b95dfd"
@@ -743,7 +743,7 @@
       "id": "community-tan-responsive",
       "name": "Tan Responsive",
       "manifest": "themes/community-tan-responsive/theme.json",
-      "sha256": "38575e30581e502586aaeb01e7cd769548c0d8a4cfe0e444ac8649f329336ae9",
+      "sha256": "16caf5fbf00b7760925124f9e7df8bb095b7373525330cc11e5e84af957115bb",
       "files": {
         "LICENSE.txt": "d72726e4616da3dd072c8604bbb6ee6dfc1ce4d65021d7b9e3473fee3364b0f7",
         "NOTICE.txt": "55635d5e420f04befe98e9549f5317af00f635f9b77f05238d61e1c4b523361a",
@@ -755,7 +755,7 @@
       "id": "community-tokyo-modernist",
       "name": "Tokyo Modernist",
       "manifest": "themes/community-tokyo-modernist/theme.json",
-      "sha256": "858c684d8695d3568023641627600fabeca4636ea5b4b41dc743eb5849675366",
+      "sha256": "17027a39c0dac315bae3f187ebb730acb4a9c248264cb6d26d34f18af01cc279",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "b6e96940f337974fadaf04da4577ee73f20459318221b482fa53e0b2ecffa1cf",
@@ -770,7 +770,7 @@
       "id": "community-two-column",
       "name": "Two Column",
       "manifest": "themes/community-two-column/theme.json",
-      "sha256": "4b7a10a8801161b4b3bdbb2fb68ac1fa06540590a550a224dc56029f65f9b75b",
+      "sha256": "169e9c644f4e398156aabe67544b57620aa037037f232580e80c924501cbf87f",
       "files": {
         "LICENSE.txt": "48b041bc0f2615d8c2804334d7bf1fcf383f9f7f8a0a00cae82312f99e4b3bf6",
         "NOTICE.txt": "41dc2d0357dcb2f28a757b83ff967dcbe9052fff78bd5da424bc1bb063668060"
@@ -780,7 +780,7 @@
       "id": "community-two-column-modernist",
       "name": "Two Column Modernist",
       "manifest": "themes/community-two-column-modernist/theme.json",
-      "sha256": "8494f35711f8435a83fdc4ad9f03b9d1f131d07148bf20ddfdb9ebcf2cd4b892",
+      "sha256": "4155e277c8c8c64fd71d1fae30dcfb0a3416d2bded599bf1dbbac4dc1f34bf2f",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "3704034b94b2223fe31202f14c1a775dc717eafc1a741ab72cfbee74c147f290",
@@ -796,7 +796,7 @@
       "id": "community-typewriter-modern",
       "name": "Typewriter Modern",
       "manifest": "themes/community-typewriter-modern/theme.json",
-      "sha256": "ccd96d42b699ff79266540ef33a445b68b9200e354355e02ea99df26991730c8",
+      "sha256": "b916aade8d71f91b68da3f5c508a2979189ac78fc03871c0e65487a5fb3aa319",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "44c6eae7f01c5af61f3b50ae9cdc4b915324eaea697838bff128ab06bd0acaa2",
@@ -808,7 +808,7 @@
       "id": "community-university-first",
       "name": "University First",
       "manifest": "themes/community-university-first/theme.json",
-      "sha256": "c39c9b50859daf58162cad7fa2a4ca14349c2fdf58539deb784f803dd28301ef",
+      "sha256": "554f731a56a211dd624574c8a5192e2db8bcd68a0e80ab10cad003a5db8c79d7",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "d8a700f9bb377a8c07e4d87dea2ae09b306c7fbdc6a7064ef61dc346abb414d9",
@@ -823,7 +823,7 @@
       "id": "community-urban-techno",
       "name": "Urban Techno",
       "manifest": "themes/community-urban-techno/theme.json",
-      "sha256": "7de761b9730cacd36e5097f3746b3dd01a9bc254a62f88f80fb1b91ac0601739",
+      "sha256": "a656c1797a9e224d46c47434a81998fdb9b0d9a58cf81e9f123369ccc373870b",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "9a0a633a06418a0ec4cb5062e6a81f33b6489396fad73aaefc2e8bfd8d37d4cd",
@@ -836,7 +836,7 @@
       "id": "community-writers-portfolio",
       "name": "Writers Portfolio",
       "manifest": "themes/community-writers-portfolio/theme.json",
-      "sha256": "560ccb69c353617a018ebd1f89a889b8618176aa9396422a6c19887cea410244",
+      "sha256": "bba8f3e95fdc8db2038b65ab10938a0d0485b8c04fb15401e8d1fb53e185f2f1",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "5f2edd52a361636f2b217dc9d9b4744819996053fc14a64e3607b985f3c99029",

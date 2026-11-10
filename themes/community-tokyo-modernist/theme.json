@@ -3,17 +3,17 @@
   "id": "community-tokyo-modernist",
   "name": "Tokyo Modernist",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
-    "accent": "#1A1D23",
+    "accent": "#A31968",
     "seal": "#334155",
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
     "ink": "#1A1D23",
     "muted": "#4B5563",
-    "border": "#C71585"
+    "border": "#D9B3CC"
   },
   "modules": [
     "basics",
@@ -32,17 +32,17 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.44,
       "color": "#1A1D23",
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 42.0,
+      "sizePt": 34,
       "weight": 600,
-      "lineHeight": 1.1,
+      "lineHeight": 1.14,
       "trackingEm": -0.03571428571428571,
       "textTransform": "uppercase",
       "color": "#1A1D23",
@@ -52,7 +52,7 @@
       "family": "asset:font-2",
       "sizePt": 10.5,
       "weight": 500,
-      "lineHeight": 1.6,
+      "lineHeight": 1.34,
       "trackingEm": 0.03571428571428571,
       "textTransform": "uppercase",
       "color": "#6B7280",
@@ -60,46 +60,46 @@
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 12.75,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.7,
+      "lineHeight": 1.45,
       "color": "#4B5563",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 24.0,
+      "sizePt": 14,
       "weight": 600,
-      "lineHeight": 1.6,
-      "trackingEm": -0.03125,
+      "lineHeight": 1.27,
+      "trackingEm": 0.015,
       "textTransform": "uppercase",
       "color": "#1A1D23",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-1",
-      "sizePt": 15.0,
+      "sizePt": 11.75,
       "weight": 700,
-      "lineHeight": 1.6,
-      "trackingEm": -0.014999999999999998,
-      "textTransform": "uppercase",
+      "lineHeight": 1.32,
+      "trackingEm": 0,
+      "textTransform": "none",
       "color": "#1A1D23",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-2",
-      "sizePt": 12.75,
+      "sizePt": 9.75,
       "weight": 500,
-      "lineHeight": 1.6,
+      "lineHeight": 1.32,
       "trackingEm": 0.011764705882352943,
       "color": "#4B5563",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-3",
-      "sizePt": 9.75,
+      "sizePt": 9.25,
       "weight": 600,
-      "lineHeight": 1.6,
+      "lineHeight": 1.32,
       "trackingEm": 0.038461538461538464,
       "textTransform": "uppercase",
       "fontStyle": "normal"
@@ -107,12 +107,14 @@
   },
   "page": {
     "marginsMm": {
-      "top": 10.583333333333334,
-      "right": 10.583333333333334,
-      "bottom": 10.583333333333334,
-      "left": 10.583333333333334
+      "top": 16,
+      "right": 17,
+      "bottom": 16,
+      "left": 17
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "size": "A4",
+    "sectionGapMm": 5.4
   },
   "composition": {
     "preset": "single-column",
@@ -144,17 +146,17 @@
     "education": {
       "date": "right",
       "heading": "line",
-      "items": "cards",
+      "items": "stack",
       "title": "Education"
     },
     "interests": {
       "date": "right",
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
       "date": "right",
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
@@ -169,12 +171,12 @@
     },
     "references": {
       "date": "right",
-      "heading": "line",
+      "heading": "plain",
       "title": "References"
     },
     "skills": {
       "date": "right",
-      "heading": "line",
+      "heading": "plain",
       "title": "Skills"
     },
     "volunteer": {

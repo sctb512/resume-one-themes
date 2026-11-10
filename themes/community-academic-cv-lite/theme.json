@@ -3,7 +3,7 @@
   "id": "community-academic-cv-lite",
   "name": "Academic Cv Lite",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#111827",
     "muted": "#1F2937",
-    "border": "#111827"
+    "border": "#AFB8C5"
   },
   "modules": [
     "basics",
@@ -32,80 +32,81 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.42,
       "color": "#111827",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 28.0,
+      "sizePt": 28,
       "weight": 700,
-      "lineHeight": 1.6,
+      "lineHeight": 1.14,
       "trackingEm": 0.013392857142857142,
       "color": "#111827",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-2",
-      "sizePt": 14.0,
+      "sizePt": 11.5,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.32,
       "fontStyle": "italic",
       "color": "#1F2937"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 12.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.44,
       "color": "#1F2937",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 16.0,
+      "sizePt": 12.6,
       "weight": 700,
-      "lineHeight": 1.6,
-      "trackingEm": 0.046875,
+      "lineHeight": 1.24,
+      "trackingEm": 0.035,
       "textTransform": "uppercase",
       "color": "#111827",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-1",
-      "sizePt": 13.0,
+      "sizePt": 11.6,
       "weight": 700,
-      "lineHeight": 1.6,
+      "lineHeight": 1.28,
       "color": "#111827",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-2",
-      "sizePt": 12.0,
+      "sizePt": 9.7,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.28,
       "fontStyle": "italic",
       "color": "#1F2937"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 11.0,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.6,
+      "lineHeight": 1.25,
       "color": "#6B7280",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 26.987499999999997,
-      "right": 26.987499999999997,
-      "bottom": 26.987499999999997,
-      "left": 26.987499999999997
+      "top": 20,
+      "right": 21,
+      "bottom": 18,
+      "left": 21
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "sectionGapMm": 4.2
   },
   "composition": {
     "preset": "single-column",
@@ -139,15 +140,15 @@
           ],
           "style": {
             "family": "asset:font-1",
-            "sizePt": 13.0,
+            "sizePt": 11.6,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#111827"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "body",
@@ -158,14 +159,14 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 11.0,
+            "sizePt": 10.3,
             "weight": 400,
             "fontStyle": "italic",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#1F2937"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.6
         },
         {
           "role": "meta",
@@ -176,14 +177,14 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 11.0,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#546171"
           },
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 1.5
         }
       ],
       "date": "inline"
@@ -201,15 +202,15 @@
           ],
           "style": {
             "family": "asset:font-1",
-            "sizePt": 13.0,
+            "sizePt": 11.6,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#111827"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "body",
@@ -220,14 +221,14 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 11.0,
+            "sizePt": 10.3,
             "weight": 400,
             "fontStyle": "italic",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#1F2937"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.6
         },
         {
           "role": "meta",
@@ -238,14 +239,14 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 11.0,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#546171"
           },
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 1.5
         }
       ],
       "date": "inline"
@@ -263,15 +264,15 @@
           ],
           "style": {
             "family": "asset:font-1",
-            "sizePt": 13.0,
+            "sizePt": 11.6,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#111827"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "body",
@@ -290,14 +291,14 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 12.0,
+            "sizePt": 10.6,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#1F2937"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.6
         },
         {
           "role": "meta",
@@ -309,12 +310,12 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 11.0,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#546171"
           }
         }
       ],
@@ -341,15 +342,15 @@
           ],
           "style": {
             "family": "asset:font-1",
-            "sizePt": 13.0,
+            "sizePt": 11.6,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#111827"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         }
       ],
       "date": "inline"
@@ -379,15 +380,15 @@
           ],
           "style": {
             "family": "asset:font-1",
-            "sizePt": 13.0,
+            "sizePt": 11.6,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#111827"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "body",
@@ -398,14 +399,14 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 12.0,
+            "sizePt": 10.3,
             "weight": 400,
             "fontStyle": "italic",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#1F2937"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.6
         },
         {
           "role": "meta",
@@ -417,14 +418,14 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 11.0,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#546171"
           },
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 1.5
         }
       ],
       "date": "inline"
@@ -442,15 +443,15 @@
           ],
           "style": {
             "family": "asset:font-1",
-            "sizePt": 13.0,
+            "sizePt": 11.6,
             "weight": 700,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#111827"
           },
           "spaceBeforePt": 0.0,
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.8
         },
         {
           "role": "body",
@@ -461,14 +462,14 @@
           ],
           "style": {
             "family": "asset:font-2",
-            "sizePt": 12.0,
+            "sizePt": 10.3,
             "weight": 400,
             "fontStyle": "italic",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
             "color": "#1F2937"
           },
-          "spaceAfterPt": 3.0
+          "spaceAfterPt": 0.6
         },
         {
           "role": "meta",
@@ -480,14 +481,14 @@
           ],
           "style": {
             "family": "asset:font-0",
-            "sizePt": 11.0,
+            "sizePt": 9.4,
             "weight": 400,
             "fontStyle": "normal",
-            "lineHeight": 1.6,
+            "lineHeight": 1.22,
             "textTransform": "none",
-            "color": "#6B7280"
+            "color": "#546171"
           },
-          "spaceAfterPt": 6.0
+          "spaceAfterPt": 1.5
         }
       ],
       "date": "inline"

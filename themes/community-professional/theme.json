@@ -3,7 +3,7 @@
   "id": "community-professional",
   "name": "Professional",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -12,7 +12,7 @@
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
     "ink": "#1F2937",
-    "muted": "#64748B",
+    "muted": "#526174",
     "border": "#CBD5E1"
   },
   "modules": [
@@ -31,67 +31,68 @@
   ],
   "typography": {
     "body": {
-      "family": "cjk-serif",
-      "sizePt": 16.5,
-      "weight": 600,
-      "lineHeight": 1.4,
+      "family": "cjk-sans",
+      "sizePt": 10.75,
+      "weight": 400,
+      "lineHeight": 1.48,
       "fontStyle": "normal"
     },
     "name": {
       "family": "cjk-serif",
-      "sizePt": 11.549999999999999,
+      "sizePt": 25,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.2,
       "fontStyle": "normal"
     },
     "label": {
       "family": "cjk-sans",
-      "sizePt": 11.549999999999999,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.34,
       "fontStyle": "normal"
     },
     "summary": {
       "family": "cjk-sans",
-      "sizePt": 8.25,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.4
+      "lineHeight": 1.48
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 13.612499999999999,
+      "sizePt": 13,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.29,
       "fontStyle": "normal"
     },
     "itemTitle": {
-      "family": "cjk-sans",
-      "sizePt": 10.6,
-      "weight": 400,
-      "lineHeight": 1.4
+      "family": "cjk-serif",
+      "sizePt": 11.25,
+      "weight": 600,
+      "lineHeight": 1.36
     },
     "meta": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4
+      "lineHeight": 1.34
     },
     "sideDate": {
       "family": "cjk-sans",
-      "sizePt": 8.5,
+      "sizePt": 9.25,
       "weight": 400,
-      "lineHeight": 1.4
+      "lineHeight": 1.32
     }
   },
   "page": {
     "marginsMm": {
-      "top": 16,
-      "right": 16,
-      "bottom": 16,
-      "left": 16
+      "top": 18,
+      "right": 19,
+      "bottom": 18,
+      "left": 19
     },
-    "sectionGapMm": 4.762499999999999,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.6,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "single-column",

@@ -3,7 +3,7 @@
   "id": "community-minyma",
   "name": "Minyma",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "ISC",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#1F2937",
     "muted": "#64748B",
-    "border": "#CBD5E1"
+    "border": "#D5DBE2"
   },
   "modules": [
     "basics",
@@ -32,69 +32,74 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 10.0,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.44,
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-0",
-      "sizePt": 26.0,
+      "sizePt": 28,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.17,
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-0",
-      "sizePt": 10.0,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.34,
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 10.0,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.47,
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-0",
-      "sizePt": 13.0,
+      "sizePt": 13,
       "weight": 400,
-      "lineHeight": 1.4,
-      "fontStyle": "normal"
+      "lineHeight": 1.27,
+      "fontStyle": "normal",
+      "trackingEm": 0.03,
+      "color": "#263B54"
     },
     "itemTitle": {
       "family": "asset:font-0",
-      "sizePt": 10.6,
+      "sizePt": 11.25,
       "weight": 400,
-      "lineHeight": 1.4,
-      "fontStyle": "normal"
+      "lineHeight": 1.31,
+      "fontStyle": "normal",
+      "color": "#253344"
     },
     "meta": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.34,
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.33,
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
       "top": 16,
-      "right": 16,
+      "right": 17,
       "bottom": 16,
-      "left": 16
+      "left": 17
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "size": "A4",
+    "sectionGapMm": 4.7
   },
   "composition": {
     "preset": "single-column",
@@ -112,16 +117,19 @@
   },
   "sections": {
     "skills": {
-      "title": "Skills"
+      "title": "Skills",
+      "items": "compact"
     },
     "work": {
-      "title": "Work"
+      "title": "Work",
+      "date": "right"
     },
     "education": {
       "title": "Education"
     },
     "projects": {
-      "title": "Projects"
+      "title": "Projects",
+      "date": "right"
     },
     "languages": {
       "title": "Languages"

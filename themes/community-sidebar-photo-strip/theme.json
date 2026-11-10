@@ -3,7 +3,7 @@
   "id": "community-sidebar-photo-strip",
   "name": "Sidebar Photo Strip",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -13,7 +13,7 @@
     "canvas": "#F5F3EE",
     "ink": "#111827",
     "muted": "#4B5563",
-    "border": "#E5E7EB",
+    "border": "#BFC7D0",
     "sidebar": "#111827"
   },
   "modules": [
@@ -33,80 +33,82 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 10.5,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.7,
+      "lineHeight": 1.45,
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 19.5,
+      "sizePt": 22,
       "weight": 600,
-      "lineHeight": 1.2,
+      "lineHeight": 1.19,
       "trackingEm": -0.011538461538461537,
       "color": "#F9FAFB",
       "fontStyle": "normal"
     },
     "label": {
       "family": "asset:font-0",
-      "sizePt": 10.0,
+      "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.4,
-      "fontStyle": "normal"
+      "lineHeight": 1.34,
+      "fontStyle": "normal",
+      "color": "#D8E2ED"
     },
     "summary": {
       "family": "asset:font-0",
-      "sizePt": 10.0,
+      "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.45,
       "color": "#111827",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 16.5,
+      "sizePt": 12,
       "weight": 600,
-      "lineHeight": 1.4,
-      "trackingEm": -0.013636363636363636,
+      "lineHeight": 1.3,
+      "trackingEm": 0.03,
       "textTransform": "uppercase",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-1",
-      "sizePt": 12.0,
+      "sizePt": 11.25,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.34,
       "fontStyle": "normal"
     },
     "meta": {
       "family": "asset:font-2",
-      "sizePt": 10.5,
+      "sizePt": 9.75,
       "weight": 500,
-      "lineHeight": 1.5,
+      "lineHeight": 1.38,
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 9.75,
+      "sizePt": 9.25,
       "weight": 400,
-      "lineHeight": 1.4,
+      "lineHeight": 1.33,
       "trackingEm": 0.015384615384615387,
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 23.28333333333333,
-      "right": 23.28333333333333,
-      "bottom": 23.28333333333333,
-      "left": 23.28333333333333
+      "top": 17,
+      "right": 16,
+      "bottom": 17,
+      "left": 16
     },
-    "sectionGapMm": 6.35,
-    "firstLinePosition": "line-box"
+    "sectionGapMm": 5.5,
+    "firstLinePosition": "line-box",
+    "size": "A4"
   },
   "composition": {
     "preset": "sidebar-left",
-    "sidebarWidthPct": 28.0,
+    "sidebarWidthPct": 32,
     "headerRegion": "sidebar",
     "summaryRegion": "main",
     "placements": {
@@ -126,7 +128,8 @@
       "publications",
       "certificates",
       "references"
-    ]
+    ],
+    "contact": "stacked"
   },
   "sections": {
     "awards": {
@@ -142,11 +145,11 @@
       "title": "Education"
     },
     "interests": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Interests"
     },
     "languages": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Languages"
     },
     "projects": {
@@ -162,7 +165,7 @@
       "title": "References"
     },
     "skills": {
-      "heading": "line",
+      "heading": "plain",
       "title": "Skills"
     },
     "volunteer": {

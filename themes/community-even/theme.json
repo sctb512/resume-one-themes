@@ -3,17 +3,17 @@
   "id": "community-even",
   "name": "Even",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
     "accent": "#000000",
     "seal": "#334155",
-    "paper": "#F3F4F6",
+    "paper": "#FAFAFB",
     "canvas": "#F5F3EE",
     "ink": "#111827",
-    "muted": "#000000",
-    "border": "#CBD5E1"
+    "muted": "#505763",
+    "border": "#D8DCE3"
   },
   "modules": [
     "basics",
@@ -34,73 +34,76 @@
       "family": "asset:font-0",
       "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.46,
       "fontStyle": "normal",
       "color": "#111827"
     },
     "name": {
       "family": "asset:font-0",
-      "sizePt": 32.04345703125,
+      "sizePt": 30,
       "weight": 400,
-      "lineHeight": 1.2,
+      "lineHeight": 1.16,
       "fontStyle": "normal",
       "color": "#111827"
     },
     "label": {
       "family": "asset:font-0",
-      "sizePt": 10.5,
+      "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.36,
       "fontStyle": "normal",
-      "color": "#111827"
+      "color": "#505763"
     },
     "summary": {
       "family": "asset:font-0",
       "sizePt": 10.5,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.46,
       "fontStyle": "normal",
       "color": "#111827"
     },
     "sectionTitle": {
       "family": "asset:font-0",
-      "sizePt": 20.5078125,
+      "sizePt": 14.5,
       "weight": 400,
-      "lineHeight": 1.2,
-      "fontStyle": "normal"
+      "lineHeight": 1.25,
+      "fontStyle": "normal",
+      "trackingEm": 0.025
     },
     "itemTitle": {
       "family": "asset:font-0",
-      "sizePt": 16.40625,
+      "sizePt": 11.5,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.32,
       "fontStyle": "normal",
       "color": "#111827"
     },
     "meta": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.35,
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9.5,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.35,
       "fontStyle": "normal",
-      "color": "#111827"
+      "color": "#505763"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 16,
-      "right": 16,
-      "bottom": 16,
-      "left": 16
+      "top": 17,
+      "right": 18,
+      "bottom": 17,
+      "left": 18
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "size": "A4",
+    "sectionGapMm": 5.4
   },
   "composition": {
     "preset": "single-column",

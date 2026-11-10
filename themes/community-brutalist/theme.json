@@ -3,11 +3,11 @@
   "id": "community-brutalist",
   "name": "Brutalist",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "layout": "classic",
   "colors": {
-    "accent": "#334155",
+    "accent": "#171717",
     "seal": "#334155",
     "paper": "#FFFFFF",
     "canvas": "#F5F3EE",
@@ -32,17 +32,17 @@
   "typography": {
     "body": {
       "family": "asset:font-0",
-      "sizePt": 11.25,
+      "sizePt": 10.8,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.41,
       "color": "#0A0A0A",
       "fontStyle": "normal"
     },
     "name": {
       "family": "asset:font-1",
-      "sizePt": 26.0,
+      "sizePt": 30,
       "weight": 600,
-      "lineHeight": 1.4,
+      "lineHeight": 1.16,
       "trackingEm": -0.028846153846153848,
       "textTransform": "uppercase",
       "color": "#0A0A0A",
@@ -50,103 +50,106 @@
     },
     "label": {
       "family": "cjk-serif",
-      "sizePt": 9.75,
+      "sizePt": 10.2,
       "weight": 600,
-      "lineHeight": 1.5,
-      "trackingEm": 0.15384615384615385,
+      "lineHeight": 1.28,
+      "trackingEm": 0.065,
       "textTransform": "uppercase",
       "fontStyle": "normal"
     },
     "summary": {
       "family": "asset:font-3",
-      "sizePt": 13.5,
+      "sizePt": 11.2,
       "weight": 500,
-      "lineHeight": 1.45,
+      "lineHeight": 1.37,
       "color": "#0A0A0A",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "asset:font-1",
-      "sizePt": 13.0,
+      "sizePt": 13,
       "weight": 600,
-      "lineHeight": 1.5,
+      "lineHeight": 1.2,
       "color": "#0A0A0A",
       "fontStyle": "normal"
     },
     "itemTitle": {
       "family": "asset:font-2",
-      "sizePt": 15.75,
+      "sizePt": 12.2,
       "weight": 700,
-      "lineHeight": 1.5,
-      "trackingEm": -0.014285714285714284,
-      "textTransform": "uppercase",
+      "lineHeight": 1.27,
+      "trackingEm": 0,
+      "textTransform": "none",
       "color": "#0A0A0A",
       "fontStyle": "normal"
     },
     "meta": {
       "family": "cjk-serif",
-      "sizePt": 8.25,
+      "sizePt": 9.2,
       "weight": 600,
-      "lineHeight": 1.5,
-      "trackingEm": 0.045454545454545456,
-      "textTransform": "uppercase",
-      "color": "#0A0A0A",
+      "lineHeight": 1.29,
+      "trackingEm": 0.02,
+      "textTransform": "none",
+      "color": "#393939",
       "fontStyle": "normal"
     },
     "sideDate": {
       "family": "asset:font-0",
-      "sizePt": 8.5,
+      "sizePt": 9,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.26,
       "color": "#0A0A0A",
       "fontStyle": "normal"
     }
   },
   "page": {
     "marginsMm": {
-      "top": 16.0,
-      "right": 16.0,
-      "bottom": 16.0,
-      "left": 16.0
+      "top": 16,
+      "right": 18,
+      "bottom": 16,
+      "left": 18
     },
-    "firstLinePosition": "line-box"
+    "firstLinePosition": "line-box",
+    "sectionGapMm": 4.25
   },
   "composition": {
     "preset": "single-column"
   },
   "sections": {
     "awards": {
-      "items": "cards"
+      "items": "stack"
     },
     "certificates": {
-      "items": "cards"
+      "items": "stack"
     },
     "education": {
-      "items": "cards"
+      "items": "stack"
     },
     "interests": {
-      "items": "cards"
+      "items": "compact"
     },
     "languages": {
-      "items": "cards"
+      "items": "compact"
     },
     "projects": {
-      "items": "cards"
+      "items": "stack",
+      "heading": "line"
     },
     "publications": {
-      "items": "cards"
+      "items": "stack"
     },
     "references": {
-      "items": "cards"
+      "items": "stack"
     },
     "skills": {
-      "items": "cards"
+      "items": "compact"
     },
     "volunteer": {
-      "items": "cards"
+      "items": "stack"
     },
     "work": {
-      "items": "cards"
+      "items": "stack",
+      "heading": "line"
     }
   },
   "provenance": {
