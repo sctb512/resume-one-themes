@@ -1,0 +1,5 @@
+{
+  "en": {
+    "description": "Declarative community adaptation. See MIGRATION.json for supported details and changes."
+  }
+}

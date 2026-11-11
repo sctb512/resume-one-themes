@@ -3,7 +3,7 @@
   "id": "community-writers-portfolio",
   "name": "Writers Portfolio",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -34,7 +34,7 @@
       "family": "asset:font-0",
       "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.49,
+      "lineHeight": 1.4,
       "color": "#2F2F2F",
       "fontStyle": "normal"
     },
@@ -60,7 +60,7 @@
       "family": "asset:font-0",
       "sizePt": 11.5,
       "weight": 400,
-      "lineHeight": 1.49,
+      "lineHeight": 1.42,
       "color": "#3A3A3A",
       "fontStyle": "normal"
     },
@@ -101,13 +101,13 @@
   },
   "page": {
     "marginsMm": {
-      "top": 19,
+      "top": 17,
       "right": 21,
-      "bottom": 19,
+      "bottom": 17,
       "left": 21
     },
     "avoidSplitItems": true,
-    "sectionGapMm": 5.8,
+    "sectionGapMm": 4.2,
     "size": "A4",
     "firstLinePosition": "line-box"
   },

@@ -12,7 +12,8 @@
         "font-0.ttf": "b2224106979e73df827d72b6d2d9e4067a497b147077b78df0c2d9fe566e2e08",
         "font-1.ttf": "3f7c0ac9486268a85c0aa52d3a38ca962d68f426781246598692cc7d12f6e34f",
         "font-2.ttf": "f9962428afcb3cf694799a815d8fa6913d8a567ebf24a3b54ce0b9520e9f18c8",
-        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2",
+        "localizations.txt": "e3c2af3ebfd4e55cc56cf0ae21f8a8ab1d8f28c15811cd38c3ab685983362ba2"
       }
     },
     {
@@ -26,7 +27,8 @@
         "font-0.ttf": "d8992cb24957f1909c216541a1291fb9e27d0e2eaa7faddc6252721189292564",
         "font-1.ttf": "6a127b3be5a49a80b79c2ae73ae0363bc1ed6d31e5ebefa42507e321aa8794ae",
         "font-2.ttf": "ef46177ac33ae44864ba417a69469910786f76479fdb91b543d61a3f1aea5361",
-        "font-license-0.txt": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5"
+        "font-license-0.txt": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5",
+        "localizations.txt": "8860accb920d400f051fd6d402962cc546630d23cec496b6517425137abeacc0"
       }
     },
     {
@@ -36,7 +38,8 @@
       "sha256": "5f7bba4d639ee1b83a6d7ed2ee19ce0d3fa6a99d4ab03091cf8c11129908c2bf",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "7c02e04c2150ad258999ba6367f478e29b9a5b47fec517433599cd9687070188"
+        "NOTICE.txt": "7c02e04c2150ad258999ba6367f478e29b9a5b47fec517433599cd9687070188",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -46,7 +49,8 @@
       "sha256": "16598c956b3fecb1de079760942cc2f31e0d71acc4f3b15bdab87b7c07bd9e1a",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "c69785fff45428bc9780b9610e46236acceeafbb87f11846609327ba7c5c49f5"
+        "NOTICE.txt": "c69785fff45428bc9780b9610e46236acceeafbb87f11846609327ba7c5c49f5",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -59,7 +63,8 @@
         "NOTICE.txt": "3d2f348565a4f5d4765ee92dc8cb7d693f64ff2d5c0337dab52566d2e4b87531",
         "font-0.ttf": "5e8f6d7a4aa60812a3a5d63d7ecabfb7865ea2ad4a68b4bc617f3b24dbbc93b8",
         "font-1.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -69,7 +74,8 @@
       "sha256": "483621c9d4ea36b39f77236b01979bba7ac7a90ffdb521af5b506ff86943d87f",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "fe6d46b263451e071d9823d42197bfa386960b09c66d48a64dc4b9f0d8708e6c"
+        "NOTICE.txt": "fe6d46b263451e071d9823d42197bfa386960b09c66d48a64dc4b9f0d8708e6c",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -83,7 +89,8 @@
         "font-0.ttf": "0b7eb9500b81cc8074653a70460ac0e236a20a3768d2daa3dd545f94bf695875",
         "font-1.ttf": "03c1fa13576fb4499ba2403b2da7f5df5d36e2ddd9efb3e65107161e5f8bcc08",
         "font-2.ttf": "56fa09fce3f948c205fbb33910ea9e07cfa0ca8afe656edcc28ec34e8cb58785",
-        "font-license-0.txt": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+        "font-license-0.txt": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -99,7 +106,8 @@
         "font-2.ttf": "98d681f04126dec1efd29b6341607f37a41d8faafcb51d289aa6bbf114ed32c6",
         "font-3.ttf": "8982bf55c34dbf5df2e8df603fab58e92c33b32dda373f5c02ccedb13648173b",
         "font-license-0.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
-        "font-license-1.txt": "5e83794425e5648114d98e70717e75e264a4f46171ceb494cf8d2f35f1362262"
+        "font-license-1.txt": "5e83794425e5648114d98e70717e75e264a4f46171ceb494cf8d2f35f1362262",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -114,7 +122,8 @@
         "font-1.ttf": "b3f61c99fd86112cd7be1869460671a90fa1fd825072aac0f06b45932fe64f98",
         "font-2.ttf": "992cccaf0a7d485e0729585e9cfcdbad2fb98e0d43ae270ed8f10657be1b2139",
         "font-3.ttf": "62fe556d1b28b2b65e21bf0a6a4663b69c8d6a360ac55e5291d94f7d5a72e87b",
-        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -129,7 +138,8 @@
         "font-1.ttf": "e322528be897ced0175bb4e8affe95325afbdea25e14378594581118b86a5f0d",
         "font-2.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -139,7 +149,8 @@
       "sha256": "8bd8cecf553a1ad5184880dbf01211fe539a6f6d53cb034d39e21b48fd0ef475",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "57efae8ac935fd16e98bc8f50fb72a8d37378ef9d2739384834b297766997243"
+        "NOTICE.txt": "57efae8ac935fd16e98bc8f50fb72a8d37378ef9d2739384834b297766997243",
+        "localizations.txt": "ea801d91780c5bf6ca9ae9b7dc2c0a37f57d9391abdca6dd4e557c18e6764be4"
       }
     },
     {
@@ -153,7 +164,8 @@
         "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
         "font-1.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
         "font-2.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "b0845d08650f77a90cd1619fffa0233bb3efdf6d567ad09a98b581cef684bb02"
       }
     },
     {
@@ -163,7 +175,8 @@
       "sha256": "9ccb366be7b0f79e6058e8de016412a92a6c63fa3fe7cfb686db23f03d262437",
       "files": {
         "LICENSE.txt": "e498e69df24b15d8ff64c2094842d56e32692d0255df7b348bd55d4542adf59a",
-        "NOTICE.txt": "99ac9e1a4be33c29fa8d4033048b93e7c7ef78d3e937da7202b9f0e0ffae2697"
+        "NOTICE.txt": "99ac9e1a4be33c29fa8d4033048b93e7c7ef78d3e937da7202b9f0e0ffae2697",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -177,7 +190,8 @@
         "font-0.ttf": "d8804f9c1ba102d9aaa9241447884c1a675d553ad89dd896ec44cfd4c273f060",
         "font-1.ttf": "992cccaf0a7d485e0729585e9cfcdbad2fb98e0d43ae270ed8f10657be1b2139",
         "font-2.ttf": "62fe556d1b28b2b65e21bf0a6a4663b69c8d6a360ac55e5291d94f7d5a72e87b",
-        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+        "localizations.txt": "a72b86678e1d7905b37d7c363f12d07790ac5b2723024813152145b6f9538ee5"
       }
     },
     {
@@ -187,7 +201,8 @@
       "sha256": "0f8a19a158ece84299e3ceb2b740add646626ae182750c565eb8a930e3734c1d",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "4af8c5df0048c14e4d2d5c840114261a52a3c7299806f95cac1b2b16e9f3d441"
+        "NOTICE.txt": "4af8c5df0048c14e4d2d5c840114261a52a3c7299806f95cac1b2b16e9f3d441",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -197,7 +212,8 @@
       "sha256": "d9a50edfd3505c1fe5f73356dd4e0a1c6926097a43f5cf77bd4df6b09bd8eddb",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "969e6a1d24dbad0b00e550dc08e45585df910b2349222b42450fe31c3fc8bb78"
+        "NOTICE.txt": "969e6a1d24dbad0b00e550dc08e45585df910b2349222b42450fe31c3fc8bb78",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -210,7 +226,8 @@
         "NOTICE.txt": "a1ecadea199e477262aaa95518488fcd8df038eba2fa0e69e5a064f1db25baf7",
         "font-0.ttf": "62fe556d1b28b2b65e21bf0a6a4663b69c8d6a360ac55e5291d94f7d5a72e87b",
         "font-1.ttf": "d8804f9c1ba102d9aaa9241447884c1a675d553ad89dd896ec44cfd4c273f060",
-        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+        "localizations.txt": "c563650f2883ba507d3d4685f63d95ee6e1f996ba2f28513c576b223daa15f41"
       }
     },
     {
@@ -225,7 +242,8 @@
         "font-1.ttf": "3aa1ee1f1554d0c53be8c72e01491c75bf8d043d6c5ac66c099cd650064c1f5d",
         "font-2.ttf": "4a6c41ef978d8098fae1720e315ad5ef8ce136797ff4c713ea4de11523885065",
         "font-3.ttf": "8ae74776db7bdb9d248ed8afd4e2761d1b72374362ed666fd1af35a71d7ff269",
-        "font-license-0.txt": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        "font-license-0.txt": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+        "localizations.txt": "6682c50593fc2325432d2afa6edcd271474f23f822fe9c2ffb20effbc8458783"
       }
     },
     {
@@ -239,7 +257,8 @@
         "font-0.ttf": "d8804f9c1ba102d9aaa9241447884c1a675d553ad89dd896ec44cfd4c273f060",
         "font-1.ttf": "992cccaf0a7d485e0729585e9cfcdbad2fb98e0d43ae270ed8f10657be1b2139",
         "font-2.ttf": "62fe556d1b28b2b65e21bf0a6a4663b69c8d6a360ac55e5291d94f7d5a72e87b",
-        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+        "font-license-0.txt": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+        "localizations.txt": "246168005fa71fabba45d15ad103d2a896de6cc55511102291019734308f465d"
       }
     },
     {
@@ -251,7 +270,8 @@
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "fdd4def72a068bac9a0c06543a27c8f42cfc0a124ef04ccafa0d5b29f9541704",
         "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -261,7 +281,8 @@
       "sha256": "13f3a4fd858a981623d19b1bc6497fe322213a3e489ebafb96b6074d3cc2d1ee",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "601f1a65fb21629068a24ebd9f150b7ed5edb4eec62ca7d5d7fede7755416e01"
+        "NOTICE.txt": "601f1a65fb21629068a24ebd9f150b7ed5edb4eec62ca7d5d7fede7755416e01",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -271,7 +292,8 @@
       "sha256": "b824a9e656b05d771eb091e40209a3b843c64f249583a5ed0b4d9499e87530b0",
       "files": {
         "LICENSE.txt": "2350cdbbfc144ffec28a6fee262d7edf431bf3c37b4b76093eee056dc5a4c48f",
-        "NOTICE.txt": "86cdd01275253d016df591c11a304dfb0eb1626e6aa1021ee01767a5c5f8cecb"
+        "NOTICE.txt": "86cdd01275253d016df591c11a304dfb0eb1626e6aa1021ee01767a5c5f8cecb",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -286,7 +308,8 @@
         "font-1.ttf": "e322528be897ced0175bb4e8affe95325afbdea25e14378594581118b86a5f0d",
         "font-2.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "07749e9a14831ff1460634670730ce18363d781fad8850bfef339588f4a7c9b6"
       }
     },
     {
@@ -298,7 +321,8 @@
         "LICENSE.txt": "a1436e5316bd543cf13606ac2a6b8e2c979e6b2284f9db4e4ec6ebace473e8b8",
         "NOTICE.txt": "2c6009a70d4aec133a5964760f3830ad7462d5338355121087224dbf2c1c88aa",
         "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
-        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+        "localizations.txt": "a6f8bbd588cfaba68f0fad286ca8846f44343be404a97eb7163c907a2c3c5679"
       }
     },
     {
@@ -310,7 +334,8 @@
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "5e83939c080d81fb4d7da7526b0d410dc73a673c6bc428cd2f9ad0e0f0b27560",
         "font-0.ttf": "3f7c0ac9486268a85c0aa52d3a38ca962d68f426781246598692cc7d12f6e34f",
-        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2",
+        "localizations.txt": "2a0ea6ab3d826a509f15798823ce8cf02eab7fa4306553ad375b59a931258d78"
       }
     },
     {
@@ -320,7 +345,8 @@
       "sha256": "e683e60bd1c7a74591aa2fbc1fc29e1a60e5a401f5deefe1c5a773ba6b883d98",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "4111ccd78bc82047f1fe44dede73219c38bcce36bc893e5db8241965ef40d66d"
+        "NOTICE.txt": "4111ccd78bc82047f1fe44dede73219c38bcce36bc893e5db8241965ef40d66d",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -334,20 +360,22 @@
         "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
         "font-1.ttf": "8e56d6dedac8ceca050fe305d676cb9356d0d25c71ecedc24eddd0e4686956c9",
         "font-2.ttf": "468ce84052a9b302696d100a7b708973360679183d9ff22ef8a46bc67252f08e",
-        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
       "id": "community-french-atelier",
       "name": "French Atelier",
       "manifest": "themes/community-french-atelier/theme.json",
-      "sha256": "540b5f99cc1a0595b8548aa339c2fed9146f9a543fe6e8f2c61d12df1d7427e3",
+      "sha256": "342ea08431cc062408ef61f249a91bdfe5748d3da319ac72dcfc1d7ad4b40b98",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "73086bd71c79d7a8886e7cc47173dcb7e8e06c11a68cf5d558952bc9d1a52d34",
         "font-0.ttf": "cdbdffe6d5f62388ce966b4a70c3ee1b9bc15c4976441e9bf0747a0431b99941",
         "font-1.ttf": "6beea9a6b9ca1b271530a8d8b90590e15963fc104be04dbaaca02bfdd3cfd6f4",
-        "font-license-0.txt": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+        "font-license-0.txt": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -357,7 +385,8 @@
       "sha256": "255a8de5ab6e769926c234ce5cbe5aaca980f5d6d41ab0864a5627f263ff5715",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "7bccf0f2498c9ca8422a3ee1d1cb93faeaba7f52bdc375f6f92b206c8d167b08"
+        "NOTICE.txt": "7bccf0f2498c9ca8422a3ee1d1cb93faeaba7f52bdc375f6f92b206c8d167b08",
+        "localizations.txt": "e2e175853e8f782e2ed8c35192b5d7ad5b48f1335b8a26cd593a342f5f2b3e72"
       }
     },
     {
@@ -370,7 +399,8 @@
         "NOTICE.txt": "efc46d44ca9749ea029758bd4cf56291dc4952babf4f615caea268a8e6c50f49",
         "font-0.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-1.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -380,7 +410,8 @@
       "sha256": "b3b0998313cb62a43dc1e8610f095a7c4af69012b9b1e583af9891b4cbcfcd2b",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "6aef588f2cc912c938d086ae9b0c1d88f8f8f05fba2b25de1a79843aa28826c0"
+        "NOTICE.txt": "6aef588f2cc912c938d086ae9b0c1d88f8f8f05fba2b25de1a79843aa28826c0",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -394,7 +425,8 @@
         "font-0.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
         "font-1.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
         "font-2.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "b0845d08650f77a90cd1619fffa0233bb3efdf6d567ad09a98b581cef684bb02"
       }
     },
     {
@@ -407,7 +439,8 @@
         "NOTICE.txt": "c0b37de7f8f8560e3b15fc168d616ae200459117114aed75f49d5d19c3fff19c",
         "font-0.ttf": "11b2b8681ca11e2a26cbf8a35072eb61d1f43aa95b3e2ca0ac7503a1bf4bf461",
         "font-1.ttf": "ce5a6c70e053127273912b4fb67b52729b485e5e1d4c63f7d9ae0e4f3229e1ff",
-        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7"
+        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -420,7 +453,8 @@
         "NOTICE.txt": "a3a491a8654fbdc66c74688705987c552add678376e62b2cfa760b3858301c61",
         "font-0.ttf": "11b2b8681ca11e2a26cbf8a35072eb61d1f43aa95b3e2ca0ac7503a1bf4bf461",
         "font-1.ttf": "ce5a6c70e053127273912b4fb67b52729b485e5e1d4c63f7d9ae0e4f3229e1ff",
-        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7"
+        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -430,7 +464,8 @@
       "sha256": "ef50fb4816468dc17989bdd0d3b77ea4e5871fac12f42a4c9bd6cda95442aad3",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "0321b221c0af86adf82df6cec5b88993c499d915f5548da8d309ed113eedf411"
+        "NOTICE.txt": "0321b221c0af86adf82df6cec5b88993c499d915f5548da8d309ed113eedf411",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -440,7 +475,8 @@
       "sha256": "4d8b304056e506768264127b04d6b8f201a386ae83bbd616b114c84e2604df02",
       "files": {
         "LICENSE.txt": "60bd19cd8c068bb6323ba1ad0b0b5a585335e22909feffcd3db800bc77c10202",
-        "NOTICE.txt": "5c8f803fb002cf3a00106a9a032d49eff6caf5cd59a851460770c63e4b45252f"
+        "NOTICE.txt": "5c8f803fb002cf3a00106a9a032d49eff6caf5cd59a851460770c63e4b45252f",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -454,7 +490,8 @@
         "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
         "font-1.ttf": "efddcabda17eb2c76bed8e7b9681e61b20730ddfeafe059d68290aec5172b80e",
         "font-2.ttf": "468ce84052a9b302696d100a7b708973360679183d9ff22ef8a46bc67252f08e",
-        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+        "localizations.txt": "cfb0dfa35b3e2a1b0a2c5d86a7c90863d370e0d2c880c47e8ca3f65dadb964ee"
       }
     },
     {
@@ -469,7 +506,8 @@
         "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
         "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -479,7 +517,8 @@
       "sha256": "19b1accd369955c0f2c3314d68d108b2b92890c4861da8335bb68d3054398ce7",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "055fa63b139659de0ca0d8d63690002a04d912ab1a839c5d88e8aa941b41c4d9"
+        "NOTICE.txt": "055fa63b139659de0ca0d8d63690002a04d912ab1a839c5d88e8aa941b41c4d9",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -493,7 +532,8 @@
         "font-0.ttf": "5e8f6d7a4aa60812a3a5d63d7ecabfb7865ea2ad4a68b4bc617f3b24dbbc93b8",
         "font-1.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
         "font-2.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "b0845d08650f77a90cd1619fffa0233bb3efdf6d567ad09a98b581cef684bb02"
       }
     },
     {
@@ -505,7 +545,8 @@
         "LICENSE.txt": "abad3175b27d2970c5667a4e80353b56841b84613c5a57e187d0fe77431e3d96",
         "NOTICE.txt": "27699794668b33e797e867a06f0fa0a425b7099d1ec05606ef3fef2eaa49e741",
         "font-0.ttf": "884d671a93c80edc7eac9a9dc44656203bd72eb7cca8d38e5301ee9a000c11da",
-        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "localizations.txt": "3cf36ca42a3c4d0e30872637c00d6905aa70e0afe887874cbccb0b49259a8441"
       }
     },
     {
@@ -520,7 +561,8 @@
         "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
         "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -533,7 +575,8 @@
         "NOTICE.txt": "546c4931a7f11787305e1c13d028b7be4508c4b22f95b69996820ac3f43f9382",
         "font-0.ttf": "588aa669182adf8b3cd8913a81bb190c520ff5bd794cd7f877ce4878176fa2e4",
         "font-1.ttf": "e0ee12d515ca262e5595d7a691f36db073d1ddf23619ee75053e455f32a48f46",
-        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "localizations.txt": "1f89939c96a86040ac2fe2c0410275693fe8a8e09490e4dafa8806fe93424021"
       }
     },
     {
@@ -546,7 +589,8 @@
         "NOTICE.txt": "3bc0e84e01e5d9d3a2907fb1679aca82a064734c8a6d3a2b1b27bf0f72f82575",
         "font-0.ttf": "3f7c0ac9486268a85c0aa52d3a38ca962d68f426781246598692cc7d12f6e34f",
         "font-1.ttf": "f9962428afcb3cf694799a815d8fa6913d8a567ebf24a3b54ce0b9520e9f18c8",
-        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2",
+        "localizations.txt": "7699b10b080ba02dd2b219f31f787bd59790674e7a17e72c14e5a3082b5cdf2f"
       }
     },
     {
@@ -561,7 +605,8 @@
         "font-1.ttf": "8e56d6dedac8ceca050fe305d676cb9356d0d25c71ecedc24eddd0e4686956c9",
         "font-2.ttf": "afbade30f9191647acee5df1cbf00ff57d6654d6419446b4c8b5c5c136b677b5",
         "font-3.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
-        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -576,7 +621,8 @@
         "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
         "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "2e840bf503524c7594711170ac350b8a50d6b9640292deb9648d89f8224255c2"
       }
     },
     {
@@ -591,7 +637,8 @@
         "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
         "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "ef3dea468974e3531b728c20b620872824021eebc72de82eecd5f911cb44d08e"
       }
     },
     {
@@ -605,7 +652,8 @@
         "font-0.ttf": "ce5a6c70e053127273912b4fb67b52729b485e5e1d4c63f7d9ae0e4f3229e1ff",
         "font-1.ttf": "3765bec93c164c4f2001cd5bd967af174f8cf2c52e89249bd07f3376b63f0de9",
         "font-2.ttf": "e685957032af8decad1335a78939eb3de46c71cbe8102e312536242193c95157",
-        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7"
+        "font-license-0.txt": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7",
+        "localizations.txt": "1fe8ae1d2166f16e2b159931b12aede66246232eb1b46f164c19e55406597b38"
       }
     },
     {
@@ -618,7 +666,8 @@
         "NOTICE.txt": "9e24e9cb51fed6903dfbe6ab595547f1d72c91bd52e2aa7b1ffcb86374d407f2",
         "font-0.ttf": "633281f68562fc0c9f8bc9078f5f8007aafaf8aeda48ecb2ca13c6d8817e20bd",
         "font-1.ttf": "85a19414a9a255ef8e8152a05edf7fb80acd5c5eb0e4f221ab62f84631e813e3",
-        "font-license-0.txt": "0682fcffaf707844f4d0d5d69fbd32180cf696243459ff259db7d8708d153cdc"
+        "font-license-0.txt": "0682fcffaf707844f4d0d5d69fbd32180cf696243459ff259db7d8708d153cdc",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -633,7 +682,8 @@
         "font-1.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-2.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
         "font-3.ttf": "b3ac812fdd1f4dfad25a2f680d1cd649eb1ce3cd7b5647f98a70b97aef042e06",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -643,7 +693,8 @@
       "sha256": "325838fe518df1d08921006dbd792bc99ffc2f237aaaf01eceb81ffcc4e87050",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "b262f4a0f586c472b056996114d02a0bee734022e1e020b5792cdeaca5e79c59"
+        "NOTICE.txt": "b262f4a0f586c472b056996114d02a0bee734022e1e020b5792cdeaca5e79c59",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -657,7 +708,8 @@
         "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
         "font-1.ttf": "8e56d6dedac8ceca050fe305d676cb9356d0d25c71ecedc24eddd0e4686956c9",
         "font-2.ttf": "468ce84052a9b302696d100a7b708973360679183d9ff22ef8a46bc67252f08e",
-        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+        "localizations.txt": "1523242866d26c7dd1e934bfb43890060809a6e1665dd82ad7df84057df8df7b"
       }
     },
     {
@@ -667,7 +719,8 @@
       "sha256": "e23ade642a14a8fcbfaa269c4e2097a4cc31e86293414db4f832f5dc51e18e14",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "5b353f65c5aec01ba4208d005cafc54e4d710152d7c0bca41ab942df73a92efd"
+        "NOTICE.txt": "5b353f65c5aec01ba4208d005cafc54e4d710152d7c0bca41ab942df73a92efd",
+        "localizations.txt": "8e962041086fbda1760c47b7bc10fa9cb513836d9a5decf1004220587326b7d5"
       }
     },
     {
@@ -677,7 +730,8 @@
       "sha256": "7081452bbdba7029cd8a8f25a78e55a7e44f1ee0d5fe06892f096f882b0a59ed",
       "files": {
         "LICENSE.txt": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
-        "NOTICE.txt": "28704e8f920a9a7fc849ab007395d2a01a464651bcdae8824cd782c9343f4a62"
+        "NOTICE.txt": "28704e8f920a9a7fc849ab007395d2a01a464651bcdae8824cd782c9343f4a62",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -692,7 +746,8 @@
         "font-1.ttf": "e322528be897ced0175bb4e8affe95325afbdea25e14378594581118b86a5f0d",
         "font-2.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-3.ttf": "becf1b907cf6f9359707de5c753356d48d0644d1e47c6f868169821065186048",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -702,7 +757,8 @@
       "sha256": "f3971d72c2394a463b0480becc79706f016919b046222037970c677488f6df81",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "dd145dd07927d98e1a9527d7c4349d9c5163decd1ca1f1a075488047cdaa4231"
+        "NOTICE.txt": "dd145dd07927d98e1a9527d7c4349d9c5163decd1ca1f1a075488047cdaa4231",
+        "localizations.txt": "a5065b2fef26e7f04c50ba8f7f1f67d9122b8e7c07a94d95f72eaa20d6d111a8"
       }
     },
     {
@@ -716,7 +772,8 @@
         "font-0.ttf": "7ceca4edcdaca0375cb73cd3875a848c790d22455c6ade58ce0297fbd8d78f77",
         "font-1.ttf": "4a6c41ef978d8098fae1720e315ad5ef8ce136797ff4c713ea4de11523885065",
         "font-2.ttf": "8ae74776db7bdb9d248ed8afd4e2761d1b72374362ed666fd1af35a71d7ff269",
-        "font-license-0.txt": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        "font-license-0.txt": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -726,7 +783,8 @@
       "sha256": "ce2d7f012aa31d92a047c60895435f024fccd5acfe4d4fabb5e3aae4a754bf91",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "d57aadf37a33fea8aff9815efe5b306e90b74c67fe95f9c17d6d4f92eeada525"
+        "NOTICE.txt": "d57aadf37a33fea8aff9815efe5b306e90b74c67fe95f9c17d6d4f92eeada525",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -736,7 +794,8 @@
       "sha256": "dde33d1e818cf7de83dce0086a6e27f99f697e7f8c04a5c7fd181ec6b9d34012",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
-        "NOTICE.txt": "a2e1e296fc1862b24dcd1ab2b8873afbef987485771f10400ef9891f30b95dfd"
+        "NOTICE.txt": "a2e1e296fc1862b24dcd1ab2b8873afbef987485771f10400ef9891f30b95dfd",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -748,7 +807,8 @@
         "LICENSE.txt": "d72726e4616da3dd072c8604bbb6ee6dfc1ce4d65021d7b9e3473fee3364b0f7",
         "NOTICE.txt": "55635d5e420f04befe98e9549f5317af00f635f9b77f05238d61e1c4b523361a",
         "font-0.ttf": "36eaf3e7f62a18134f38b5d60670d6e5b58a75e4bafb1fa83273ba4bc9155b8b",
-        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+        "font-license-0.txt": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -763,7 +823,8 @@
         "font-1.ttf": "03c1fa13576fb4499ba2403b2da7f5df5d36e2ddd9efb3e65107161e5f8bcc08",
         "font-2.ttf": "baba3fce1266d2088ab7c01d74242ed41e7d944231ccd5d00faa086cf957e359",
         "font-3.ttf": "81cae6e8e3a7c2ae25839d9fe0bbde2f12e67ba5e2cfc9dc9f44bba222ee44c8",
-        "font-license-0.txt": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+        "font-license-0.txt": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -773,7 +834,8 @@
       "sha256": "169e9c644f4e398156aabe67544b57620aa037037f232580e80c924501cbf87f",
       "files": {
         "LICENSE.txt": "48b041bc0f2615d8c2804334d7bf1fcf383f9f7f8a0a00cae82312f99e4b3bf6",
-        "NOTICE.txt": "41dc2d0357dcb2f28a757b83ff967dcbe9052fff78bd5da424bc1bb063668060"
+        "NOTICE.txt": "41dc2d0357dcb2f28a757b83ff967dcbe9052fff78bd5da424bc1bb063668060",
+        "localizations.txt": "7a52e33766b1fdaf6af2cce92375ae49d561ea288cb2695cfccf03ca4a30a74c"
       }
     },
     {
@@ -789,7 +851,8 @@
         "font-2.ttf": "98d681f04126dec1efd29b6341607f37a41d8faafcb51d289aa6bbf114ed32c6",
         "font-3.ttf": "ed35f359c3e09974046003d49f1d07a295041cd80b2222ec95403fed6a17e630",
         "font-license-0.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
-        "font-license-1.txt": "5e83794425e5648114d98e70717e75e264a4f46171ceb494cf8d2f35f1362262"
+        "font-license-1.txt": "5e83794425e5648114d98e70717e75e264a4f46171ceb494cf8d2f35f1362262",
+        "localizations.txt": "c7d6b2e4edf69fb6eb37543836941a55878e14fda054396d263369df5ed4dbc2"
       }
     },
     {
@@ -801,7 +864,8 @@
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "44c6eae7f01c5af61f3b50ae9cdc4b915324eaea697838bff128ab06bd0acaa2",
         "font-0.ttf": "6beea9a6b9ca1b271530a8d8b90590e15963fc104be04dbaaca02bfdd3cfd6f4",
-        "font-license-0.txt": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+        "font-license-0.txt": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
@@ -816,7 +880,8 @@
         "font-1.ttf": "e322528be897ced0175bb4e8affe95325afbdea25e14378594581118b86a5f0d",
         "font-2.ttf": "7ef06629d9600ada5ddcc3dfe405a2d496f01d872f25f90696c418545ed14d25",
         "font-3.ttf": "47bc0f257a630468293f625d2d9dedba36fb923074fc1b5a2c9eafc1e91d9f45",
-        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+        "font-license-0.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+        "localizations.txt": "1a9a71ecfb3296dc22122a18f35a2faa66b67d9b8cc60619bf21a2173b3455eb"
       }
     },
     {
@@ -829,14 +894,15 @@
         "NOTICE.txt": "9a0a633a06418a0ec4cb5062e6a81f33b6489396fad73aaefc2e8bfd8d37d4cd",
         "font-0.ttf": "e0ee12d515ca262e5595d7a691f36db073d1ddf23619ee75053e455f32a48f46",
         "font-1.ttf": "588aa669182adf8b3cd8913a81bb190c520ff5bd794cd7f877ce4878176fa2e4",
-        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        "font-license-0.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "localizations.txt": "d75755a2a8ba88145324620c9e0b2071c96890f9d22aea77d6f5cbdcc3d5cd5b"
       }
     },
     {
       "id": "community-writers-portfolio",
       "name": "Writers Portfolio",
       "manifest": "themes/community-writers-portfolio/theme.json",
-      "sha256": "bba8f3e95fdc8db2038b65ab10938a0d0485b8c04fb15401e8d1fb53e185f2f1",
+      "sha256": "a5206d7ef3133592b1d2187b2b315ac625ece7dfc3d26aa7ecde871adfda02ef",
       "files": {
         "LICENSE.txt": "577561bc6c6eacdc4cf5b60a67bceaaa9f2266c26e4aa0aca37701da2ed97097",
         "NOTICE.txt": "5f2edd52a361636f2b217dc9d9b4744819996053fc14a64e3607b985f3c99029",
@@ -844,7 +910,8 @@
         "font-1.ttf": "3f7c0ac9486268a85c0aa52d3a38ca962d68f426781246598692cc7d12f6e34f",
         "font-2.ttf": "2dbc10c0c2e5bfd1681b072234a92579f98cfe8bd828e12ba29b940ce3879923",
         "font-3.ttf": "f9962428afcb3cf694799a815d8fa6913d8a567ebf24a3b54ce0b9520e9f18c8",
-        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+        "font-license-0.txt": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2",
+        "localizations.txt": "84cc42c94fb3f35242513ebde8b4c0e0954a1c6183ebe762c824bc8c6f7d2b2a"
       }
     }
   ]

@@ -66,6 +66,10 @@ def catalogs():
             raise ValueError(f"{directory.name} manifest exceeds 1 MiB")
         manifest = read_json(manifest_path)
         manifest_schema.validate(manifest)
+        if "localizations.txt" in hashes:
+            if "localizations" in manifest:
+                raise ValueError(f"{directory.name} declares localizations twice")
+            manifest_schema.validate({**manifest, "localizations": read_json(directory / "localizations.txt")})
         provenance = manifest.get("provenance", {})
         if manifest["id"] != directory.name or provenance.get("fidelity") != "adapted":
             raise ValueError(f"{directory.name} must identify its migration package")

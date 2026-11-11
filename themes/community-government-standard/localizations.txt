@@ -1,0 +1,16 @@
+{
+  "en": {
+    "description": "Declarative community adaptation. See MIGRATION.json for supported details and changes."
+  },
+  "zh": {
+    "sections": {
+      "awards": "荣誉奖项",
+      "certificates": "专业认证",
+      "languages": "语言",
+      "projects": "项目经历",
+      "publications": "出版物",
+      "references": "推荐人",
+      "volunteer": "志愿经历"
+    }
+  }
+}

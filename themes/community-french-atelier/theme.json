@@ -3,7 +3,7 @@
   "id": "community-french-atelier",
   "name": "French Atelier",
   "description": "静态迁移适配版；已支持的视觉规则尽量保留，差异见同目录 MIGRATION.json。",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "layout": "classic",
   "colors": {
@@ -34,7 +34,7 @@
       "family": "asset:font-0",
       "sizePt": 10.75,
       "weight": 400,
-      "lineHeight": 1.5,
+      "lineHeight": 1.4,
       "color": "#4A4A4A",
       "fontStyle": "normal"
     },
@@ -61,13 +61,13 @@
       "family": "asset:font-0",
       "sizePt": 11,
       "weight": 400,
-      "lineHeight": 1.51,
+      "lineHeight": 1.42,
       "color": "#4A4A4A",
       "fontStyle": "normal"
     },
     "sectionTitle": {
       "family": "cjk-serif",
-      "sizePt": 15.5,
+      "sizePt": 14,
       "weight": 600,
       "lineHeight": 1.24,
       "trackingEm": -0.008,
@@ -103,12 +103,12 @@
   },
   "page": {
     "marginsMm": {
-      "top": 17,
+      "top": 15,
       "right": 19,
-      "bottom": 17,
+      "bottom": 15,
       "left": 19
     },
-    "sectionGapMm": 5.8,
+    "sectionGapMm": 3.7,
     "firstLinePosition": "line-box",
     "size": "A4"
   },
