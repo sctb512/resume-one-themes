@@ -15,7 +15,7 @@ Resume One has two default online sources on this repository’s `main` branch.
 
 To use themes offline, download a ZIP from [Releases](https://github.com/sctb512/resume-one-themes/releases), extract it, and point Resume One’s local theme directory at `themes/`. Keep each theme folder intact. The adapted layouts were reviewed with Chinese and English sample résumés for PDF page width and text boundaries. DOCX contents were also checked.
 
-The legacy [index.json](./index.json) provides 22 single-file themes for older versions. [packages.json](./packages.json) lists file digests for the complete adapted packages. See the [declarative theme specification (Chinese)](https://github.com/sctb512/resume-one/blob/main/spec/resume-one-theme-spec-v2.md) for the file format.
+The legacy [index.json](./index.json) provides 22 single-file themes for older versions. [packages.json](./packages.json) lists file digests for the complete adapted packages. See the [declarative theme specification](https://github.com/sctb512/resume-one/blob/main/spec/resume-one-theme-spec-v2.md) for the file format.
 
 The catalog paths are used by installed versions of the app. Adapted packages live in [`themes/`](./themes/), original packages in [`originals/`](./originals/), and validation tools in [`tools/`](./tools/). The standalone validator uses copies of the app's [schemas](./spec/schemas/). Update these copies from the app repository whenever the shared schemas change.
 

@@ -15,7 +15,7 @@
 
 旧的 `index.json` 继续提供 22 套单文件主题，供旧版应用使用。`packages.json` 记录完整迁移包的文件摘要。下载后可离线使用。
 
-主题文件格式见 [简里主题规范](https://github.com/sctb512/resume-one/blob/main/spec/resume-one-theme-spec-v2.md)。迁移工具与应用代码位于 [resume-one](https://github.com/sctb512/resume-one)。
+主题文件格式见 [简里主题规范](https://github.com/sctb512/resume-one/blob/main/spec/resume-one-theme-spec-v2.zh-CN.md)。迁移工具与应用代码位于 [resume-one](https://github.com/sctb512/resume-one/blob/main/README.zh-CN.md)。
 
 已安装的应用会按上述路径读取在线索引。适配主题位于 [`themes/`](./themes/)，原版主题位于 [`originals/`](./originals/)，校验与打包工具位于 [`tools/`](./tools/)。本仓库的 [Schema](./spec/schemas/) 是应用仓库中对应文件的副本，便于独立校验。共享 Schema 变更时需同步更新。
 
