@@ -1,17 +1,17 @@
 # 简里社区主题
 
-[English](#english)
+**简体中文** · [English](./README.en.md)
 
 这里保存 67 套声明式社区主题。基础主题由 Resume One 迁移工具从固定上游版本生成，再逐套审校为 A4 版式，调整边距、文字层级及装饰。每个 `themes/community-*/` 目录都有最终主题、许可正文、出处和初始迁移记录，使用独立字体资源的主题也附有字体许可。`NOTICE.txt` 记录上游的许可声明和所附许可文本来源。Rick Osborne 主题使用 CC BY-NC-SA 4.0，出处和完整许可在对应目录。
 
-从 [Releases](https://github.com/sctb512/resume-one-themes/releases) 下载 ZIP 后，解压并在简里的「管理」中将本地主题目录指向其中的 `themes/`。1.1.0 适配版以清楚易读为目标，保留每套的主要版式特征。逐套使用中文和英文样本检查 PDF 页宽及文字边界，并验证 DOCX 文件内容。
+从 [版本发布页](https://github.com/sctb512/resume-one-themes/releases) 下载 ZIP 后，解压并在简里的「管理」中将本地主题目录指向其中的 `themes/`。1.1.0 适配版以清楚易读为目标，保留每套的主要版式特征。逐套使用中文和英文样本检查 PDF 页宽及文字边界，并验证 DOCX 文件内容。
 
 新版简里默认提供两个在线来源，都指向此仓库的 `main` 分支：
 
 | 展示名称 | 清单路径 | 内容 |
 | --- | --- | --- |
-| 迁移版社区主题 | `migrated-index.json` | 全部 67 套声明式主题及字体、许可和署名文件 |
-| 原版 JSON Resume | `originals/index.json` | 经本机兼容验收的上游渲染包 |
+| 迁移版社区主题 | [migrated-index.json](./migrated-index.json) | 全部 67 套声明式主题及字体、许可和署名文件 |
+| 原版 JSON Resume | [originals/index.json](./originals/index.json) | 13 套经本机兼容验收的上游渲染包 |
 
 旧的 `index.json` 继续提供 22 套单文件主题，供旧版应用使用。`packages.json` 记录完整迁移包的文件摘要。下载后可离线使用。
 
@@ -45,9 +45,3 @@ python3 -m venv .venv
 ```
 
 更新 `themes/` 后运行 `.venv/bin/python tools/catalog.py --write`，一并提交主题包和相关索引。流水线会重新打包原版主题，并校验两类主题的 Schema、许可说明、资源 SHA-256 和索引一致性。推送 `v*` 标签后生成 ZIP、校验文件和索引，并创建 GitHub 预发布。也可对同一标签手动运行发布；对分支手动运行只生成流水线制品。
-
-## English
-
-Resume One ships these themes in two online catalogs. [Adapted community themes](./migrated-index.json) contains 67 reviewed, declarative A4 layouts. [Original JSON Resume themes](./originals/index.json) contains 13 pinned upstream templates rendered locally by the desktop app.
-
-Adapted packages include an optional `localizations.txt` companion with English descriptions and Simplified Chinese equivalents of authored section headings. It contains UTF-8 JSON and is verified against the catalog digest. To use themes offline, download a release, unpack it, and point Resume One’s local theme folder at `themes/`. Keep each theme’s files together. Consult the license and upstream link in its package.
