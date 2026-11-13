@@ -15,7 +15,9 @@
 
 旧的 `index.json` 继续提供 22 套单文件主题，供旧版应用使用。`packages.json` 记录完整迁移包的文件摘要。下载后可离线使用。
 
-主题文件格式见 [简里主题规范](https://github.com/sctb512/resume-one/blob/main/resume-one-theme-spec-v2.md)。迁移工具与应用代码位于 [resume-one](https://github.com/sctb512/resume-one)。
+主题文件格式见 [简里主题规范](https://github.com/sctb512/resume-one/blob/main/spec/resume-one-theme-spec-v2.md)。迁移工具与应用代码位于 [resume-one](https://github.com/sctb512/resume-one)。
+
+已安装的应用会按上述路径读取在线索引。适配主题位于 [`themes/`](./themes/)，原版主题位于 [`originals/`](./originals/)，校验与打包工具位于 [`tools/`](./tools/)。本仓库的 [Schema](./spec/schemas/) 是应用仓库中对应文件的副本，便于独立校验。共享 Schema 变更时需同步更新。
 
 ## 主题语言
 
@@ -33,7 +35,7 @@
 (cd tools/originals && npm ci --ignore-scripts --no-audit --no-fund && node build.mjs)
 ```
 
-`package-lock.json` 固定主题及依赖的完整性摘要。构建只绑定主题自身的静态模板、样式和运行所需接口，旧版的动态文件路径在构建时解析。Academic CV Lite 和 Executive Slate 的服务端模板使用受限的英文月年格式适配。新增主题须用合成简历验证预览和 PDF 后再进入索引。包格式见 [JSON Schema](./spec/json-resume-original-theme-v1.schema.json)。
+`package-lock.json` 固定主题及依赖的完整性摘要。构建只绑定主题自身的静态模板、样式和运行所需接口，旧版的动态文件路径在构建时解析。Academic CV Lite 和 Executive Slate 的服务端模板使用受限的英文月年格式适配。新增主题须用合成简历验证预览和 PDF 后再进入索引。包格式见 [JSON Schema](./spec/schemas/json-resume-original-theme-v1.schema.json)。
 
 ## 验证和发布
 

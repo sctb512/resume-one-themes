@@ -12,6 +12,7 @@ from jsonschema import Draft7Validator
 
 ROOT = Path(__file__).resolve().parents[1]
 THEMES = ROOT / "themes"
+SCHEMAS = ROOT / "spec" / "schemas"
 ID = re.compile(r"community-[a-z0-9][a-z0-9-]{0,52}")
 FILE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_.-]*\.(json|txt|md|ttf|otf)")
 MAX_PACKAGE_SIZE = 64 * 1024 * 1024
@@ -43,8 +44,8 @@ def package_files(directory):
 
 
 def catalogs():
-    manifest_schema = Draft7Validator(read_json(ROOT / "spec/resume-one-theme-v2.schema.json"))
-    source_schema = Draft7Validator(read_json(ROOT / "spec/resume-one-theme-source-v1.schema.json"))
+    manifest_schema = Draft7Validator(read_json(SCHEMAS / "resume-one-theme-v2.schema.json"))
+    source_schema = Draft7Validator(read_json(SCHEMAS / "resume-one-theme-source-v1.schema.json"))
     if THEMES.is_symlink() or not THEMES.is_dir():
         raise ValueError("The themes directory must be a regular directory")
     directories = sorted(THEMES.iterdir())
@@ -122,8 +123,8 @@ def original_catalog_files():
     directory = ROOT / "originals"
     index = directory / "index.json"
     source = read_json(index)
-    Draft7Validator(read_json(ROOT / "spec/resume-one-theme-source-v1.schema.json")).validate(source)
-    validator = Draft7Validator(read_json(ROOT / "spec/json-resume-original-theme-v1.schema.json"))
+    Draft7Validator(read_json(SCHEMAS / "resume-one-theme-source-v1.schema.json")).validate(source)
+    validator = Draft7Validator(read_json(SCHEMAS / "json-resume-original-theme-v1.schema.json"))
     if not source["themes"] or directory.is_symlink() or (directory / "notices").is_symlink():
         raise ValueError("Missing or invalid original theme catalog")
     files = {index}
@@ -152,14 +153,13 @@ def original_catalog_files():
     return sorted(files), len(seen_ids)
 
 
-
 def pack(output, documents, originals):
     output.parent.mkdir(parents=True, exist_ok=True)
     # Avoid overwriting an earlier artifact. A fixed timestamp keeps repeated
     # runs with the same inputs reproducible.
     with zipfile.ZipFile(output, "x") as archive:
-        files = [ROOT / name for name in documents] + [ROOT / "README.md"]
-        files.extend(sorted((ROOT / "spec").glob("*.schema.json")))
+        files = [ROOT / name for name in (*documents, "README.md", "README.zh-CN.md")]
+        files.extend(sorted(SCHEMAS.glob("*.schema.json")))
         files.extend(path for directory in sorted(THEMES.iterdir()) for path in sorted(directory.iterdir()))
         files.extend(originals)
         for path in files:
